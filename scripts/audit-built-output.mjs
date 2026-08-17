@@ -10,6 +10,8 @@ const EXPECTED_REGIONAL_ASSETS = 130;
 const EXPECTED_REGIONAL_WEBPS = 390;
 const EXPECTED_RSS_ITEMS = 2;
 const NAVER_SITE_VERIFICATION = "d72239124913cb7002b533039f7bed04ab1345d2";
+const NAVER_VERIFICATION_FILE = "naverb0a214252ba37de1f892ee8845be0250.html";
+const NAVER_VERIFICATION_BODY = `naver-site-verification: ${NAVER_VERIFICATION_FILE}\n`;
 
 function fail(code) {
   throw new Error(`HONHYEOL_BUILT_OUTPUT_${code}`);
@@ -98,6 +100,9 @@ if (
   rssItems.some((item) => !/<pubDate>[^<]+ GMT<\/pubDate>/u.test(item)) ||
   !rss.includes(`atom:link href="${PRODUCTION_ORIGIN}/rss.xml"`)
 ) fail("RSS");
+
+const naverVerificationFile = await readFile(path.join(OUT, NAVER_VERIFICATION_FILE), "utf8");
+if (naverVerificationFile !== NAVER_VERIFICATION_BODY) fail("NAVER_VERIFICATION_FILE");
 
 const manifest = JSON.parse(await readFile(
   path.join(ROOT, "src/data/regional-image-assignments.template4.generated.json"),

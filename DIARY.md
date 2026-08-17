@@ -2,6 +2,12 @@
 
 > 새 활동과 검증 결과를 최신순으로 기록한다. 비밀값·로그인 정보는 기록하지 않는다.
 
+## 2026-08-17 KST — 네이버 소유확인 루트 파일 추가
+
+- 메타 태그 방식의 보조 수단으로 네이버가 지정한 HTML 검증 파일을 `public` 루트에 추가했다. 파일명과 한 줄 본문, 마지막 줄바꿈을 바이트 단위 테스트로 고정했으며 정적 export에서도 같은 루트 경로와 정확한 본문을 검사한다.
+- 기존 `naver-site-verification` 메타 태그는 유지했다. canonical·Open Graph·Twitter·robots, RSS, 브랜드 마크와 지역 이미지 파일은 변경하지 않았다.
+- focused Vitest 8/8, `pnpm lint`, `pnpm build`, `pnpm audit:build`를 통과했다. 공개 페이지·sitemap URL 각 1,299개, 지역 페이지 1,291개, RSS item 2개, 지역 자산 130개와 WebP 390개가 유지됐다.
+
 ## 2026-08-17 KST — 네이버 사이트 소유확인 메타 배포 준비
 
 - 루트 Next.js metadata의 `verification.other`에 제공받은 네이버 사이트 소유확인 값을 추가했다. 정적 홈 HTML에는 `naver-site-verification` 메타가 정확히 1개 생성되며, 모든 공개 페이지 빌드 감사에서도 같은 태그가 페이지당 1개인지 확인한다.
