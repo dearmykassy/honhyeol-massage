@@ -1,0 +1,163 @@
+{
+  "schemaVersion": "honhyeol-massage-template5-course-card-release-receipt/v1",
+  "status": "VISUALLY_REVIEWED_RELEASED",
+  "platformKey": "honhyeol-massage",
+  "generatedAt": "2026-08-17T14:16:23+09:00",
+  "generator": {
+    "mode": "default-built-in",
+    "tool": "image_gen",
+    "callPolicy": "one built-in call per distinct asset"
+  },
+  "release": {
+    "originalFormat": "png",
+    "outputFormat": "webp",
+    "outputWidth": 960,
+    "outputHeight": 1200,
+    "outputAspectRatio": "4:5",
+    "webpQuality": 84,
+    "resizeFit": "cover",
+    "resizePosition": "attention"
+  },
+  "inventory": {
+    "originalPng": 5,
+    "optimizedWebp": 5,
+    "totalFiles": 10,
+    "sha256": "4432e0c0d8d5b91d87190fdb5e558ba0fc73a7d3ebb9e65bf9b6b12faa29ac1b"
+  },
+  "constraints": {
+    "courseSpecific": true,
+    "professionalWellness": true,
+    "adultSubjectsOnly": true,
+    "nonSexual": true,
+    "noMirrorSelfies": true,
+    "noTextLogosWatermarks": true,
+    "noFakeStorefrontOrProvider": true
+  },
+  "outputs": [
+    {
+      "assetId": "hym-t5-course-thai-v1",
+      "course": "타이마사지",
+      "concept": "fully clothed assisted Thai floor-mat stretch",
+      "generatedOutput": {
+        "basename": "exec-ebc77e8f-21e0-431a-81ac-aa32f6472870.png",
+        "sha256": "f81952db892953c99dfc0f73738c38856f9cda7c474ff26cb8620baa663e5e8c"
+      },
+      "original": {
+        "relativePath": "public/images/honhyeol-template5/courses/v1/course-thai-v1.png",
+        "sha256": "f81952db892953c99dfc0f73738c38856f9cda7c474ff26cb8620baa663e5e8c",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 1999805
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template5/courses/v1/course-thai-v1.webp",
+        "publicPath": "/images/honhyeol-template5/courses/v1/course-thai-v1.webp",
+        "sha256": "c4656c427e9130bc77c2856ccfcc5da3226982f16230ea2e104525190166dec2",
+        "width": 960,
+        "height": 1200,
+        "bytes": 84994
+      },
+      "visualQa": "PASS"
+    },
+    {
+      "assetId": "hym-t5-course-aroma-v1",
+      "course": "아로마마사지",
+      "concept": "professional aromatic oil shoulder care with secure towel draping",
+      "generatedOutput": {
+        "basename": "exec-4f9a4e61-5d2f-46ac-a06c-5c467053e141.png",
+        "sha256": "40173b1c578f94d0467805ecfed4dc97b03b9019aa375f5894cde45b1eed533f"
+      },
+      "original": {
+        "relativePath": "public/images/honhyeol-template5/courses/v1/course-aroma-v1.png",
+        "sha256": "40173b1c578f94d0467805ecfed4dc97b03b9019aa375f5894cde45b1eed533f",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 2167197
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template5/courses/v1/course-aroma-v1.webp",
+        "publicPath": "/images/honhyeol-template5/courses/v1/course-aroma-v1.webp",
+        "sha256": "d5a88c85efdcc5c5c991fb673b9bb705a5766e5d86f7f617d6845256a64ffe1e",
+        "width": 960,
+        "height": 1200,
+        "bytes": 101370
+      },
+      "visualQa": "PASS"
+    },
+    {
+      "assetId": "hym-t5-course-healing-v1",
+      "course": "힐링마사지",
+      "concept": "warm herbal-compress care applied over an opaque spa sheet",
+      "generatedOutput": {
+        "basename": "exec-d5c5a136-e3d6-40a4-a210-92ef65310063.png",
+        "sha256": "ae00ef02ff49755127d9b1612f022fce75776f1f536d9b13f028568d056085d5"
+      },
+      "original": {
+        "relativePath": "public/images/honhyeol-template5/courses/v1/course-healing-v1.png",
+        "sha256": "ae00ef02ff49755127d9b1612f022fce75776f1f536d9b13f028568d056085d5",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 2177637
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template5/courses/v1/course-healing-v1.webp",
+        "publicPath": "/images/honhyeol-template5/courses/v1/course-healing-v1.webp",
+        "sha256": "da03168f5b52c65156b8f831bf2ed028063d3beed4efb551cade7df7edfc3e6c",
+        "width": 960,
+        "height": 1200,
+        "bytes": 108426
+      },
+      "visualQa": "PASS"
+    },
+    {
+      "assetId": "hym-t5-course-special-v1",
+      "course": "스페셜마사지",
+      "concept": "integrated warm-stone, towel and herbal-compress wellness session",
+      "generatedOutput": {
+        "basename": "exec-02c0d1b9-ccf0-40dd-9c29-036a3ce51d4d.png",
+        "sha256": "64573c8f9f233a47825d7d09094354ef27f0ae5ed4766a9f11fc07c8be576588"
+      },
+      "original": {
+        "relativePath": "public/images/honhyeol-template5/courses/v1/course-special-v1.png",
+        "sha256": "64573c8f9f233a47825d7d09094354ef27f0ae5ed4766a9f11fc07c8be576588",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 2079654
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template5/courses/v1/course-special-v1.webp",
+        "publicPath": "/images/honhyeol-template5/courses/v1/course-special-v1.webp",
+        "sha256": "2691d5891eb50ce65907bbb582b2322c697e4b5c590a787749d3557d63a178a2",
+        "width": 960,
+        "height": 1200,
+        "bytes": 106958
+      },
+      "visualQa": "PASS"
+    },
+    {
+      "assetId": "hym-t5-course-men-v1",
+      "course": "남성전용",
+      "concept": "fully clothed men's sports-recovery bodywork",
+      "generatedOutput": {
+        "basename": "exec-7f0a286b-6f12-4e47-8595-004e84ffd7cc.png",
+        "sha256": "67cc18d43741c667bf011d0fc68cef17e2050b272539240581f9e6acfe1f7fe4"
+      },
+      "original": {
+        "relativePath": "public/images/honhyeol-template5/courses/v1/course-men-v1.png",
+        "sha256": "67cc18d43741c667bf011d0fc68cef17e2050b272539240581f9e6acfe1f7fe4",
+        "width": 1003,
+        "height": 1568,
+        "bytes": 2106474
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template5/courses/v1/course-men-v1.webp",
+        "publicPath": "/images/honhyeol-template5/courses/v1/course-men-v1.webp",
+        "sha256": "5e5af405785a67b20e09e11c64761066cab1310ea9841ad49591b3f2296b22bd",
+        "width": 960,
+        "height": 1200,
+        "bytes": 72222
+      },
+      "visualQa": "PASS"
+    }
+  ]
+}

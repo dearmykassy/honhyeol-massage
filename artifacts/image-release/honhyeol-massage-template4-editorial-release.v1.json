@@ -1,0 +1,353 @@
+{
+  "schemaVersion": "honhyeol-massage-template4-editorial-image-release-receipt/v1",
+  "status": "ROOT_APPROVED_RELEASED",
+  "platformKey": "honhyeol-massage",
+  "authority": {
+    "campaign": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+      "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+    },
+    "inventory": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/contact-sheets/round-01/inventory.v1.json",
+      "sha256": "136eb26debcafda9dbae15fa499d84dc771c7887afc90b04bfb04605aff3a0bf"
+    },
+    "parentVisualQa": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/contact-sheets/round-01/parent-visual-qa.v1.json",
+      "sha256": "f7ce8d631505997e79a3a60d1b4a2a06237b50541b1c03f11cfa20411ccb05b2"
+    },
+    "rootReview": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/contact-sheets/round-01/review.v1.json",
+      "sha256": "655104969210238b88a90e5e097094a4db3f47dc9b6e6c03fb999c624446be92",
+      "reviewer": "root"
+    }
+  },
+  "releasedFiles": {
+    "webp": 18
+  },
+  "outputs": [
+    {
+      "assetId": "hym-t4-home-hero-v1",
+      "slot": "home.hero",
+      "sourceClass": "reused",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-home-hero-v1.png",
+        "sha256": "d73de4f04ad23bb998e7e998762266cb18ef312ded317d10fc7512ba73702180"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/hero-mirror.webp",
+        "publicPath": "/images/honhyeol-template4/home/hero-mirror.webp",
+        "sha256": "a9b0f185a3d91925cb3ab8740e27c7f14f9a0dcac86e8638f98613c325915573",
+        "width": 1672,
+        "height": 941,
+        "bytes": 45872,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-feature-01-v1",
+      "slot": "home.feature-01",
+      "sourceClass": "reused",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-feature-01-v1.png",
+        "sha256": "6cd9072414811ebdfe69bbc17ec39315706f3d2120ea1b9281fdbef0045dba6e"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/feature-01.webp",
+        "publicPath": "/images/honhyeol-template4/home/feature-01.webp",
+        "sha256": "6610cd915450602bc65073acccc6147a51c94be941ec442272a8eb6d767cd0a4",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 81446,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-feature-02-v1",
+      "slot": "home.feature-02",
+      "sourceClass": "new",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-feature-02-v1.png",
+        "sha256": "d5ee88167bf614409eaa750e546991c80185712dcea71be0630e4ada935d00f4"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/feature-02.webp",
+        "publicPath": "/images/honhyeol-template4/home/feature-02.webp",
+        "sha256": "09c6c375a62e83d4112047c2f21f0f1f56a5703ac67d89bf64c2bac4b9ce1cbd",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 74990,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-feature-03-v1",
+      "slot": "home.feature-03",
+      "sourceClass": "reused",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-feature-03-v1.png",
+        "sha256": "17fc95223bcb6077c0b3323b0540062e42caeeb8f5db59e77c4a477369acadf1"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/feature-03.webp",
+        "publicPath": "/images/honhyeol-template4/home/feature-03.webp",
+        "sha256": "8ce9472a98a2e563405af380f00f9a52cb731e2c538469d3aee7b09e0c1390d4",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 256968,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-feature-04-v1",
+      "slot": "home.feature-04",
+      "sourceClass": "new",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-feature-04-v1.png",
+        "sha256": "a425341608a2b482bf857706f9a534b78ae2bf87ce24006642b0cb6a9241b197"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/feature-04.webp",
+        "publicPath": "/images/honhyeol-template4/home/feature-04.webp",
+        "sha256": "3f57ff34808691e1b39289c659e47c9fdda093db9a6fb0ca2e03a65ad9969d20",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 77184,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-feature-05-v1",
+      "slot": "home.feature-05",
+      "sourceClass": "reused",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-feature-05-v1.png",
+        "sha256": "744f77b5106ed16064bcd7934bd79d999ce658e899c92c071793a7567f57b82a"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/feature-05.webp",
+        "publicPath": "/images/honhyeol-template4/home/feature-05.webp",
+        "sha256": "d514e2354936cb005a5d355518841555910eb1209cb467a12365d1882494b8a0",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 89344,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-feature-06-v1",
+      "slot": "home.feature-06",
+      "sourceClass": "new",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-feature-06-v1.png",
+        "sha256": "f15c67e47adaae704a887d64cf75decd0bc2fb5d68371c0e8570e20e4a6b46d9"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/feature-06.webp",
+        "publicPath": "/images/honhyeol-template4/home/feature-06.webp",
+        "sha256": "c5d88a3c66f6befa94c88008167e2de560f7b28bc3ea2f2222c2e5754e117657",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 182580,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-feature-07-v1",
+      "slot": "home.feature-07",
+      "sourceClass": "new",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-feature-07-v1.png",
+        "sha256": "72958d1fc526daff9f6e305dfbd34a9c8a2d5099222212ee5a0be41948972d8a"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/feature-07.webp",
+        "publicPath": "/images/honhyeol-template4/home/feature-07.webp",
+        "sha256": "670ef0ae6384ceaaf16998596b02a0a112f88a99828ab68af6abbb244f21bdc8",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 64508,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-feature-08-v1",
+      "slot": "home.feature-08",
+      "sourceClass": "new",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-feature-08-v1.png",
+        "sha256": "19cbffbe819a1f695f906c3a752f4a13bacfb69e6615b386c508f8049fa4dd6b"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/feature-08.webp",
+        "publicPath": "/images/honhyeol-template4/home/feature-08.webp",
+        "sha256": "8a0d06a880d6b6dc28ad5d567d6684d4adf844f52e80a6ba6f35c4d530357fad",
+        "width": 1448,
+        "height": 1086,
+        "bytes": 68762,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-category-01-v1",
+      "slot": "home.category-01",
+      "sourceClass": "reused",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-category-01-v1.png",
+        "sha256": "7febf70a38b907ea5da2f888fe24e581796760dae864ae0e0fecaf61107a338f"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/category-01.webp",
+        "publicPath": "/images/honhyeol-template4/home/category-01.webp",
+        "sha256": "b06837d4b0d42f72f6da5124ef27d3a11f1bcd8313e0201a64ad4e19754160a1",
+        "width": 1003,
+        "height": 1568,
+        "bytes": 92860,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-category-02-v1",
+      "slot": "home.category-02",
+      "sourceClass": "new",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-category-02-v1.png",
+        "sha256": "cc27c093e8e746bbc0fb23624ba8c246c5f0501ef663b74996b8659051fdcc90"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/category-02.webp",
+        "publicPath": "/images/honhyeol-template4/home/category-02.webp",
+        "sha256": "c7de290364e1efdc0c7ad35a5718116ec65eec182fb897129d10efe4ce01cafb",
+        "width": 1402,
+        "height": 1122,
+        "bytes": 64726,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-category-03-v1",
+      "slot": "home.category-03",
+      "sourceClass": "reused",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-category-03-v1.png",
+        "sha256": "cac1ded09e209a20a2cca9ca7f5d450d608278028ff27c020c556daa1b6f79cd"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/category-03.webp",
+        "publicPath": "/images/honhyeol-template4/home/category-03.webp",
+        "sha256": "85cd63617e3528bc04cf8a4aef4a2c5df0775a006e638c0d4ab20cab561abd8c",
+        "width": 1003,
+        "height": 1568,
+        "bytes": 84922,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-category-04-v1",
+      "slot": "home.category-04",
+      "sourceClass": "new",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-category-04-v1.png",
+        "sha256": "e35626017b0283ebab5b1b1f2f61f5d9f02f216cf1b2cbd06d0b704e31aa2590"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/category-04.webp",
+        "publicPath": "/images/honhyeol-template4/home/category-04.webp",
+        "sha256": "5065b56822165b0d602659741288bf2e94aaabb5924e432ff5ee6ce04ecc5552",
+        "width": 1402,
+        "height": 1122,
+        "bytes": 95586,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-category-05-v1",
+      "slot": "home.category-05",
+      "sourceClass": "reused",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-category-05-v1.png",
+        "sha256": "8c44b5c8f49dc8e21609b45be23829c1bbad71c48e5834f8ae4e13bf650a275a"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/category-05.webp",
+        "publicPath": "/images/honhyeol-template4/home/category-05.webp",
+        "sha256": "05dd589f3e26b633346ac5c889aab5106f8b2cec05bce7953b6ae16e772046d0",
+        "width": 1122,
+        "height": 1402,
+        "bytes": 47178,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-home-contact-v1",
+      "slot": "home.contact",
+      "sourceClass": "new",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-home-contact-v1.png",
+        "sha256": "7e38fe0ed864b9f2100f8aa69ee881d96d0fb61c954d910b34915a440550efc1"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/contact.webp",
+        "publicPath": "/images/honhyeol-template4/home/contact.webp",
+        "sha256": "b39017f0903fa6f6e7649a85703662114fd507da2c56678c11a4f25ae17cf168",
+        "width": 1672,
+        "height": 941,
+        "bytes": 82700,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-home-region-search-v1",
+      "slot": "home.region-search",
+      "sourceClass": "new",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-home-region-search-v1.png",
+        "sha256": "1b15eb93846c3c5c13818b6b1f78f497a4cae779b195987acdfd168a7ba46dc5"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/home/region-search.webp",
+        "publicPath": "/images/honhyeol-template4/home/region-search.webp",
+        "sha256": "74d7542d1be10935b76666180f85ea31dad4393f9431ac652ddd5190cb0809d1",
+        "width": 1672,
+        "height": 941,
+        "bytes": 59346,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-blog-note-01-v1",
+      "slot": "blog.note-01",
+      "sourceClass": "reused",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-blog-note-01-v1.png",
+        "sha256": "c76d5ef81345d7eed8a713daa92ef325b341227418952023875b7f301f192333"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/blog/note-01.webp",
+        "publicPath": "/images/honhyeol-template4/blog/note-01.webp",
+        "sha256": "ffd9ad9c63c477a30318059252178932ffb0f130a08837d2753a236c1555a390",
+        "width": 1672,
+        "height": 941,
+        "bytes": 41848,
+        "format": "webp"
+      }
+    },
+    {
+      "assetId": "hym-t4-blog-note-02-v1",
+      "slot": "blog.note-02",
+      "sourceClass": "reused",
+      "source": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-blog-note-02-v1.png",
+        "sha256": "118bf755be081332b5cdd5cfffb828ff55c4fb97ca861f30af858fb615163eb7"
+      },
+      "output": {
+        "relativePath": "public/images/honhyeol-template4/blog/note-02.webp",
+        "publicPath": "/images/honhyeol-template4/blog/note-02.webp",
+        "sha256": "9354f951c1b71ea6a425cef9ae9bbbc5fcfc48286422c79d3791e8107b3045b8",
+        "width": 1672,
+        "height": 941,
+        "bytes": 51742,
+        "format": "webp"
+      }
+    }
+  ]
+}

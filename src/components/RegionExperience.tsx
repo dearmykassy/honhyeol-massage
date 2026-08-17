@@ -1,0 +1,127 @@
+import type { CSSProperties } from "react";
+import Link from "next/link";
+import { RegionGallery } from "@/components/RegionGallery";
+import styles from "@/components/RegionTemplate4.module.css";
+import { PHONE_HREF } from "@/lib/business";
+import { createRegionPageModel } from "@/lib/region-page-model";
+import { getRegionalImageAssetPath } from "@/lib/regional-image-assignment";
+import type { RegionNode } from "@/lib/regions";
+import { COURSE_GROUPS, SERVICE_FAQS } from "@/lib/site-content";
+
+export function RegionExperience({ node }: { node: RegionNode }) {
+  const model = createRegionPageModel(node);
+  const { content } = model;
+  const heroStyle = {
+    "--regional-image-desktop": `url("${getRegionalImageAssetPath(node, "desktop")}")`,
+    "--regional-image-tablet": `url("${getRegionalImageAssetPath(node, "tablet")}")`,
+    "--regional-image-mobile": `url("${getRegionalImageAssetPath(node, "mobile")}")`,
+  } as CSSProperties;
+
+  return (
+    <main className={`${styles.page} region-page`} data-region-route={model.route}>
+      <section className={styles.hero} style={heroStyle} aria-labelledby="region-title">
+        <div className={styles.heroShade} aria-hidden="true" />
+        <div className={styles.heroInner}>
+          <nav className={styles.breadcrumbs} aria-label="현재 위치">
+            {model.breadcrumbs.map((crumb, index) => (
+              <span key={crumb.path}>
+                {index > 0 ? <i aria-hidden="true">/</i> : null}
+                <Link href={crumb.path} data-region-copy-id={crumb.copyId}>{crumb.name}</Link>
+              </span>
+            ))}
+          </nav>
+          <p className={styles.eyebrow} data-region-copy-id={model.opening.eyebrowCopyId}>
+            {content.eyebrow}
+          </p>
+          <h1 id="region-title" data-region-copy-id={model.opening.h1CopyId}>{content.h1}</h1>
+          <div className={styles.hooks}>
+            {content.hooks.map((hook, index) => (
+              <p key={hook} data-region-copy-id={model.opening.hookCopyIds[index]}>{hook}</p>
+            ))}
+          </div>
+          <div className={styles.heroActions}>
+            <a href={PHONE_HREF} data-region-copy-id={model.opening.primaryActionCopyId}>
+              {content.ctaLabels[0]}
+            </a>
+            <Link href="/pricing/" data-region-copy-id={model.opening.scoreActionCopyId}>
+              {content.ctaLabels[1]}
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <div className={styles.statusStrip}>
+        <span data-region-copy-id={model.scene.indexCopyId}>{model.scene.index}</span>
+        <strong data-region-copy-id={model.scene.nameCopyId}>{model.scene.name}</strong>
+        <p data-region-copy-id={model.scene.captionCopyId}>{model.scene.caption}</p>
+      </div>
+
+      <section className={styles.information} aria-labelledby="local-information-title">
+        <header className={styles.sectionHeading}>
+          <p>LOCAL CHECKPOINTS</p>
+          <h2 id="local-information-title">{node.displayName} 확인 항목</h2>
+        </header>
+        <div className={styles.detailGrid}>
+          {model.movements.map((movement) => (
+            <article className={styles.detailCard} id={movement.section.id} key={movement.section.id}>
+              <span data-region-copy-id={movement.numberCopyId}>{movement.number}</span>
+              <small data-region-copy-id={movement.kickerCopyId}>{movement.kicker}</small>
+              <h2 data-region-copy-id={movement.headingCopyId}>{movement.section.heading}</h2>
+              {movement.section.paragraphs.map((paragraph, index) => (
+                <p key={paragraph} data-region-copy-id={movement.paragraphCopyIds[index]}>{paragraph}</p>
+              ))}
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className={styles.information} aria-labelledby="course-price-title">
+        <header className={styles.sectionHeadingRow}>
+          <div className={styles.sectionHeading}>
+            <p>COURSE &amp; PRICE</p>
+            <h2 id="course-price-title">5개 코스 공개 금액</h2>
+          </div>
+          <Link href="/pricing/">14개 금액 보기</Link>
+        </header>
+        <div className={styles.priceGrid}>
+          {COURSE_GROUPS.map((group, index) => (
+            <article className={styles.priceCard} key={group.course}>
+              <div><span>{String(index + 1).padStart(2, "0")}</span><h3>{group.course}</h3></div>
+              <ul>
+                {group.options.map((option) => (
+                  <li key={option.minutes}><b>{option.minutes}분</b><strong>{option.price}</strong></li>
+                ))}
+              </ul>
+            </article>
+          ))}
+        </div>
+      </section>
+
+      <section className={styles.information} aria-labelledby="region-faq-title">
+        <header className={styles.sectionHeading}>
+          <p>BEFORE YOU CALL</p>
+          <h2 id="region-faq-title">통화 전에 확인하는 질문</h2>
+        </header>
+        <div className={styles.faqList}>
+          {SERVICE_FAQS.map(([question, answer]) => (
+            <details key={question}>
+              <summary>{question}<span aria-hidden="true">+</span></summary>
+              <p>{answer}</p>
+            </details>
+          ))}
+        </div>
+      </section>
+
+      <section className={styles.contact}>
+        <div>
+          <p data-region-copy-id={model.finalBeat.labelCopyId}>{model.finalBeat.label}</p>
+          <h2 data-region-copy-id={model.finalBeat.headingCopyId}>{model.finalBeat.heading}</h2>
+          <strong data-region-copy-id={model.finalBeat.numberCopyId}>{model.finalBeat.number}</strong>
+        </div>
+        <a href={PHONE_HREF} data-region-copy-id={model.finalBeat.phoneCopyId}>{model.finalBeat.phone}</a>
+      </section>
+
+      <RegionGallery regionModel={model.gallery} />
+    </main>
+  );
+}

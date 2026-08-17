@@ -1,0 +1,773 @@
+{
+  "schemaVersion": "honhyeol-massage-template4-regional-image-release-receipt/v2",
+  "status": "ROOT_APPROVED_RELEASED",
+  "platformKey": "honhyeol-massage",
+  "assignmentManifest": {
+    "relativePath": "src/data/regional-image-assignments.template4.generated.json",
+    "sha256": "23cd2e8fc9b1f50a21bc6bfe95cd2306d78649cd7d73a71171f6c763e13be88e"
+  },
+  "authority": {
+    "campaign": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v2.json",
+      "sha256": "faebb1fafc00e21f7fa68631d5aa0ff8a78beb70810d3a15d9c850a533442e1d"
+    },
+    "inventory": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/contact-sheets/round-02/inventory.v2.json",
+      "sha256": "6c47178bd2115a268394f4b6f2aa7545d4a1cbed4b4d71892420f26664d501ce"
+    },
+    "parentVisualQa": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/contact-sheets/round-02/parent-visual-qa.v2.json",
+      "sha256": "3d5f8e8c91afbe1e9b786606954650de7e328148dae5a59ef19208e08eb34ab4"
+    },
+    "rootReview": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/contact-sheets/round-02/review.v2.json",
+      "sha256": "92ed8e09051bac486ecd2b5cbe6648606aea74b6dd8ad73f826ce12afbb08b00",
+      "reviewer": "root"
+    }
+  },
+  "focalCropMetadata": {
+    "relativePath": "src/data/regional-image-focal-points.template4.json",
+    "sha256": "9a51cd75887030a151a7882fe6dfef1f402d0093745beddc045fb22d0ea71cf1",
+    "overrideAssets": 6
+  },
+  "distribution": {
+    "routes": 1291,
+    "assets": 130,
+    "maxReuse": 10,
+    "assetsAtTen": 121,
+    "assetsAtNine": 9,
+    "parentChildCollisions": 0,
+    "siblingCollisions": 0
+  },
+  "releasedFiles": {
+    "webp": 390,
+    "provenance": 130
+  },
+  "replacementRelease": {
+    "assetIds": [
+      "hym-t4-rgn-044-v1",
+      "hym-t4-rgn-066-v1",
+      "hym-t4-rgn-067-v1",
+      "hym-t4-rgn-068-v1",
+      "hym-t4-rgn-069-v1",
+      "hym-t4-rgn-070-v1",
+      "hym-t4-rgn-071-v1",
+      "hym-t4-rgn-072-v1",
+      "hym-t4-rgn-073-v1",
+      "hym-t4-rgn-074-v1",
+      "hym-t4-rgn-075-v1",
+      "hym-t4-rgn-076-v1",
+      "hym-t4-rgn-077-v1",
+      "hym-t4-rgn-078-v1",
+      "hym-t4-rgn-079-v1",
+      "hym-t4-rgn-080-v1",
+      "hym-t4-rgn-081-v1",
+      "hym-t4-rgn-082-v1",
+      "hym-t4-rgn-083-v1",
+      "hym-t4-rgn-084-v1",
+      "hym-t4-rgn-085-v1",
+      "hym-t4-rgn-086-v1",
+      "hym-t4-rgn-087-v1",
+      "hym-t4-rgn-088-v1",
+      "hym-t4-rgn-089-v1",
+      "hym-t4-rgn-090-v1",
+      "hym-t4-rgn-091-v1",
+      "hym-t4-rgn-092-v1",
+      "hym-t4-rgn-093-v1",
+      "hym-t4-rgn-094-v1",
+      "hym-t4-rgn-095-v1",
+      "hym-t4-rgn-096-v1",
+      "hym-t4-rgn-097-v1",
+      "hym-t4-rgn-098-v1",
+      "hym-t4-rgn-099-v1",
+      "hym-t4-rgn-100-v1",
+      "hym-t4-rgn-101-v1",
+      "hym-t4-rgn-102-v1",
+      "hym-t4-rgn-103-v1",
+      "hym-t4-rgn-104-v1",
+      "hym-t4-rgn-105-v1",
+      "hym-t4-rgn-106-v1",
+      "hym-t4-rgn-107-v1",
+      "hym-t4-rgn-108-v1",
+      "hym-t4-rgn-109-v1",
+      "hym-t4-rgn-110-v1",
+      "hym-t4-rgn-111-v1",
+      "hym-t4-rgn-112-v1",
+      "hym-t4-rgn-113-v1",
+      "hym-t4-rgn-114-v1",
+      "hym-t4-rgn-115-v1",
+      "hym-t4-rgn-116-v1",
+      "hym-t4-rgn-117-v1",
+      "hym-t4-rgn-118-v1",
+      "hym-t4-rgn-119-v1",
+      "hym-t4-rgn-120-v1",
+      "hym-t4-rgn-121-v1",
+      "hym-t4-rgn-122-v1",
+      "hym-t4-rgn-123-v1",
+      "hym-t4-rgn-124-v1",
+      "hym-t4-rgn-125-v1",
+      "hym-t4-rgn-126-v1",
+      "hym-t4-rgn-127-v1",
+      "hym-t4-rgn-128-v1",
+      "hym-t4-rgn-129-v1",
+      "hym-t4-rgn-130-v1"
+    ],
+    "assets": 66,
+    "homeHeroFrozen": {
+      "relativePath": "public/images/honhyeol-template4/home/hero-mirror.webp",
+      "sha256": "a9b0f185a3d91925cb3ab8740e27c7f14f9a0dcac86e8638f98613c325915573"
+    }
+  },
+  "sourceAssets": [
+    {
+      "assetId": "hym-t4-rgn-001-v1",
+      "sourceSha256": "557450ddd26203f91e4a46247b91bfefda29909169a0dcc0cca26fa75dabbe47",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-001-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-002-v1",
+      "sourceSha256": "a1c28f07cc0431db33b9240c73d45c82c703f38fa357789caf394e653ca83d00",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-002-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-003-v1",
+      "sourceSha256": "a673f206a2570e61c2f9330ee7bd4d987e3a1bad8e211a26724d544cc6cce0b2",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-003-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-004-v1",
+      "sourceSha256": "5b13af10bd5d7345eb69c0c041cbca278378e7b25b3433b2083dd6c5784904a3",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-004-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-005-v1",
+      "sourceSha256": "c084738838bf8d1b2f061c13298d107b20044fb91c726b139195a20eca75b415",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-005-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-006-v1",
+      "sourceSha256": "2e17983d753089912380e5c10acc49d8cb540e11c1620e93c8612bbd87b4cd06",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-006-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-007-v1",
+      "sourceSha256": "9ebbeb582d8fc4b424ce4d04f5582947576493a73668a660090e2c4ffac99aba",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-007-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-008-v1",
+      "sourceSha256": "9d3062abfb85cdb183ee2e41580e16bc28dc5f970bfc9d20ebfcef65ff32a491",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-008-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-009-v1",
+      "sourceSha256": "ae07396e521b5eb213ccedd97cfa22645e12a683712664c656b929ce55ad1e13",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-009-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-010-v1",
+      "sourceSha256": "436eaaa5daadb13b89172bc941465d2c315b98de5f57e49a626d2993ea0c420e",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-010-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-011-v1",
+      "sourceSha256": "feeec632584ed9b05071cf5d8fff7b830b0059428675027162624aef4fe47985",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-011-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-012-v1",
+      "sourceSha256": "1667c9066bd152b84bf1a741162b2c540f001b2f100e35f62cb5ebe125b230bb",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-012-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-013-v1",
+      "sourceSha256": "12dc24000a264f294f7bf349564c6d28daff122c26fa21ce2584028eb604446a",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-013-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-014-v1",
+      "sourceSha256": "386f60b7ef958f00aacb1c0e662ef2a2db74f38d5e422a2fd8b4c033c91d20d5",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-014-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-015-v1",
+      "sourceSha256": "c73cd28937d369c73761ed769fb452640d43d35bc7f680a01af46c323fbfc263",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-015-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-016-v1",
+      "sourceSha256": "ecec8135600075e2c6b5b89dfe2b3c166646c6acb3f767ce6dc6fe1a8573f599",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-016-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-017-v1",
+      "sourceSha256": "a6bef9fbbe511683b32d02c121636dfafb3dd2226c2848415ad0b0d21683c612",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-017-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-018-v1",
+      "sourceSha256": "542d3f483b088fdd01c0f8cbfa01f89935692affd809f3cafc2bbbb8bbe48623",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-018-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-019-v1",
+      "sourceSha256": "a3f5f05e1badc60b908397ac3f5c5967939334505e5c5e30be979dd338d09214",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-019-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-020-v1",
+      "sourceSha256": "7b8a501612146648cb95fdefed2a18daadee74825bde88cca800a44885499505",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-020-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-021-v1",
+      "sourceSha256": "6409fd77e5870c8ee1ad58b815495ec91b219955e40dc283a09b20a0dee1d0b7",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-021-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-022-v1",
+      "sourceSha256": "b8e8ea9b8cea1138e334fdb1079eb0a08834f5553761b570adf6bd2d21e06bdc",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-022-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-023-v1",
+      "sourceSha256": "fadb422111bcbddbd9315a7f9b2f067aa01ba329c728052bf3792b08da938bfa",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-023-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-024-v1",
+      "sourceSha256": "1b718112ce01193cb72fb12a0baa6b7dc3c980887f953ea22906830dfe63050c",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-024-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-025-v1",
+      "sourceSha256": "d786749d2b66b95d0f017b566daa2fc1e9bb1ae36c259aafc3d957acdf6697e9",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-025-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-026-v1",
+      "sourceSha256": "730085d7f13819166f2e6a02a92ecfd34bbd78626d4e0da748ae426e3a532082",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-026-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-027-v1",
+      "sourceSha256": "b4ec0ca5ad0c85b4ac7f556eacb4044e1e4f1a61b1315eb96a0019b418d11e39",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-027-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-028-v1",
+      "sourceSha256": "68db3233c2823e5b6cab93b78b736d8725779d20a39bf674bafc28830a331872",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-028-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-029-v1",
+      "sourceSha256": "66d176b2d73c41f38e88654f145439547be59cdb4ac6447db214050ffc5223d7",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-029-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-030-v1",
+      "sourceSha256": "bf1bb8d41b10bbda84c7b769631859582efda64188f13dcaf9484144ebc6242a",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-030-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-031-v1",
+      "sourceSha256": "16ec09e382cc97c065699ece2e8241845a2458f9ff2774e917c0d9db24f7159a",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-031-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-032-v1",
+      "sourceSha256": "1b5382a5bcfc6d4fbce826dd3f42635d70c8d9b1e7e8c924184ee57d172b730c",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-032-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-033-v1",
+      "sourceSha256": "d6c60a85c5f5b0fd3f6fd5a1b4cdc7cac573e15bbfd17480900b6c46226465f2",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-033-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-034-v1",
+      "sourceSha256": "fd3ad4fe076156616deba4d98bd7371562381d6bd95ac3530b0779f7509c3006",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-034-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-035-v1",
+      "sourceSha256": "54bd4b5ac33973557ce1163c38fa0c6a3abde2ad4f476af5111be7d5bfe11c47",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-035-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-036-v1",
+      "sourceSha256": "b3d351423363315b76ef798a6a66911fca1b461661317e25ff572001fbff2893",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-036-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-037-v1",
+      "sourceSha256": "c7d1081fb89355e6ff8ac4b3468dbc452f2828025b22b7e4290a91f35cc06a4c",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-037-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-038-v1",
+      "sourceSha256": "451ee99aedc19ba5320f0e3da5f6dc41ff81ee201dc20a5e7c28751256af8add",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-038-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-039-v1",
+      "sourceSha256": "033d746c19432891490e26ad4ee6e63d60128ca5150914eba6bf47d504fe2e08",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-039-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-040-v1",
+      "sourceSha256": "661ecbe3a091e8e3c8af3c7f3303f1c8e4227fce2aa58a4ce96c449e59313a8c",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-040-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-041-v1",
+      "sourceSha256": "4c385c502f87626690db77db5c36fcfe31f53dea8f160fb286e37983c5dd4718",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-041-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-042-v1",
+      "sourceSha256": "36377415e67723727ee5a5b96ceb2721fcb57e9ea7ce930a4562170d706384ba",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-042-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-043-v1",
+      "sourceSha256": "692335b0da79300915bdd0b13d124cd0cd9af93307f0487bca89faf20492d0c0",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-043-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-044-v1",
+      "sourceSha256": "b7fb2603bc5712863ac02314a7785cf8d7bba3bf764e15b38d51daa173f21010",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-044-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-045-v1",
+      "sourceSha256": "da910eb262d6902a2c1b064a4cdfe1e8c419d50f6268b2f0e21a11782f5ff488",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-045-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-046-v1",
+      "sourceSha256": "44a472deef5cfe6acb55aa8cf81fdf0cf1701ca290bb51b7ad39d52819e0d1a5",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-046-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-047-v1",
+      "sourceSha256": "18868dff843df3d4cdbac92dd573e799f9b517429fe03416b4e0d24dccbecbab",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-047-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-048-v1",
+      "sourceSha256": "62851c9d8b8c6fc2ff3aef34f6229dd1a351c861fe52e3e829e73e508abad550",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-048-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-049-v1",
+      "sourceSha256": "db11a1c150b26519a00040998f09a740c3cf3a1c1a8452240fda2677e87d7bf0",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-049-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-050-v1",
+      "sourceSha256": "b86c761802660440db68093673d23311e859fb30b93587094e3a93a9aaca1ab3",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-050-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-051-v1",
+      "sourceSha256": "55fd266b854c29309a61a35b0962a4468fea7f51521f19ffd229bad025070f6c",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-051-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-052-v1",
+      "sourceSha256": "4f3e2979f8ad638157ee6f770df84e2b47328e19388f38948a76b594170a5992",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-052-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-053-v1",
+      "sourceSha256": "3b2952336aaf46057c8c8b1c137c877a3b03eec18e530d9272ac20ae8c046099",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-053-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-054-v1",
+      "sourceSha256": "1cfe62905e5648236a00fd71ab949d3f2a9360afd81aa47ddddf9deea3f76365",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-054-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-055-v1",
+      "sourceSha256": "a71a68163727be53cd4579fd50467c80abf8e9cf73f9fdf47212b9f193d40931",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-055-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-056-v1",
+      "sourceSha256": "eea248f60e32360b10471360640b3b42f43b5ef7fbd4a2fde656a7d7e2f6b12c",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-056-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-057-v1",
+      "sourceSha256": "5e1afa64c71da63fae6858e0e777b14d6584c4b92758711be709a489526c34f9",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-057-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-058-v1",
+      "sourceSha256": "e48508735c9e03f164086f0ca03df94db980ae04eb0ede7ecd6c7c332e69480d",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-058-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-059-v1",
+      "sourceSha256": "f8ee0e376df29b6f722a7ab379a8d4c2dd503e6f56fdb67f3f2d5c531acfe19c",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-059-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-060-v1",
+      "sourceSha256": "c567c3bfdde09b05b932c745f5fcedab70c4f58825f783b873fd6a96c804a355",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-060-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-061-v1",
+      "sourceSha256": "5f52c749c735f52ef50548c5f602a63b2807879a49ed186891c2d77ea606ce7f",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-061-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-062-v1",
+      "sourceSha256": "d5a9c155acfb9ee50489db9f3181cb3e55f0a38470fc06d0e4cb53bff3424c7b",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-062-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-063-v1",
+      "sourceSha256": "a3b96dddbda596b0d61d4974dbbc8cd8866e5dec1db01455be924ec2a3807279",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-063-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-064-v1",
+      "sourceSha256": "d9e78f1e2c667ab86c72b829751f0350384b5d1fce70983589bb339a894f6e35",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-064-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-065-v1",
+      "sourceSha256": "b95645329b16f0e2c60690e59df0ef2c48057e6c7f7a1e7159dc3806d6d5925e",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-065-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-066-v1",
+      "sourceSha256": "2d62374e52002257536587f1cb0881154a7c7d916ae76704aadd712e520fda6f",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-066-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-067-v1",
+      "sourceSha256": "fcb25bddc74758763b42336460c227586fa5bbd2d8a5c66172f83b7a09ae7243",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-067-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-068-v1",
+      "sourceSha256": "b0b0566fc034abdfc4f85d2518f7e0a2988e13c1c30e7973d806b12b43d9ebec",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-068-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-069-v1",
+      "sourceSha256": "5106ec07caa83ba5eca8c0fca15a4886d1bc17beb79d26849faa90131a05d731",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-069-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-070-v1",
+      "sourceSha256": "8d277823258a9b5b0e83ece11a21f5e1d3b77009b494b9b9f46dddc8d03c1e54",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-070-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-071-v1",
+      "sourceSha256": "934ec15977d83409e51b98256ffec67cdcb892a8d50a4944c3c43e7cb2cf1f2e",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-071-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-072-v1",
+      "sourceSha256": "f074dba234ec4db1a1fd7660a8bcd4957bc926b11945c043465bcaab0bef1471",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-072-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-073-v1",
+      "sourceSha256": "895bc6ee02c69d8058b6e169021f24cd05a160caff66dc671b33c14fb70aea70",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-073-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-074-v1",
+      "sourceSha256": "cc1de9b3766a6e20993a59a81c30aac84d9ae32cc76ade2c38401a335750bf24",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-074-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-075-v1",
+      "sourceSha256": "68edb49249caa034bcca892f4a832a63eccea57110e1ac9b149dee03dc093930",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-075-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-076-v1",
+      "sourceSha256": "ab4d782c9416da30103eba51e337f86675ac148cced5b7282fcbfb670817f8f4",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-076-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-077-v1",
+      "sourceSha256": "99f67d3559df54d9a005e9c3e2c1b122885ccc6980238f915c8abed109e8bfe6",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-077-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-078-v1",
+      "sourceSha256": "dfa7991f3634d99ef927af2107384ff244aa611f2ff1dec545ccf5c00b7606c9",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-078-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-079-v1",
+      "sourceSha256": "b9af85408e5b999b93a5e0cdf2d731335f677122133019e8223fd1e101c6eca0",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-079-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-080-v1",
+      "sourceSha256": "62520ca37fd5fe6e5e588927f70fc5c7fbf7df04c601e9fc32b022a65e4fd86b",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-080-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-081-v1",
+      "sourceSha256": "6d0c453d95ba0448e54d8fe88235056ef5fb14e56293e0bca4ac7d1d7d9a421e",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-081-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-082-v1",
+      "sourceSha256": "722fdd4ccd0bb374b5e55ab42bba8cee542a7244cf676e358a3488ab3f99343f",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-082-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-083-v1",
+      "sourceSha256": "841f7beb588776e3b309dbd59361162941e4e112546ac9b8ee5ee749b1c359d3",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-083-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-084-v1",
+      "sourceSha256": "b5e2f3d479e19e5bcfbc022194ddf43ad38b32e4cf89b1892afca9a26d60e246",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-084-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-085-v1",
+      "sourceSha256": "460d2e510b4f1910f4cea33f2cc8482a9388cd9d01adee26f67980974cd416d8",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-085-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-086-v1",
+      "sourceSha256": "04211232aee5c9cd33d2e420e665cdc6c136e09083d19f54c977bd7510939cbf",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-086-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-087-v1",
+      "sourceSha256": "c777c76ac42e42ae6a806ed411e73f3504131756f16f9c7cc18144bcd9245d03",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-087-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-088-v1",
+      "sourceSha256": "1b84c66d88608a712a9ba7a7d33c51c3db32dcb89b6d54db474fcbee411a2f0b",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-088-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-089-v1",
+      "sourceSha256": "2093ef3f19dc8305c7426cd123c7b4c5b86a6839cb787483ef998f19bbbf0ff9",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-089-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-090-v1",
+      "sourceSha256": "07c27ecfbb563c03f46b839a6ed0fc8e2ef16226ed3cf293281b3da77c039186",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-090-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-091-v1",
+      "sourceSha256": "ecd17f20b98bfa130a620af17f533d88e27165ed45b43cdb1e4fb77fd84d7c89",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-091-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-092-v1",
+      "sourceSha256": "c1678a3086ead833b10e47ecfc3b81c6612d9a93856a38d79ef811e58a9a7252",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-092-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-093-v1",
+      "sourceSha256": "99afa665f87a3935ff13504dcd8efc0a0f5d77fbfaa3ba89c97e5979505c8a32",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-093-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-094-v1",
+      "sourceSha256": "e904806065b247fe294f756681ceb1f238a3efaaeedd07591b661c7fcaa5b7ba",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-094-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-095-v1",
+      "sourceSha256": "c199cd441d879f570b1601adfe9db66ca0742b1d6f3d4828984c24b6277728bc",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-095-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-096-v1",
+      "sourceSha256": "e6c97132a2ce6b4eda88602c83dcac7b170c0a3aa6ffa381eff4f9465e396573",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-096-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-097-v1",
+      "sourceSha256": "50dec7cc0e21da7f365112a5259324cdddcfbf97ae99ee2c138414b443e62214",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-097-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-098-v1",
+      "sourceSha256": "f5a0e44988fdf6d82e298ba4e9f990812a2d5d237d5ee6362150650f03350624",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-098-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-099-v1",
+      "sourceSha256": "8ebf1a139dbb7a50b0d8997df77909625fa4134c16b9c48c7f25ae343ce49220",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-099-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-100-v1",
+      "sourceSha256": "f74cf9a72b6d7204bf7cadd5ab74018b77ef1447cfe90142ac6c01fdbabb38ca",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-100-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-101-v1",
+      "sourceSha256": "c42ca5bb6d506e3f8cd61075d1b768c3d60b3649579c46602183534411130565",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-101-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-102-v1",
+      "sourceSha256": "aa77ba285160ace5cdd54e19eaa25f006c8ce5175e54b465e6764e78a67fff20",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-102-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-103-v1",
+      "sourceSha256": "8470dc8a7d877fadc400c6d3e1489f2c75e59ce5cac8492bd516a50226c1b9c2",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-103-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-104-v1",
+      "sourceSha256": "59bd87817ae82222393046b7b4ce1f53d8626257fd9e6ca18e06a3e6f22b5d6a",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-104-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-105-v1",
+      "sourceSha256": "ccf59150bc747b9519e3e3db29e05085d93476cdcb9f97d1353dffa44d2c5542",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-105-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-106-v1",
+      "sourceSha256": "a9f75baf649866a577f335393f82d2b438dc2fd2c8ee87258a85642ec78e897c",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-106-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-107-v1",
+      "sourceSha256": "210024f80d62dd7dc9aaf0babe5da887a68f6e9d156ccffff9da5fe1639cc20b",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-107-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-108-v1",
+      "sourceSha256": "c8e45409bb91b92baec011899cbcfdc74fbee676d7d13248fda07d1aee6675be",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-108-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-109-v1",
+      "sourceSha256": "93b219caf0a608b8b78a71611c402233c511edcff3d875ef63bd2d9c4bcc3a60",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-109-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-110-v1",
+      "sourceSha256": "7807f0543582bb1fcc8681906514955d15f9022184f631b013d63bca511e7d68",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-110-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-111-v1",
+      "sourceSha256": "6be545fc2a650c06e1d7f8f2ab3cf7a3f768e486be0437ede1a293989082d9bb",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-111-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-112-v1",
+      "sourceSha256": "b438a19511917ca8425dd65427ae8b64299de3a465755f9349c7a053bd39d30a",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-112-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-113-v1",
+      "sourceSha256": "66e3bcc76fbc683db43abfe5254287c17f94637562ce5bfa44f9c640bac2074f",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-113-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-114-v1",
+      "sourceSha256": "b8d675af1a12e43570991a2314e53a939a5390434fbb92b8950a2e5706a9497f",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-114-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-115-v1",
+      "sourceSha256": "adbfadfb7c771c9eb5e6833941315b1cf36865ae40aeabd1a426d3d12ed60900",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-115-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-116-v1",
+      "sourceSha256": "ad1db6536c8da9d6ea1448f6e6fc1e7917635b926dfc57401e7676ec2d3dd857",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-116-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-117-v1",
+      "sourceSha256": "7a7c2c28cf07c8027037b800aa148b9b6119ea281011de9df2e8caf06ceca2f1",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-117-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-118-v1",
+      "sourceSha256": "2d631f165927aeb66e23db144899356a0ecc7441bf1d9e05c29af3c44634d5be",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-118-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-119-v1",
+      "sourceSha256": "bf21d1063a55e439abe36b493db825d4cef96a6e2218197e322642be12991370",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-119-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-120-v1",
+      "sourceSha256": "305e10da36107c182ec986edecced9abd65ef2e4087ac7daa189466474195faf",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-120-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-121-v1",
+      "sourceSha256": "926225473aee042b0c1ec20062e362a80593dea8a9d7eeefa2c9645544e25a40",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-121-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-122-v1",
+      "sourceSha256": "4f5816989973a90bbd82b8f646c9ba9ec87b74fc01871438d0c4e30dca7f1294",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-122-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-123-v1",
+      "sourceSha256": "45d9a4830798556bc9f94aa4e20d453ca0935d876b911a753b22b69a4d8f1676",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-123-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-124-v1",
+      "sourceSha256": "8c50c15667cad31b7820bbb45d62461d53f02d706ce19407284a1b2da4d0ebb0",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-124-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-125-v1",
+      "sourceSha256": "2ed7553a0168a4371063dcb74d7a1ed07f189cc392b6059a38786c50a9b63473",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-125-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-126-v1",
+      "sourceSha256": "f7babd26dff4fcc237e3582564afb90d87f08c15c81c6668a76338a863e7d21b",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-126-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-127-v1",
+      "sourceSha256": "cde2c482d607cd32015c35cc18ee47913bccb21707d7f9331ddeebc6d43681b3",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-127-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-128-v1",
+      "sourceSha256": "50c4161f75b313e78c4aec83f2859ab54841b2b5b74f0f8102a06fa9b3d85b3b",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-128-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-129-v1",
+      "sourceSha256": "49d5ae8df4895bb86b7af8a6535ffe487d5e233f599c22f9a6bb14ed6e9fe5e8",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-129-v1/provenance.json"
+    },
+    {
+      "assetId": "hym-t4-rgn-130-v1",
+      "sourceSha256": "da1fff64da0478b340ac736b0604587eeba2835b2aa8e7e43c397a561eb91b15",
+      "provenance": "public/assets/honhyeol-massage/template4-regional/hym-t4-rgn-130-v1/provenance.json"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": "honhyeol-massage-template4-regional-image-provenance/v1",
+  "status": "ROOT_APPROVED_RELEASED",
+  "platformKey": "honhyeol-massage",
+  "assetId": "hym-t4-rgn-101-v1",
+  "sourceClass": "replacement-new",
+  "styling": "adult-korean-fashion-editorial-fitted-non-explicit",
+  "lane": "h",
+  "authority": {
+    "campaign": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v2.json",
+      "sha256": "faebb1fafc00e21f7fa68631d5aa0ff8a78beb70810d3a15d9c850a533442e1d"
+    },
+    "inventory": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/contact-sheets/round-02/inventory.v2.json",
+      "sha256": "6c47178bd2115a268394f4b6f2aa7545d4a1cbed4b4d71892420f26664d501ce"
+    },
+    "parentVisualQa": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/contact-sheets/round-02/parent-visual-qa.v2.json",
+      "sha256": "3d5f8e8c91afbe1e9b786606954650de7e328148dae5a59ef19208e08eb34ab4"
+    },
+    "rootReview": {
+      "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/contact-sheets/round-02/review.v2.json",
+      "sha256": "92ed8e09051bac486ecd2b5cbe6648606aea74b6dd8ad73f826ce12afbb08b00",
+      "reviewer": "root"
+    }
+  },
+  "focalCropMetadata": {
+    "relativePath": "src/data/regional-image-focal-points.template4.json",
+    "sha256": "9a51cd75887030a151a7882fe6dfef1f402d0093745beddc045fb22d0ea71cf1",
+    "focalPoint": {
+      "xPermille": 500,
+      "yPermille": 500
+    }
+  },
+  "source": {
+    "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-101-v2.png",
+    "sha256": "c42ca5bb6d506e3f8cd61075d1b768c3d60b3649579c46602183534411130565",
+    "width": 1672,
+    "height": 941,
+    "format": "png"
+  },
+  "outputs": {
+    "desktop": {
+      "publicPath": "/assets/honhyeol-massage/template4-regional/hym-t4-rgn-101-v1/desktop.webp",
+      "sha256": "ff29c21e75d168050fa394d58956f04cb1de70074cbeb3b6feb9210eda34d16d",
+      "width": 1600,
+      "height": 900,
+      "bytes": 41284,
+      "crop": {
+        "mode": "center-cover"
+      }
+    },
+    "tablet": {
+      "publicPath": "/assets/honhyeol-massage/template4-regional/hym-t4-rgn-101-v1/tablet.webp",
+      "sha256": "f613b15285ab97446d7cb3bb7d6923f3dd297b97cb429fbbe29383e0b85d9458",
+      "width": 1200,
+      "height": 675,
+      "bytes": 27356,
+      "crop": {
+        "mode": "center-cover"
+      }
+    },
+    "mobile": {
+      "publicPath": "/assets/honhyeol-massage/template4-regional/hym-t4-rgn-101-v1/mobile.webp",
+      "sha256": "37ee1bd8e1a68fd2caedcf9cb55e2c4bcef8f9ae24a96bf8198031a0908cf5ac",
+      "width": 768,
+      "height": 600,
+      "bytes": 20380,
+      "crop": {
+        "mode": "asset-focal-cover",
+        "focalPoint": {
+          "xPermille": 500,
+          "yPermille": 500
+        },
+        "extraction": {
+          "left": 234,
+          "top": 0,
+          "width": 1204,
+          "height": 941
+        }
+      }
+    }
+  }
+}

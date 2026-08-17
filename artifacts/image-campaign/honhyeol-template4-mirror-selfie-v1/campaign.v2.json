@@ -1,0 +1,3543 @@
+{
+  "schemaVersion": "honhyeol-template4-mirror-selfie-campaign/v2",
+  "campaign": "honhyeol-template4-mirror-selfie-v1",
+  "status": "READY_FOR_ROOT_VISUAL_REVIEW",
+  "platform": {
+    "name": "혼혈마사지",
+    "id": "honhyeol-massage",
+    "template": "Template5",
+    "assetNamespaceTemplate": "Template4"
+  },
+  "counts": {
+    "totalPhotographs": 148,
+    "regional": 130,
+    "editorial": 18,
+    "reused": 73,
+    "new": 9,
+    "replacementNew": 66
+  },
+  "reuseProvenance": {
+    "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+    "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+    "sourceDistribution": {
+      "feeling-hometai": 36,
+      "geonmae-banhada": 38
+    }
+  },
+  "visualContract": {
+    "subject": "one clearly adult woman, without ethnicity targeting",
+    "mirror": "clean physical mirror and coherent reflection clearly visible",
+    "phone": "offset where feasible so adult facial features remain visible",
+    "crop": "desktop/tablet/mobile crop-safe",
+    "safety": "fully clothed and non-explicit; no lingerie, cleavage-focused or fetish framing, text, logo, watermark, bed, bathroom, copied identity, duplicate reflection, or malformed anatomy",
+    "adultKoreanEditorialDirection": true,
+    "faceSufficientlyVisibleBesidePhone": true,
+    "actualNationalityOrAncestryInference": false,
+    "fullyClothedNonExplicit": true
+  },
+  "distributionContract": {
+    "regionalRoutes": 1291,
+    "regionalAssets": 130,
+    "maxReuse": 10,
+    "exactReuseDistribution": {
+      "9": 9,
+      "10": 121
+    },
+    "parentChildCollisions": 0,
+    "siblingCollisions": 0
+  },
+  "jobs": [
+    {
+      "assetId": "hym-t4-rgn-001-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-001-v1.png",
+      "sourceSha256": "557450ddd26203f91e4a46247b91bfefda29909169a0dcc0cca26fa75dabbe47",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-001-v1.png",
+        "sourceAssetId": "rng-t3-rgn-001-v1",
+        "sourceSha256": "557450ddd26203f91e4a46247b91bfefda29909169a0dcc0cca26fa75dabbe47"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-002-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-002-v1.png",
+      "sourceSha256": "a1c28f07cc0431db33b9240c73d45c82c703f38fa357789caf394e653ca83d00",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-a/gmb-t4-rgn-003-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-003-v1",
+        "sourceSha256": "a1c28f07cc0431db33b9240c73d45c82c703f38fa357789caf394e653ca83d00"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-003-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-003-v1.png",
+      "sourceSha256": "a673f206a2570e61c2f9330ee7bd4d987e3a1bad8e211a26724d544cc6cce0b2",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-005-v1.png",
+        "sourceAssetId": "rng-t3-rgn-005-v1",
+        "sourceSha256": "a673f206a2570e61c2f9330ee7bd4d987e3a1bad8e211a26724d544cc6cce0b2"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-004-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-004-v1.png",
+      "sourceSha256": "5b13af10bd5d7345eb69c0c041cbca278378e7b25b3433b2083dd6c5784904a3",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-a/gmb-t4-rgn-007-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-007-v1",
+        "sourceSha256": "5b13af10bd5d7345eb69c0c041cbca278378e7b25b3433b2083dd6c5784904a3"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-005-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-005-v1.png",
+      "sourceSha256": "c084738838bf8d1b2f061c13298d107b20044fb91c726b139195a20eca75b415",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-009-v1.png",
+        "sourceAssetId": "rng-t3-rgn-009-v1",
+        "sourceSha256": "c084738838bf8d1b2f061c13298d107b20044fb91c726b139195a20eca75b415"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-006-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-006-v1.png",
+      "sourceSha256": "2e17983d753089912380e5c10acc49d8cb540e11c1620e93c8612bbd87b4cd06",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-a/gmb-t4-rgn-011-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-011-v1",
+        "sourceSha256": "2e17983d753089912380e5c10acc49d8cb540e11c1620e93c8612bbd87b4cd06"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-007-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-007-v1.png",
+      "sourceSha256": "9ebbeb582d8fc4b424ce4d04f5582947576493a73668a660090e2c4ffac99aba",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-013-v1.png",
+        "sourceAssetId": "rng-t3-rgn-013-v1",
+        "sourceSha256": "9ebbeb582d8fc4b424ce4d04f5582947576493a73668a660090e2c4ffac99aba"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-008-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-008-v1.png",
+      "sourceSha256": "9d3062abfb85cdb183ee2e41580e16bc28dc5f970bfc9d20ebfcef65ff32a491",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-b/gmb-t4-rgn-015-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-015-v1",
+        "sourceSha256": "9d3062abfb85cdb183ee2e41580e16bc28dc5f970bfc9d20ebfcef65ff32a491"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-009-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-009-v1.png",
+      "sourceSha256": "ae07396e521b5eb213ccedd97cfa22645e12a683712664c656b929ce55ad1e13",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-b/rng-t3-rgn-017-v1.png",
+        "sourceAssetId": "rng-t3-rgn-017-v1",
+        "sourceSha256": "ae07396e521b5eb213ccedd97cfa22645e12a683712664c656b929ce55ad1e13"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-010-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-010-v1.png",
+      "sourceSha256": "436eaaa5daadb13b89172bc941465d2c315b98de5f57e49a626d2993ea0c420e",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-b/gmb-t4-rgn-019-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-019-v1",
+        "sourceSha256": "436eaaa5daadb13b89172bc941465d2c315b98de5f57e49a626d2993ea0c420e"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-011-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-011-v1.png",
+      "sourceSha256": "feeec632584ed9b05071cf5d8fff7b830b0059428675027162624aef4fe47985",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-b/rng-t3-rgn-021-v1.png",
+        "sourceAssetId": "rng-t3-rgn-021-v1",
+        "sourceSha256": "feeec632584ed9b05071cf5d8fff7b830b0059428675027162624aef4fe47985"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-012-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-012-v1.png",
+      "sourceSha256": "1667c9066bd152b84bf1a741162b2c540f001b2f100e35f62cb5ebe125b230bb",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-b/gmb-t4-rgn-023-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-023-v1",
+        "sourceSha256": "1667c9066bd152b84bf1a741162b2c540f001b2f100e35f62cb5ebe125b230bb"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-013-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "a",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-a/hym-t4-rgn-013-v1.png",
+      "sourceSha256": "12dc24000a264f294f7bf349564c6d28daff122c26fa21ce2584028eb604446a",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-b/rng-t3-rgn-025-v1.png",
+        "sourceAssetId": "rng-t3-rgn-025-v1",
+        "sourceSha256": "12dc24000a264f294f7bf349564c6d28daff122c26fa21ce2584028eb604446a"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-014-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-014-v1.png",
+      "sourceSha256": "386f60b7ef958f00aacb1c0e662ef2a2db74f38d5e422a2fd8b4c033c91d20d5",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-c/gmb-t4-rgn-027-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-027-v1",
+        "sourceSha256": "386f60b7ef958f00aacb1c0e662ef2a2db74f38d5e422a2fd8b4c033c91d20d5"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-015-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-015-v1.png",
+      "sourceSha256": "c73cd28937d369c73761ed769fb452640d43d35bc7f680a01af46c323fbfc263",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-c/rng-t3-rgn-029-v1.png",
+        "sourceAssetId": "rng-t3-rgn-029-v1",
+        "sourceSha256": "c73cd28937d369c73761ed769fb452640d43d35bc7f680a01af46c323fbfc263"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-016-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-016-v1.png",
+      "sourceSha256": "ecec8135600075e2c6b5b89dfe2b3c166646c6acb3f767ce6dc6fe1a8573f599",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-c/gmb-t4-rgn-031-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-031-v1",
+        "sourceSha256": "ecec8135600075e2c6b5b89dfe2b3c166646c6acb3f767ce6dc6fe1a8573f599"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-017-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-017-v1.png",
+      "sourceSha256": "a6bef9fbbe511683b32d02c121636dfafb3dd2226c2848415ad0b0d21683c612",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-c/rng-t3-rgn-033-v1.png",
+        "sourceAssetId": "rng-t3-rgn-033-v1",
+        "sourceSha256": "a6bef9fbbe511683b32d02c121636dfafb3dd2226c2848415ad0b0d21683c612"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-018-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-018-v1.png",
+      "sourceSha256": "542d3f483b088fdd01c0f8cbfa01f89935692affd809f3cafc2bbbb8bbe48623",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-c/gmb-t4-rgn-035-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-035-v1",
+        "sourceSha256": "542d3f483b088fdd01c0f8cbfa01f89935692affd809f3cafc2bbbb8bbe48623"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-019-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-019-v1.png",
+      "sourceSha256": "a3f5f05e1badc60b908397ac3f5c5967939334505e5c5e30be979dd338d09214",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-c/rng-t3-rgn-037-v1.png",
+        "sourceAssetId": "rng-t3-rgn-037-v1",
+        "sourceSha256": "a3f5f05e1badc60b908397ac3f5c5967939334505e5c5e30be979dd338d09214"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-020-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-020-v1.png",
+      "sourceSha256": "7b8a501612146648cb95fdefed2a18daadee74825bde88cca800a44885499505",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-c/gmb-t4-rgn-039-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-039-v1",
+        "sourceSha256": "7b8a501612146648cb95fdefed2a18daadee74825bde88cca800a44885499505"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-021-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-021-v1.png",
+      "sourceSha256": "6409fd77e5870c8ee1ad58b815495ec91b219955e40dc283a09b20a0dee1d0b7",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-041-v1.png",
+        "sourceAssetId": "rng-t3-rgn-041-v1",
+        "sourceSha256": "6409fd77e5870c8ee1ad58b815495ec91b219955e40dc283a09b20a0dee1d0b7"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-022-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-022-v1.png",
+      "sourceSha256": "b8e8ea9b8cea1138e334fdb1079eb0a08834f5553761b570adf6bd2d21e06bdc",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-d/gmb-t4-rgn-043-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-043-v1",
+        "sourceSha256": "b8e8ea9b8cea1138e334fdb1079eb0a08834f5553761b570adf6bd2d21e06bdc"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-023-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-023-v1.png",
+      "sourceSha256": "fadb422111bcbddbd9315a7f9b2f067aa01ba329c728052bf3792b08da938bfa",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-045-v1.png",
+        "sourceAssetId": "rng-t3-rgn-045-v1",
+        "sourceSha256": "fadb422111bcbddbd9315a7f9b2f067aa01ba329c728052bf3792b08da938bfa"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-024-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-024-v1.png",
+      "sourceSha256": "1b718112ce01193cb72fb12a0baa6b7dc3c980887f953ea22906830dfe63050c",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-d/gmb-t4-rgn-047-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-047-v1",
+        "sourceSha256": "1b718112ce01193cb72fb12a0baa6b7dc3c980887f953ea22906830dfe63050c"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-025-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-025-v1.png",
+      "sourceSha256": "d786749d2b66b95d0f017b566daa2fc1e9bb1ae36c259aafc3d957acdf6697e9",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-d/rng-t3-rgn-049-v1.png",
+        "sourceAssetId": "rng-t3-rgn-049-v1",
+        "sourceSha256": "d786749d2b66b95d0f017b566daa2fc1e9bb1ae36c259aafc3d957acdf6697e9"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-026-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "b",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-b/hym-t4-rgn-026-v1.png",
+      "sourceSha256": "730085d7f13819166f2e6a02a92ecfd34bbd78626d4e0da748ae426e3a532082",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-d/gmb-t4-rgn-051-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-051-v1",
+        "sourceSha256": "730085d7f13819166f2e6a02a92ecfd34bbd78626d4e0da748ae426e3a532082"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-027-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-027-v1.png",
+      "sourceSha256": "b4ec0ca5ad0c85b4ac7f556eacb4044e1e4f1a61b1315eb96a0019b418d11e39",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-e/rng-t3-rgn-053-v1.png",
+        "sourceAssetId": "rng-t3-rgn-053-v1",
+        "sourceSha256": "b4ec0ca5ad0c85b4ac7f556eacb4044e1e4f1a61b1315eb96a0019b418d11e39"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-028-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-028-v1.png",
+      "sourceSha256": "68db3233c2823e5b6cab93b78b736d8725779d20a39bf674bafc28830a331872",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-e/gmb-t4-rgn-055-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-055-v1",
+        "sourceSha256": "68db3233c2823e5b6cab93b78b736d8725779d20a39bf674bafc28830a331872"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-029-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-029-v1.png",
+      "sourceSha256": "66d176b2d73c41f38e88654f145439547be59cdb4ac6447db214050ffc5223d7",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-e/rng-t3-rgn-057-v1.png",
+        "sourceAssetId": "rng-t3-rgn-057-v1",
+        "sourceSha256": "66d176b2d73c41f38e88654f145439547be59cdb4ac6447db214050ffc5223d7"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-030-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-030-v1.png",
+      "sourceSha256": "bf1bb8d41b10bbda84c7b769631859582efda64188f13dcaf9484144ebc6242a",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-e/gmb-t4-rgn-059-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-059-v1",
+        "sourceSha256": "bf1bb8d41b10bbda84c7b769631859582efda64188f13dcaf9484144ebc6242a"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-031-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-031-v1.png",
+      "sourceSha256": "16ec09e382cc97c065699ece2e8241845a2458f9ff2774e917c0d9db24f7159a",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-e/rng-t3-rgn-061-v1.png",
+        "sourceAssetId": "rng-t3-rgn-061-v1",
+        "sourceSha256": "16ec09e382cc97c065699ece2e8241845a2458f9ff2774e917c0d9db24f7159a"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-032-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-032-v1.png",
+      "sourceSha256": "1b5382a5bcfc6d4fbce826dd3f42635d70c8d9b1e7e8c924184ee57d172b730c",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-e/gmb-t4-rgn-063-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-063-v1",
+        "sourceSha256": "1b5382a5bcfc6d4fbce826dd3f42635d70c8d9b1e7e8c924184ee57d172b730c"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-033-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-033-v1.png",
+      "sourceSha256": "d6c60a85c5f5b0fd3f6fd5a1b4cdc7cac573e15bbfd17480900b6c46226465f2",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-e/rng-t3-rgn-065-v1.png",
+        "sourceAssetId": "rng-t3-rgn-065-v1",
+        "sourceSha256": "d6c60a85c5f5b0fd3f6fd5a1b4cdc7cac573e15bbfd17480900b6c46226465f2"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-034-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-034-v1.png",
+      "sourceSha256": "fd3ad4fe076156616deba4d98bd7371562381d6bd95ac3530b0779f7509c3006",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-f/gmb-t4-rgn-067-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-067-v1",
+        "sourceSha256": "fd3ad4fe076156616deba4d98bd7371562381d6bd95ac3530b0779f7509c3006"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-035-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-035-v1.png",
+      "sourceSha256": "54bd4b5ac33973557ce1163c38fa0c6a3abde2ad4f476af5111be7d5bfe11c47",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-069-v1.png",
+        "sourceAssetId": "rng-t3-rgn-069-v1",
+        "sourceSha256": "54bd4b5ac33973557ce1163c38fa0c6a3abde2ad4f476af5111be7d5bfe11c47"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-036-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-036-v1.png",
+      "sourceSha256": "b3d351423363315b76ef798a6a66911fca1b461661317e25ff572001fbff2893",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-f/gmb-t4-rgn-071-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-071-v1",
+        "sourceSha256": "b3d351423363315b76ef798a6a66911fca1b461661317e25ff572001fbff2893"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-037-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-037-v1.png",
+      "sourceSha256": "c7d1081fb89355e6ff8ac4b3468dbc452f2828025b22b7e4290a91f35cc06a4c",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-073-v1.png",
+        "sourceAssetId": "rng-t3-rgn-073-v1",
+        "sourceSha256": "c7d1081fb89355e6ff8ac4b3468dbc452f2828025b22b7e4290a91f35cc06a4c"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-038-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-038-v1.png",
+      "sourceSha256": "451ee99aedc19ba5320f0e3da5f6dc41ff81ee201dc20a5e7c28751256af8add",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-f/gmb-t4-rgn-075-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-075-v1",
+        "sourceSha256": "451ee99aedc19ba5320f0e3da5f6dc41ff81ee201dc20a5e7c28751256af8add"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-039-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "c",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-c/hym-t4-rgn-039-v1.png",
+      "sourceSha256": "033d746c19432891490e26ad4ee6e63d60128ca5150914eba6bf47d504fe2e08",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-f/rng-t3-rgn-077-v1.png",
+        "sourceAssetId": "rng-t3-rgn-077-v1",
+        "sourceSha256": "033d746c19432891490e26ad4ee6e63d60128ca5150914eba6bf47d504fe2e08"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-040-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-040-v1.png",
+      "sourceSha256": "661ecbe3a091e8e3c8af3c7f3303f1c8e4227fce2aa58a4ce96c449e59313a8c",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-g/gmb-t4-rgn-079-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-079-v1",
+        "sourceSha256": "661ecbe3a091e8e3c8af3c7f3303f1c8e4227fce2aa58a4ce96c449e59313a8c"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-041-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-041-v1.png",
+      "sourceSha256": "4c385c502f87626690db77db5c36fcfe31f53dea8f160fb286e37983c5dd4718",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-g/rng-t3-rgn-081-v1.png",
+        "sourceAssetId": "rng-t3-rgn-081-v1",
+        "sourceSha256": "4c385c502f87626690db77db5c36fcfe31f53dea8f160fb286e37983c5dd4718"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-042-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-042-v1.png",
+      "sourceSha256": "36377415e67723727ee5a5b96ceb2721fcb57e9ea7ce930a4562170d706384ba",
+      "width": 1672,
+      "height": 940,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-g/gmb-t4-rgn-083-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-083-v1",
+        "sourceSha256": "36377415e67723727ee5a5b96ceb2721fcb57e9ea7ce930a4562170d706384ba"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-043-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-043-v1.png",
+      "sourceSha256": "692335b0da79300915bdd0b13d124cd0cd9af93307f0487bca89faf20492d0c0",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-g/rng-t3-rgn-085-v1.png",
+        "sourceAssetId": "rng-t3-rgn-085-v1",
+        "sourceSha256": "692335b0da79300915bdd0b13d124cd0cd9af93307f0487bca89faf20492d0c0"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-044-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "d",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-d/hym-t4-rgn-044-v2.png",
+      "sourceSha256": "b7fb2603bc5712863ac02314a7785cf8d7bba3bf764e15b38d51daa173f21010",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-044-v1.v2.json",
+        "sha256": "6748bcd066b014dfb7d41cdf71d3baae3c7a6cde4d51573325fec423cc482259",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-044-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-d/hym-t4-rgn-044-v1.png",
+          "sha256": "00dc134c84dbee0f940377ed2992d03f32f9c3d87ad1e753e3aa35ea1414dca7"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-d/hym-t4-rgn-044-v2.txt",
+          "sha256": "965650cd15c2b07369481373488098adf6d7b6c66527f5383fbe7e65ac63f806"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-045-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-045-v1.png",
+      "sourceSha256": "da910eb262d6902a2c1b064a4cdfe1e8c419d50f6268b2f0e21a11782f5ff488",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-g/rng-t3-rgn-089-v1.png",
+        "sourceAssetId": "rng-t3-rgn-089-v1",
+        "sourceSha256": "da910eb262d6902a2c1b064a4cdfe1e8c419d50f6268b2f0e21a11782f5ff488"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-046-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-046-v1.png",
+      "sourceSha256": "44a472deef5cfe6acb55aa8cf81fdf0cf1701ca290bb51b7ad39d52819e0d1a5",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-g/gmb-t4-rgn-091-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-091-v1",
+        "sourceSha256": "44a472deef5cfe6acb55aa8cf81fdf0cf1701ca290bb51b7ad39d52819e0d1a5"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-047-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-047-v1.png",
+      "sourceSha256": "18868dff843df3d4cdbac92dd573e799f9b517429fe03416b4e0d24dccbecbab",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-093-v1.png",
+        "sourceAssetId": "rng-t3-rgn-093-v1",
+        "sourceSha256": "18868dff843df3d4cdbac92dd573e799f9b517429fe03416b4e0d24dccbecbab"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-048-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-048-v1.png",
+      "sourceSha256": "62851c9d8b8c6fc2ff3aef34f6229dd1a351c861fe52e3e829e73e508abad550",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-h/gmb-t4-rgn-095-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-095-v1",
+        "sourceSha256": "62851c9d8b8c6fc2ff3aef34f6229dd1a351c861fe52e3e829e73e508abad550"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-049-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-049-v1.png",
+      "sourceSha256": "db11a1c150b26519a00040998f09a740c3cf3a1c1a8452240fda2677e87d7bf0",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-097-v1.png",
+        "sourceAssetId": "rng-t3-rgn-097-v1",
+        "sourceSha256": "db11a1c150b26519a00040998f09a740c3cf3a1c1a8452240fda2677e87d7bf0"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-050-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-050-v1.png",
+      "sourceSha256": "b86c761802660440db68093673d23311e859fb30b93587094e3a93a9aaca1ab3",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-h/gmb-t4-rgn-099-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-099-v1",
+        "sourceSha256": "b86c761802660440db68093673d23311e859fb30b93587094e3a93a9aaca1ab3"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-051-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-051-v1.png",
+      "sourceSha256": "55fd266b854c29309a61a35b0962a4468fea7f51521f19ffd229bad025070f6c",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-h/rng-t3-rgn-101-v1.png",
+        "sourceAssetId": "rng-t3-rgn-101-v1",
+        "sourceSha256": "55fd266b854c29309a61a35b0962a4468fea7f51521f19ffd229bad025070f6c"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-052-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "d",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-d/hym-t4-rgn-052-v1.png",
+      "sourceSha256": "4f3e2979f8ad638157ee6f770df84e2b47328e19388f38948a76b594170a5992",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-h/gmb-t4-rgn-103-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-103-v1",
+        "sourceSha256": "4f3e2979f8ad638157ee6f770df84e2b47328e19388f38948a76b594170a5992"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-053-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-053-v1.png",
+      "sourceSha256": "3b2952336aaf46057c8c8b1c137c877a3b03eec18e530d9272ac20ae8c046099",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-105-v1.png",
+        "sourceAssetId": "rng-t3-rgn-105-v1",
+        "sourceSha256": "3b2952336aaf46057c8c8b1c137c877a3b03eec18e530d9272ac20ae8c046099"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-054-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-054-v1.png",
+      "sourceSha256": "1cfe62905e5648236a00fd71ab949d3f2a9360afd81aa47ddddf9deea3f76365",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-i/gmb-t4-rgn-107-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-107-v1",
+        "sourceSha256": "1cfe62905e5648236a00fd71ab949d3f2a9360afd81aa47ddddf9deea3f76365"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-055-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-055-v1.png",
+      "sourceSha256": "a71a68163727be53cd4579fd50467c80abf8e9cf73f9fdf47212b9f193d40931",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-109-v1.png",
+        "sourceAssetId": "rng-t3-rgn-109-v1",
+        "sourceSha256": "a71a68163727be53cd4579fd50467c80abf8e9cf73f9fdf47212b9f193d40931"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-056-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-056-v1.png",
+      "sourceSha256": "eea248f60e32360b10471360640b3b42f43b5ef7fbd4a2fde656a7d7e2f6b12c",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-i/gmb-t4-rgn-111-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-111-v1",
+        "sourceSha256": "eea248f60e32360b10471360640b3b42f43b5ef7fbd4a2fde656a7d7e2f6b12c"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-057-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-057-v1.png",
+      "sourceSha256": "5e1afa64c71da63fae6858e0e777b14d6584c4b92758711be709a489526c34f9",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-113-v1.png",
+        "sourceAssetId": "rng-t3-rgn-113-v1",
+        "sourceSha256": "5e1afa64c71da63fae6858e0e777b14d6584c4b92758711be709a489526c34f9"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-058-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-058-v1.png",
+      "sourceSha256": "e48508735c9e03f164086f0ca03df94db980ae04eb0ede7ecd6c7c332e69480d",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-i/gmb-t4-rgn-115-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-115-v1",
+        "sourceSha256": "e48508735c9e03f164086f0ca03df94db980ae04eb0ede7ecd6c7c332e69480d"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-059-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-059-v1.png",
+      "sourceSha256": "f8ee0e376df29b6f722a7ab379a8d4c2dd503e6f56fdb67f3f2d5c531acfe19c",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-i/rng-t3-rgn-117-v1.png",
+        "sourceAssetId": "rng-t3-rgn-117-v1",
+        "sourceSha256": "f8ee0e376df29b6f722a7ab379a8d4c2dd503e6f56fdb67f3f2d5c531acfe19c"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-060-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-060-v1.png",
+      "sourceSha256": "c567c3bfdde09b05b932c745f5fcedab70c4f58825f783b873fd6a96c804a355",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-j/gmb-t4-rgn-119-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-119-v1",
+        "sourceSha256": "c567c3bfdde09b05b932c745f5fcedab70c4f58825f783b873fd6a96c804a355"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-061-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-061-v1.png",
+      "sourceSha256": "5f52c749c735f52ef50548c5f602a63b2807879a49ed186891c2d77ea606ce7f",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-121-v1.png",
+        "sourceAssetId": "rng-t3-rgn-121-v1",
+        "sourceSha256": "5f52c749c735f52ef50548c5f602a63b2807879a49ed186891c2d77ea606ce7f"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-062-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-062-v1.png",
+      "sourceSha256": "d5a9c155acfb9ee50489db9f3181cb3e55f0a38470fc06d0e4cb53bff3424c7b",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-j/gmb-t4-rgn-123-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-123-v1",
+        "sourceSha256": "d5a9c155acfb9ee50489db9f3181cb3e55f0a38470fc06d0e4cb53bff3424c7b"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-063-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-063-v1.png",
+      "sourceSha256": "a3b96dddbda596b0d61d4974dbbc8cd8866e5dec1db01455be924ec2a3807279",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-125-v1.png",
+        "sourceAssetId": "rng-t3-rgn-125-v1",
+        "sourceSha256": "a3b96dddbda596b0d61d4974dbbc8cd8866e5dec1db01455be924ec2a3807279"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-064-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-064-v1.png",
+      "sourceSha256": "d9e78f1e2c667ab86c72b829751f0350384b5d1fce70983589bb339a894f6e35",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "public/images/geonma-template4/regional-originals/lane-j/gmb-t4-rgn-127-v1.png",
+        "sourceAssetId": "gmb-t4-rgn-127-v1",
+        "sourceSha256": "d9e78f1e2c667ab86c72b829751f0350384b5d1fce70983589bb339a894f6e35"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-065-v1",
+      "jobClass": "regional",
+      "sourceClass": "reused",
+      "lane": "e",
+      "sourceRelative": "public/images/honhyeol-template4/regional-originals/lane-e/hym-t4-rgn-065-v1.png",
+      "sourceSha256": "b95645329b16f0e2c60690e59df0ef2c48057e6c7f7a1e7159dc3806d6d5925e",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-j/rng-t3-rgn-129-v1.png",
+        "sourceAssetId": "rng-t3-rgn-129-v1",
+        "sourceSha256": "b95645329b16f0e2c60690e59df0ef2c48057e6c7f7a1e7159dc3806d6d5925e"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-rgn-066-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-066-v2.png",
+      "sourceSha256": "2d62374e52002257536587f1cb0881154a7c7d916ae76704aadd712e520fda6f",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-066-v1.v2.json",
+        "sha256": "4871942a407c0e37c3576b7710a1ebb5273488c84f7ab44ea855d5ff82036f9f",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-066-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-066-v1.png",
+          "sha256": "858cde7d7cba5afa6ec2a75c03d5fddfed1c12fac95f935302c1815ed209be64"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-066-v2.txt",
+          "sha256": "cb993e8a9becd0b3ea9c209f92e2847b965a32c465dbc065b4586e4b306b2ea5"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-067-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-067-v2.png",
+      "sourceSha256": "fcb25bddc74758763b42336460c227586fa5bbd2d8a5c66172f83b7a09ae7243",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-067-v1.v2.json",
+        "sha256": "7244d7249b221dc317db36d767bcf0dbebd9bcdd660782ba2986f8b609d47ba9",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-067-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-067-v1.png",
+          "sha256": "e3963c60c35cb06a3e208e7d0f096cf78bd4f9ab2bf8381f9860bdb3e08d168d"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-067-v2.txt",
+          "sha256": "abda4a1f8b2e4dd6fa134c95e0d2f918e093f6f3c2a0981a36b8399f7702b7d1"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-068-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-068-v2.png",
+      "sourceSha256": "b0b0566fc034abdfc4f85d2518f7e0a2988e13c1c30e7973d806b12b43d9ebec",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-068-v1.v2.json",
+        "sha256": "dd6d9c011d88271b2f3d4994c82e3c6f6bbfdeeaf3f1a672a97936f894a8e5dc",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-068-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-068-v1.png",
+          "sha256": "7bb0d6541b88510be836bbba19480d94b918db7fbf8e45d7ceebaf872b51f6a7"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-068-v2.txt",
+          "sha256": "366be81e9f0e4ba259b01e6269bfda38c831ca0554263d236add20997680a6a8"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-069-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-069-v2.png",
+      "sourceSha256": "5106ec07caa83ba5eca8c0fca15a4886d1bc17beb79d26849faa90131a05d731",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-069-v1.v2.json",
+        "sha256": "a1c99778a2b830720529573c49f343a53f36625804d406a920e2c29b85bcf900",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-069-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-069-v1.png",
+          "sha256": "eabeea59b7d080bd5d1c30c85fa65bf0fdabc228a6fc3d6d8b48fde8ec564f55"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-069-v2.txt",
+          "sha256": "14deea7ef8d096c229fbfc8e2e5b44de8dab80900eb97c28d9e8fac7ea453511"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-070-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-070-v2.png",
+      "sourceSha256": "8d277823258a9b5b0e83ece11a21f5e1d3b77009b494b9b9f46dddc8d03c1e54",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-070-v1.v2.json",
+        "sha256": "9a306a55e4712d2fb830df1c2cf7647359146e3183806bc3b230180882e75268",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-070-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-070-v1.png",
+          "sha256": "fa3b78607ace16a69b886ec45babca6d3b43b8ceadec728ff2844e1b3a29af22"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-070-v2.txt",
+          "sha256": "a67abb43d5209f8825d6309ba35ca8ae9a51daf239edd2b69b8145a462d7eb21"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-071-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-071-v2.png",
+      "sourceSha256": "934ec15977d83409e51b98256ffec67cdcb892a8d50a4944c3c43e7cb2cf1f2e",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-071-v1.v2.json",
+        "sha256": "a57fd63998a80cc0538aed241a4289df2ac769284d135bc8163d780a39b8d8f1",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-071-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-071-v1.png",
+          "sha256": "ed7350e641004a3640633083de005ef5779caca6fb43d939e9ffa812694935f2"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-071-v2.txt",
+          "sha256": "aa29bf76ee14700f76ac9c62e6bd9c6a968b787828c6d36653af385156b4470f"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-072-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-072-v2.png",
+      "sourceSha256": "f074dba234ec4db1a1fd7660a8bcd4957bc926b11945c043465bcaab0bef1471",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-072-v1.v2.json",
+        "sha256": "7f3d5b96392be1ef0a068cf3b1d11db63a6d0f822450408be94e70a05bb612de",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-072-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-072-v1.png",
+          "sha256": "709885da043f130ac48588f9fbe59e2eaca91b4f5f7d84fc29dba4dc9c82e7b2"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-072-v2.txt",
+          "sha256": "a03df829346fb543870e4af665637f54ae8e9bd8c4068df7afb9d0dd17d21e12"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-073-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-073-v2.png",
+      "sourceSha256": "895bc6ee02c69d8058b6e169021f24cd05a160caff66dc671b33c14fb70aea70",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-073-v1.v2.json",
+        "sha256": "2f47f4665a25e2aabbf32118695e7b67a63149866b1c6520f591cacdb92e2c03",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-073-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-073-v1.png",
+          "sha256": "ee003c1cda8400e86ed79c39cb905753c8bcf5f5b5b6f8cbf9898c51d7d81fa7"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-073-v2.txt",
+          "sha256": "a8bf4365d581755b0b335e714a24334b473242af329cc7d9913f538882cde50a"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-074-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-074-v2.png",
+      "sourceSha256": "cc1de9b3766a6e20993a59a81c30aac84d9ae32cc76ade2c38401a335750bf24",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-074-v1.v2.json",
+        "sha256": "342ca0b99374856033cc7e1608612f874d48e84910331174e30c3b3b16026ccc",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-074-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-074-v1.png",
+          "sha256": "a02bb8cb046765c30a30c0d0319515d554d256c5b6a91db14902f080bed3fd2a"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-074-v2.txt",
+          "sha256": "13f3e7ecec0894d46fce99b8b790484216935e22831e12c67e5c4d907a7430c0"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-075-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-075-v2.png",
+      "sourceSha256": "68edb49249caa034bcca892f4a832a63eccea57110e1ac9b149dee03dc093930",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-075-v1.v2.json",
+        "sha256": "49a6e8fe6795a29966273af0aab1002e1711934fffdbe4ff22f6a47060117c51",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-075-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-075-v1.png",
+          "sha256": "055e25032aff3c6bfbbc2216e1683e2921e88056b8306a71633a1b973a1d5a41"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-075-v2.txt",
+          "sha256": "5135b57260a043d9ddc2345c2963422b03af4f0beb783f39551eee61913093a2"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-076-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-076-v2.png",
+      "sourceSha256": "ab4d782c9416da30103eba51e337f86675ac148cced5b7282fcbfb670817f8f4",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-076-v1.v2.json",
+        "sha256": "d0416bea3fc4954d6684d56cd6989da80a8a75ae7c3f3da26e815556c00c096b",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-076-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-076-v1.png",
+          "sha256": "66bd1fee52bf98fb0e65f83335e635b50e06c06f3128e3131e7a08ac5d75f4b9"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-076-v2.txt",
+          "sha256": "f553cb7fe056ec3b26da2aa499bf63ebf55266926e9a5996e749dc89efa15c46"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-077-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-077-v2.png",
+      "sourceSha256": "99f67d3559df54d9a005e9c3e2c1b122885ccc6980238f915c8abed109e8bfe6",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-077-v1.v2.json",
+        "sha256": "5865b6a53e8673f0abda1dab2a9e2ac9bf6723098aa9738534da154baf91bfa0",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-077-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-077-v1.png",
+          "sha256": "62995f0ca87e4a952f0e19161b679e9706fd99115116e6911fce6937d416b70f"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-077-v2.txt",
+          "sha256": "39fe186d1631f9a523f3f013c7294684ce201f837e2987b23b12385ea1c85aaf"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-078-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "f",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-f/hym-t4-rgn-078-v2.png",
+      "sourceSha256": "dfa7991f3634d99ef927af2107384ff244aa611f2ff1dec545ccf5c00b7606c9",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-078-v1.v2.json",
+        "sha256": "6c4c1972970bc35475c6bcfdaf42edea11011ad062361e22178ff014b48e9ea2",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-f/hym-t4-rgn-078-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-f/hym-t4-rgn-078-v1.png",
+          "sha256": "f5c324e37b253bb04c2e7bf9ca49ea407c4b01a8cc68b720011a489cbd9e2151"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-f/hym-t4-rgn-078-v2.txt",
+          "sha256": "f18357fb6a20b9cd1d48cdaf4e445932f245cd26274276a9c0c93d0360562d8c"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-079-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-079-v2.png",
+      "sourceSha256": "b9af85408e5b999b93a5e0cdf2d731335f677122133019e8223fd1e101c6eca0",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-079-v1.v2.json",
+        "sha256": "4428eedddcc9ca31118d8ce7cb7a1ec6bac098bc55e23108061db94551c955ba",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-079-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-079-v1.png",
+          "sha256": "49f6641a001640ef5c6887673f8e20af6b64c6ec5f4a9cb1814c483b613c2acf"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-079-v2.txt",
+          "sha256": "c9083d578e052b33256c564bc8ae0aa939442f77116a50ee6e744d4596b8d367"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-080-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-080-v2.png",
+      "sourceSha256": "62520ca37fd5fe6e5e588927f70fc5c7fbf7df04c601e9fc32b022a65e4fd86b",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-080-v1.v2.json",
+        "sha256": "c5e861dbe77040c5af7156d24777da4788ebe21556eeda1b5109007766f2fcca",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-080-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-080-v1.png",
+          "sha256": "690804b704457bc45bedf73d718d53e6f3f668e7b7c1198dfbea500394fd5423"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-080-v2.txt",
+          "sha256": "b5cbabd12d4a53e44ff1b15ddd42f57d17593cfb853ed853ba5fd6c61bcb452c"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-081-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-081-v2.png",
+      "sourceSha256": "6d0c453d95ba0448e54d8fe88235056ef5fb14e56293e0bca4ac7d1d7d9a421e",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-081-v1.v2.json",
+        "sha256": "d3b26f7fcf3086a712652f7ef00eaae41aece242bf346ea3fd6ec7eb8cd347bd",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-081-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-081-v1.png",
+          "sha256": "1a5e027057f1ff41d1dd946e928f5bd74fe1620f4224d7f25bf20b154cc1efb1"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-081-v2.txt",
+          "sha256": "f5c4f7af9d9c3de243a3a233bb480cb49a425614a8c15c73de71b9148652a27a"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-082-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-082-v2.png",
+      "sourceSha256": "722fdd4ccd0bb374b5e55ab42bba8cee542a7244cf676e358a3488ab3f99343f",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-082-v1.v2.json",
+        "sha256": "164500b261c9aec0cdf66e9dd84bf4693f389b114b66633694ff778abfdf5244",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-082-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-082-v1.png",
+          "sha256": "6a54e45c94aefefe57f976f17546e846e6cb548ef9462b54c4afe6794c8b1207"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-082-v2.txt",
+          "sha256": "a548e5c54f1c009373dad56c57ae0dc5b72866be86bcf3b006d97277ccb06adb"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-083-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-083-v3.png",
+      "sourceSha256": "841f7beb588776e3b309dbd59361162941e4e112546ac9b8ee5ee749b1c359d3",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-083-v1.v2.json",
+        "sha256": "d8f4dcd3b4660365c47add27cd28852831c24bad82c0a2dbe27235bc146e6f56",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-083-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-083-v1.png",
+          "sha256": "11db1d9fb41e3147cc5410baf5ad414ac2195deab5b67774bf78976a00dba07d"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-083-v3.txt",
+          "sha256": "44c4e15717c335a8d5002320973a3a7c3b93f52fafcc5f3bddf39f0844a2606f"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-084-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-084-v2.png",
+      "sourceSha256": "b5e2f3d479e19e5bcfbc022194ddf43ad38b32e4cf89b1892afca9a26d60e246",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-084-v1.v2.json",
+        "sha256": "039c799d6b205c0a70091fe505b8fd575472999d54335beaddc95cfaade8e844",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-084-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-084-v1.png",
+          "sha256": "97c9f1b5818242b99883a45aaf881a881c8a796a45ed769511b9cab5723ae7b4"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-084-v2.txt",
+          "sha256": "a4c76d77f025299fc4611845879491ab2500fd4102d2661f52c858f1d307f99d"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-085-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-085-v3.png",
+      "sourceSha256": "460d2e510b4f1910f4cea33f2cc8482a9388cd9d01adee26f67980974cd416d8",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-085-v1.v2.json",
+        "sha256": "da917138c9d0f7de608f0904780587a31adff0536388cf6e4cd672d0af7c631e",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-085-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-085-v1.png",
+          "sha256": "06edfb1c77f7ef15fad94b0d4d8eb0b898527986e116dcd48a39851cbcf12f56"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-085-v3.txt",
+          "sha256": "3d5c2ff3efbd995d7409cb8cba9009f3ef63bc787d13766fc07e80f84b295cf8"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-086-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-086-v2.png",
+      "sourceSha256": "04211232aee5c9cd33d2e420e665cdc6c136e09083d19f54c977bd7510939cbf",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-086-v1.v2.json",
+        "sha256": "def5f0cf25c11e9fddaf617951d5e09e7e23f37700e7ebdaa7147a9b8b30e55c",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-086-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-086-v1.png",
+          "sha256": "1a0f659caff2c79069b6fdcf0d1460b99571c5d7ad8accc046ba599d73a955c3"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-086-v2.txt",
+          "sha256": "50e42b4d2ccc549042e2ca64e50ce26f11235dc6f1266c7d45d6a5765992f1d9"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-087-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-087-v2.png",
+      "sourceSha256": "c777c76ac42e42ae6a806ed411e73f3504131756f16f9c7cc18144bcd9245d03",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-087-v1.v2.json",
+        "sha256": "838949c12f14f87057249348feb01af6dcd0c24a818db6fa9ac48bf27aa35500",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-087-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-087-v1.png",
+          "sha256": "bb7df7a0dff621938b8d3da9092a74d88ee1e76e872c2b19afc5ad1ed7490c0a"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-087-v2.txt",
+          "sha256": "75eb601f2640309e2b8599ef0cec2a721c4a8444b83ca06f69142432c6f14a19"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-088-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-088-v2.png",
+      "sourceSha256": "1b84c66d88608a712a9ba7a7d33c51c3db32dcb89b6d54db474fcbee411a2f0b",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-088-v1.v2.json",
+        "sha256": "6689b3b67945968ebdd26d3bd40f093566a4ae6a989f02f6787613ba63b7acf1",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-088-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-088-v1.png",
+          "sha256": "de45b04fa2731d8f75f55886dd0020793b1034c6ee4e3ddad307517bfaa893a5"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-088-v2.txt",
+          "sha256": "24a96a4ad6ad4b6ef3a7c6401d3614d6e23c14a6b773854596e1dd4c778c9316"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-089-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-089-v2.png",
+      "sourceSha256": "2093ef3f19dc8305c7426cd123c7b4c5b86a6839cb787483ef998f19bbbf0ff9",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-089-v1.v2.json",
+        "sha256": "0d3daa62102a753c89d371b80cec73854db8ba8b9736bf1fdab40a770505cd0c",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-089-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-089-v1.png",
+          "sha256": "2ef45fef45fb0fb2fb229e9fed8205384302a9d94317adbe52ee5a4c34962952"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-089-v2.txt",
+          "sha256": "931c03224d8a7774ce3395b6daa0709f791e590256d8efffd0a99b6e23b518d6"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-090-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-090-v2.png",
+      "sourceSha256": "07c27ecfbb563c03f46b839a6ed0fc8e2ef16226ed3cf293281b3da77c039186",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-090-v1.v2.json",
+        "sha256": "2ed232eb845dca0a32158ee01db4afdda49315c98188c87ffbbeb39c586856cb",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-090-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-090-v1.png",
+          "sha256": "1eb1b077eadc03ee4dac6585c8c8ac5fd9e32d546ec2aa96aabf5995d0c6fe96"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-090-v2.txt",
+          "sha256": "6fd1e28c3ca02646e197ee5a5d8ee50eb73e62b3566c0c2a01b9c8a3017e58e8"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-091-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "g",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-g/hym-t4-rgn-091-v2.png",
+      "sourceSha256": "ecd17f20b98bfa130a620af17f533d88e27165ed45b43cdb1e4fb77fd84d7c89",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-091-v1.v2.json",
+        "sha256": "2deed3b751785c5d07eb31db912d2f652741646adcd5fdd2b02152dba1625f46",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-g/hym-t4-rgn-091-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-g/hym-t4-rgn-091-v1.png",
+          "sha256": "8d999b75a10b6405b94804340b43c03ab50b8f18124bcb51d4313d45c52598f5"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-g/hym-t4-rgn-091-v2.txt",
+          "sha256": "0a2d9d5e2a6b09764bc1ca36b7808ae11d0496a5c1be5626023e8fa48bd18173"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-092-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-092-v2.png",
+      "sourceSha256": "c1678a3086ead833b10e47ecfc3b81c6612d9a93856a38d79ef811e58a9a7252",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-092-v1.v2.json",
+        "sha256": "1b73e7e40b6b4bb0fc670627898dd04751b4344b8f81c58c60e113586fff1757",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-092-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-092-v1.png",
+          "sha256": "497474c64ec2cc6af88fe531630dae45e8e180a0def000586b49842903010519"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-092-v2.txt",
+          "sha256": "16fbdda5517748c442749ea6f6e0bf492c4f39670ef47cf1c9d2938fcb242527"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-093-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-093-v2.png",
+      "sourceSha256": "99afa665f87a3935ff13504dcd8efc0a0f5d77fbfaa3ba89c97e5979505c8a32",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-093-v1.v2.json",
+        "sha256": "51ca305b21be2a499dbfba5fb233d2cb110a3b6aa095a5fad1a30b6386be9cc7",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-093-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-093-v1.png",
+          "sha256": "d7fae002bc4dfefc80d6b8796d7ba4ca55a43859d6852fba4f5643a8637d432a"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-093-v2.txt",
+          "sha256": "8b9860887c30fb69240807d98069a3590faa343bbfa5421cc55a29925b75bdd6"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-094-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-094-v2.png",
+      "sourceSha256": "e904806065b247fe294f756681ceb1f238a3efaaeedd07591b661c7fcaa5b7ba",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-094-v1.v2.json",
+        "sha256": "7ca14217a1c3c0a29e2c153b65a201c2eab1a266e3817f9304095fdb5cdab9ed",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-094-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-094-v1.png",
+          "sha256": "1822dc91b2ec0e3939aca973f03895e79f665d0f0aef07af8f862392b0f1b5e8"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-094-v2.txt",
+          "sha256": "a9ab26a490fa926a1642b2320be4bd2f6d64fb5d6c277a77a8a28a6f295d42f8"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-095-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-095-v2.png",
+      "sourceSha256": "c199cd441d879f570b1601adfe9db66ca0742b1d6f3d4828984c24b6277728bc",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-095-v1.v2.json",
+        "sha256": "630d664496dce646ebfa501f3b3fa72acd3e6f92757cfb0773629ee288188b37",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-095-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-095-v1.png",
+          "sha256": "624da4b672aefc9de924a7784aefc7f3d227ecd851ee83978756a3b53973fc94"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-095-v2.txt",
+          "sha256": "37a05e67b995ef07bd831fd973ed38f49f887dfd26a85c7e18576b6195489890"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-096-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-096-v2.png",
+      "sourceSha256": "e6c97132a2ce6b4eda88602c83dcac7b170c0a3aa6ffa381eff4f9465e396573",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-096-v1.v2.json",
+        "sha256": "995a21d429352b36bed551e6cdae00786d8213e76dedd351a5ddfad42b231349",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-096-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-096-v1.png",
+          "sha256": "f4f52803e4954e6650088827b3e66cc151396ba72dcb38bb10068243de9f5f3a"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-096-v2.txt",
+          "sha256": "339859b598c0eaba6ca8a890fa66646b7d8797db7c0b8e61c2f140cfc1451d48"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-097-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-097-v2.png",
+      "sourceSha256": "50dec7cc0e21da7f365112a5259324cdddcfbf97ae99ee2c138414b443e62214",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-097-v1.v2.json",
+        "sha256": "0af181d818c0aef1a2ff2b0b28ddabbbf2686f21968a6df541c13e58b8d22d45",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-097-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-097-v1.png",
+          "sha256": "a5e691366ca54435147973074857534a2bb7121ab2629b230a37e7293ac7f828"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-097-v2.txt",
+          "sha256": "124c67f0bd41684a45ce401138b56e428dbf6c0f7f8583d4b21ff6025ff60c04"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-098-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-098-v2.png",
+      "sourceSha256": "f5a0e44988fdf6d82e298ba4e9f990812a2d5d237d5ee6362150650f03350624",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-098-v1.v2.json",
+        "sha256": "f9ae24fb4a12cb063849aa493c1958f85482e578e281ac2da78702e826b4e03e",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-098-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-098-v1.png",
+          "sha256": "ca8260957509c05c4f6757c41f7964afd3b3ec604b4c5c4168f16839ac851de0"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-098-v2.txt",
+          "sha256": "9b528218fba72f52d1506a917ef0f711290167c4f4ef103d4d546f5703fba844"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-099-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-099-v2.png",
+      "sourceSha256": "8ebf1a139dbb7a50b0d8997df77909625fa4134c16b9c48c7f25ae343ce49220",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-099-v1.v2.json",
+        "sha256": "f63f034fd4fbe7c2128fe43835fc2d0cb60faa68314b56592af6ed6a16e25daf",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-099-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-099-v1.png",
+          "sha256": "bdfeb7408c13ca9bd728c2ca5911364c53ef2ee6c7aaa87cbcbe2c490eeb0222"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-099-v2.txt",
+          "sha256": "d3556e35e099532e5e2a029b9075cdd0ef1c7449502b32bfb28268292e24289e"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-100-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-100-v2.png",
+      "sourceSha256": "f74cf9a72b6d7204bf7cadd5ab74018b77ef1447cfe90142ac6c01fdbabb38ca",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-100-v1.v2.json",
+        "sha256": "a5fd9d2f7410e46ea83dbadcfc981222519b71d4991cd5b49ba9a0c982e64457",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-100-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-100-v1.png",
+          "sha256": "10c182718cf02bc7c1f0c709619589a9d5d5fdfd3b76dd621d83e4b0f98490af"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-100-v2.txt",
+          "sha256": "90fc18438b2781f0b6c74448d6a1a420e98183977a4eafc916e3fea46b24b8dc"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-101-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-101-v2.png",
+      "sourceSha256": "c42ca5bb6d506e3f8cd61075d1b768c3d60b3649579c46602183534411130565",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-101-v1.v2.json",
+        "sha256": "dd2aac13a8fb932cae006ca0e4b693a85c14d7ad9d5a45b51186cf33e9a57607",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-101-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-101-v1.png",
+          "sha256": "2365d7b2a8590d7368d92e7d65e056afe622680bd524ceb8018e38872d43eb25"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-101-v2.txt",
+          "sha256": "9a7f6cc3ff714510e8b0735a6aa93356a314359a8d039fbe4ebaaa8d5cd448be"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-102-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-102-v2.png",
+      "sourceSha256": "aa77ba285160ace5cdd54e19eaa25f006c8ce5175e54b465e6764e78a67fff20",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-102-v1.v2.json",
+        "sha256": "7a726546403b7d7d3c89b1db25ef13402e2ee01a31f86c2b7c64ebef7008faab",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-102-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-102-v1.png",
+          "sha256": "8198ec0a498fa54c35ee924187942facf26ec311c75e8118bd8e5460d7e9cac1"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-102-v2.txt",
+          "sha256": "2379bb421844a9e8fc4c9a91c3450c20f8fe903e5a3b394c5027c9bb34f4dcb5"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-103-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-103-v2.png",
+      "sourceSha256": "8470dc8a7d877fadc400c6d3e1489f2c75e59ce5cac8492bd516a50226c1b9c2",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-103-v1.v2.json",
+        "sha256": "e4d85306f6afe150421488fb1c5f123dbedd1ca8b58ca62eb3b5fc74089c34d5",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-103-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-103-v1.png",
+          "sha256": "1d3426c8dd63b9bdea8c72df2df14e8415ca90c76752bfa88e7ae9b01300d746"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-103-v2.txt",
+          "sha256": "2d9d5e5546b7f340943f4ef90e4df642df9785650a0d60c6f79ddec054664e19"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-104-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "h",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-h/hym-t4-rgn-104-v2.png",
+      "sourceSha256": "59bd87817ae82222393046b7b4ce1f53d8626257fd9e6ca18e06a3e6f22b5d6a",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-104-v1.v2.json",
+        "sha256": "187f1f518ecd57743f267d4bff14cb5d41c8e4135e923975828406d9600a569c",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-h/hym-t4-rgn-104-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-h/hym-t4-rgn-104-v1.png",
+          "sha256": "f78f2b708856451b1ec6c0253fbe4d008cc761d97a9f20c7319b0f9bffd69785"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-h/hym-t4-rgn-104-v2.txt",
+          "sha256": "b3a4ec0992657d7c87aa22972576fc11bc969698afc4114b784109cc72f30e93"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-105-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-105-v2.png",
+      "sourceSha256": "ccf59150bc747b9519e3e3db29e05085d93476cdcb9f97d1353dffa44d2c5542",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-105-v1.v2.json",
+        "sha256": "26f22b203c384bdc2a5b95a8bfd36b3415bb0775db7cc0fa4d1f6de124d3e993",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-105-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-105-v1.png",
+          "sha256": "8b9c7926485a2b7091128c671f4a90f19d143c46533e1845468f035844e88ec1"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-105-v2.txt",
+          "sha256": "af0be3a3834b155d268138f37681673a1b4abbfa1a6dd024a3e3b02f4b44f4bf"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-106-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-106-v2.png",
+      "sourceSha256": "a9f75baf649866a577f335393f82d2b438dc2fd2c8ee87258a85642ec78e897c",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-106-v1.v2.json",
+        "sha256": "67c6c535bf41aaa4ebfcc82269447ccc06d5edebeb3566f24bb54c3af5a30c2c",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-106-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-106-v1.png",
+          "sha256": "495c2b0ce82f4f76c8412d904532670bca3a6136ceb6e3cf77fa3cb9e62ecba3"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-106-v2.txt",
+          "sha256": "de319f4448b00d87c23f07eaa2e5b57242853acf5c87cdd46d8a7feb29a2cc97"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-107-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-107-v2.png",
+      "sourceSha256": "210024f80d62dd7dc9aaf0babe5da887a68f6e9d156ccffff9da5fe1639cc20b",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-107-v1.v2.json",
+        "sha256": "b84507036f965c6fbeff694c01ac61ab25ad110b736b7ba758d909e644d21b2d",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-107-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-107-v1.png",
+          "sha256": "d3882d48b2a23403ee97d0a2efc5318363bbcaef7fb0e5da99d5396d88815f06"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-107-v2.txt",
+          "sha256": "f9da95c5129318123c26e42e6e0d8db005e16bd95b08c18dde1742ab00501df1"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-108-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-108-v2.png",
+      "sourceSha256": "c8e45409bb91b92baec011899cbcfdc74fbee676d7d13248fda07d1aee6675be",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-108-v1.v2.json",
+        "sha256": "a2175f2c4c4f6cb913ff263e42c9598c74a13e76f919aa22e1e9f673d37293b7",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-108-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-108-v1.png",
+          "sha256": "eae93e8a0c7a3061fe22f29340e3382f84ffac669fff1a74d6d56fd7a55fb582"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-108-v2.txt",
+          "sha256": "20dfde1f44c2379081242c29fcff340292525ce718d4c12e16b536c82797471b"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-109-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-109-v2.png",
+      "sourceSha256": "93b219caf0a608b8b78a71611c402233c511edcff3d875ef63bd2d9c4bcc3a60",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-109-v1.v2.json",
+        "sha256": "2931b2ea1885c8895f7750879203869bf5fb1a67fb393fd48e4cec453f00c4da",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-109-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-109-v1.png",
+          "sha256": "0e35dc10559f19d7179432829b6820f7d41c3e3256b5bb47c14e14397e08a4b1"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-109-v2.txt",
+          "sha256": "0f9e30811227341ca001bf59ef1dc39a9c7b92e8688ad8c66cba8027902c6038"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-110-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-110-v2.png",
+      "sourceSha256": "7807f0543582bb1fcc8681906514955d15f9022184f631b013d63bca511e7d68",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-110-v1.v2.json",
+        "sha256": "710e613670714a6e8687a8f250b5dc0cc9a68b1e7e48c5d6d7ced99d27d89b40",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-110-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-110-v1.png",
+          "sha256": "c231b4a507040f64c80565479b8104165eda85459417db8d4ad5c106c4910c53"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-110-v2.txt",
+          "sha256": "758336de584854b11ff08a417d954d883be697b866325e8fd284c352e51732d4"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-111-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-111-v2.png",
+      "sourceSha256": "6be545fc2a650c06e1d7f8f2ab3cf7a3f768e486be0437ede1a293989082d9bb",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-111-v1.v2.json",
+        "sha256": "653090aad30e83552d1ffce3b110252e0e3a803ec8b34e8f029f0184877d8ff6",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-111-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-111-v1.png",
+          "sha256": "d09ec3ef8cd24b6ab28135410bd034ad557ce4801198a5709e75ea94c0280409"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-111-v2.txt",
+          "sha256": "00a3e58c00d0e3712680f0a400fbad8fc2541f987c81c393dbb4003a0b3dad89"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-112-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-112-v2.png",
+      "sourceSha256": "b438a19511917ca8425dd65427ae8b64299de3a465755f9349c7a053bd39d30a",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-112-v1.v2.json",
+        "sha256": "2a7557e0bfc3154c5d6e7c957f9a551ef716837047d69ce124f85ef8d158f9d3",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-112-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-112-v1.png",
+          "sha256": "3095ea9d1c65ab342f5d84f164c1b8ea302c1dbfa1375e646af3a67615fc33ac"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-112-v2.txt",
+          "sha256": "e37c2e1f2ce7e85422d50bc99b3e71bb2bfe7a57c9fffd6e8298a6031097f1d4"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-113-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-113-v2.png",
+      "sourceSha256": "66e3bcc76fbc683db43abfe5254287c17f94637562ce5bfa44f9c640bac2074f",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-113-v1.v2.json",
+        "sha256": "482cae846e6c68f1569c35714c154267c31bb3b2c3a444faf917753bc6d1ff5e",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-113-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-113-v1.png",
+          "sha256": "179f8641111f61b9edc4a71b8d0a045d7e7f986fbe99c602a4e245df9bf747c7"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-113-v2.txt",
+          "sha256": "69c7dc30b7aea737c874a43ce71083f5b6c3d357e8ce6c99d39b649520b172f8"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-114-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-114-v2.png",
+      "sourceSha256": "b8d675af1a12e43570991a2314e53a939a5390434fbb92b8950a2e5706a9497f",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-114-v1.v2.json",
+        "sha256": "06b3d272fa3accc1199cda4deed0d8ffeaf2abc14e0016ee7c7d6f8012c2c12f",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-114-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-114-v1.png",
+          "sha256": "b2cc9340d1ebee55de456791e7205664e4b73feb14197e92b8e72ebbc66da11b"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-114-v2.txt",
+          "sha256": "8fb5c6b08d3970bfec56910a6e884abce6d4a2e4c85aa9a05731ad4edfc768c9"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-115-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-115-v2.png",
+      "sourceSha256": "adbfadfb7c771c9eb5e6833941315b1cf36865ae40aeabd1a426d3d12ed60900",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-115-v1.v2.json",
+        "sha256": "d3a227816d42384364a01638aa5e720b462e0de2ac89cd463a4eabe06609748d",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-115-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-115-v1.png",
+          "sha256": "f8bf2bdc65cae44fa5673174a8119ebcea1cf566c49b3f4b8430b1977a0f79b8"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-115-v2.txt",
+          "sha256": "d73ee57b4e58d5a82a3b7e8cab1b8c33dd4d27de4c5cbbd9c68a5d69d6010e6b"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-116-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-116-v2.png",
+      "sourceSha256": "ad1db6536c8da9d6ea1448f6e6fc1e7917635b926dfc57401e7676ec2d3dd857",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-116-v1.v2.json",
+        "sha256": "1453ebeedbbb047096bbacc5308bf447dcf9244a5840b5fa35e7a66a36083cf2",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-116-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-116-v1.png",
+          "sha256": "65b6e736f3f9dc1d386a645206529cda75b57fb667d8ccdbefd0cd1ca4586b27"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-116-v2.txt",
+          "sha256": "f0f557cd435535188b9dbba99e4fd170bce41d01fd292b52eec42536dbe0ad69"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-117-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "i",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-i/hym-t4-rgn-117-v2.png",
+      "sourceSha256": "7a7c2c28cf07c8027037b800aa148b9b6119ea281011de9df2e8caf06ceca2f1",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-117-v1.v2.json",
+        "sha256": "3530640cd160c6452c97ce5bd21859ded51648f0ae6ed2a8c6328233d2ebfdcc",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-i/hym-t4-rgn-117-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-i/hym-t4-rgn-117-v1.png",
+          "sha256": "919a9df1145eccdb4577eb6b21f6d91be9b10a9c39867b9da124aeab0b99152e"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-i/hym-t4-rgn-117-v2.txt",
+          "sha256": "9e96a05f831baf4785a77f5db5bbdb791b4252546713fda5aa73f6f84c80dc37"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-118-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-118-v2.png",
+      "sourceSha256": "2d631f165927aeb66e23db144899356a0ecc7441bf1d9e05c29af3c44634d5be",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-118-v1.v2.json",
+        "sha256": "76b9e964116483284b39aadaa514756bc56d1c1b7f621c7a9c693874a7356851",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-118-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-118-v1.png",
+          "sha256": "83031facf463b1575456a66dcd34c1316ae00aedc4e2ddcbb9b5bdfb3c4c0a55"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-118-v2.txt",
+          "sha256": "4f8cfd1dfa7bac88f50339201bc52e75aaaf363bab5fd5998bc870cef28a683b"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-119-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-119-v2.png",
+      "sourceSha256": "bf21d1063a55e439abe36b493db825d4cef96a6e2218197e322642be12991370",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-119-v1.v2.json",
+        "sha256": "ecb5f9b06918e52ac1f69debef9a23c431913fc9c1512e91a6633691fe31f889",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-119-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-119-v1.png",
+          "sha256": "2e6e669d886f827257ff00966bc93573be7cc4754a62fd44eee8a3ea1b9eeb01"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-119-v2.txt",
+          "sha256": "78073c451384c9f5237d833b36237e4593d1549bcea45e71e7810fab2c3d4c6d"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-120-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-120-v2.png",
+      "sourceSha256": "305e10da36107c182ec986edecced9abd65ef2e4087ac7daa189466474195faf",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-120-v1.v2.json",
+        "sha256": "876a936c3cd7123758c8a240ad277ff4d303a9e06649181a2ec6ad0b783e041e",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-120-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-120-v1.png",
+          "sha256": "dd80f4fecf15363281b2ae19622cc661db4cb7dc12131ab8f74e0e29d6cb5ba3"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-120-v2.txt",
+          "sha256": "9b016dce873692ff45952dfe149bec05f84a13039f871735e54c82aa1e5d5917"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-121-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-121-v2.png",
+      "sourceSha256": "926225473aee042b0c1ec20062e362a80593dea8a9d7eeefa2c9645544e25a40",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-121-v1.v2.json",
+        "sha256": "ff06d413bf4cdd669c466d6048a5dd388abdec41704f69eb53dff550d6a93c69",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-121-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-121-v1.png",
+          "sha256": "9df187bc1be82cefd253e711b3bffbc256a5d4e4d9f7ec9f3c547f2bda15879f"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-121-v2.txt",
+          "sha256": "ac5590efdb90722d3bd657718be27a6e28a2068f696b6548a51c5e236fdc6819"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-122-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-122-v2.png",
+      "sourceSha256": "4f5816989973a90bbd82b8f646c9ba9ec87b74fc01871438d0c4e30dca7f1294",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-122-v1.v2.json",
+        "sha256": "03d98208754f2046d2954684b98e73d22dbde08ee8b001dfdf257a48a353a917",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-122-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-122-v1.png",
+          "sha256": "f3e432f3ee7a10a4f1efbc3a396de318308d2efee7153490790c3688b02e3126"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-122-v2.txt",
+          "sha256": "d43481812efca9737c7a56d18cacedafe76828796b37c52d38d069dc6d3da7f8"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-123-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-123-v2.png",
+      "sourceSha256": "45d9a4830798556bc9f94aa4e20d453ca0935d876b911a753b22b69a4d8f1676",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-123-v1.v2.json",
+        "sha256": "557a75046378a8129fab7aa33ff6f7adaf46718737a057e0c1a7c6d5e217cdd3",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-123-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-123-v1.png",
+          "sha256": "e8e814b1da95142f68b3256d6322e95d1b010de131dddc337536008ce9d2520b"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-123-v2.txt",
+          "sha256": "d18fd404a4ecd9866fb15f2713238ecb67ac505bbc98a8756374ec5941047c26"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-124-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-124-v2.png",
+      "sourceSha256": "8c50c15667cad31b7820bbb45d62461d53f02d706ce19407284a1b2da4d0ebb0",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-124-v1.v2.json",
+        "sha256": "78c71e45d34393fc79552f0a69a6ffa0435042087ec5d23df11f4345bd6428f4",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-124-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-124-v1.png",
+          "sha256": "cf74731532bbd8685de73c031981ab31f860155c0e97ed2349670f317c23cfb1"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-124-v2.txt",
+          "sha256": "e48cf22a0a2ccc16808e40f5e949b06505e54ca69a911899490e031edfe83f48"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-125-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-125-v2.png",
+      "sourceSha256": "2ed7553a0168a4371063dcb74d7a1ed07f189cc392b6059a38786c50a9b63473",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-125-v1.v2.json",
+        "sha256": "51a9164361496c0fe921344e3fc9a1eddeeea08fd64a23e41268271f83abbdad",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-125-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-125-v1.png",
+          "sha256": "4c777cd2ff6e3954c66ad70ad09cd948285e815b7da3b0d90117c932af233cd4"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-125-v2.txt",
+          "sha256": "1b9fb4ee5966e908dc9cf94d82c14de27880a475542e13cc178db42193d1cb70"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-126-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-126-v2.png",
+      "sourceSha256": "f7babd26dff4fcc237e3582564afb90d87f08c15c81c6668a76338a863e7d21b",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-126-v1.v2.json",
+        "sha256": "3a3a34341e7425f91b11e340c14f5c08547d2d33c4b8386fcaba940938a80b4e",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-126-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-126-v1.png",
+          "sha256": "51983627bf38b06bbb6bf9507b55ef26a17577c4a949d6719e045c0fc10a5b63"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-126-v2.txt",
+          "sha256": "dea6297b23d304d0d1bae1f1b39b9c1e7b6bd40286816f08a42be23be2b02fc9"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-127-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-127-v2.png",
+      "sourceSha256": "cde2c482d607cd32015c35cc18ee47913bccb21707d7f9331ddeebc6d43681b3",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-127-v1.v2.json",
+        "sha256": "d1b0908ee3ab4eb2aaa57183fc8727c3ae5640a2cd260fac67fe32763e15006d",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-127-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-127-v1.png",
+          "sha256": "2a9824a78e3d8633f71af6e8c3a11e9f8897328f4c256e2cbf264ee88650f3a9"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-127-v2.txt",
+          "sha256": "0703515ad5fa3a81417b206f5b75de0728afb01470ee19c28e85c340feccc53d"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-128-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-128-v2.png",
+      "sourceSha256": "50c4161f75b313e78c4aec83f2859ab54841b2b5b74f0f8102a06fa9b3d85b3b",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-128-v1.v2.json",
+        "sha256": "ba25b4f4912b12490af0d2485965949650a9b2943ee493c51156dfe8345f6c8e",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-128-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-128-v1.png",
+          "sha256": "a75d05f862382793b31d32a7c6a685cc450fac97e21b8732afebabf5659b3df8"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-128-v2.txt",
+          "sha256": "3ce6fc742ad104d02a2c019c52b864dd042a275d91090b6a835bbbe82b5d8cbf"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-129-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-129-v2.png",
+      "sourceSha256": "49d5ae8df4895bb86b7af8a6535ffe487d5e233f599c22f9a6bb14ed6e9fe5e8",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-129-v1.v2.json",
+        "sha256": "0c3f1a66e6a998643558de2df7997ad23353f69932019c1595f64cd6fc6f41b3",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-129-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-129-v1.png",
+          "sha256": "c6c777fc116f7f21b77fcc6bf4222872005ec6e2e1e2453692d923fe75e81683"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-129-v2.txt",
+          "sha256": "d14db72985ad1d0d5e8a5e80adefd8ba6a8454f7d52eb4cc8cbd3e9619d8eab4"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-rgn-130-v1",
+      "jobClass": "regional",
+      "sourceClass": "replacement-new",
+      "lane": "j",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/generated/lane-j/hym-t4-rgn-130-v2.png",
+      "sourceSha256": "da1fff64da0478b340ac736b0604587eeba2835b2aa8e7e43c397a561eb91b15",
+      "width": 1672,
+      "height": 941,
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/verified-receipts/hym-t4-rgn-130-v1.v2.json",
+        "sha256": "fe73512d82a78c59eabbc1856d927df5d47ca0fa720f95506f1cc215096816f0",
+        "replaces": {
+          "campaign": {
+            "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/campaign.v1.json",
+            "sha256": "d582465b23f46f058981efca730a49b117af31ffe190d8f2323a82d54e3a9f83"
+          },
+          "relativePath": "public/images/honhyeol-template4/regional-originals/lane-j/hym-t4-rgn-130-v1.png",
+          "archiveRelativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/archived-originals/lane-j/hym-t4-rgn-130-v1.png",
+          "sha256": "c92d473c23b9c83c62212b56bb00976f40558eab34b38d4121a7b6e46a9b42be"
+        },
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/replacements/korean-art-direction-v2/prompts/lane-j/hym-t4-rgn-130-v2.txt",
+          "sha256": "3b29801ac72dfcbc296b7e349dd8959a0c10c03366f654e7cbd9c01456cadd56"
+        }
+      },
+      "styling": "adult-korean-fashion-editorial-fitted-non-explicit"
+    },
+    {
+      "assetId": "hym-t4-home-hero-v1",
+      "jobClass": "editorial",
+      "sourceClass": "reused",
+      "slot": "home.hero",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-home-hero-v1.png",
+      "sourceSha256": "d73de4f04ad23bb998e7e998762266cb18ef312ded317d10fc7512ba73702180",
+      "width": 1672,
+      "height": 941,
+      "activeOutput": "public/images/honhyeol-template4/home/hero-mirror.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/feeling-template3/home/feeling-t3-home-mirror-v1.png",
+        "sourceSha256": "d73de4f04ad23bb998e7e998762266cb18ef312ded317d10fc7512ba73702180"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-feature-01-v1",
+      "jobClass": "editorial",
+      "sourceClass": "reused",
+      "slot": "home.feature-01",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-feature-01-v1.png",
+      "sourceSha256": "6cd9072414811ebdfe69bbc17ec39315706f3d2120ea1b9281fdbef0045dba6e",
+      "width": 1448,
+      "height": 1086,
+      "activeOutput": "public/images/honhyeol-template4/home/feature-01.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "artifacts/image-campaign/geonma-template4-mirror-selfie-v1/generated-originals/nonregional/gmb-t4-feature-01-v1.png",
+        "sourceSha256": "6cd9072414811ebdfe69bbc17ec39315706f3d2120ea1b9281fdbef0045dba6e"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-feature-02-v1",
+      "jobClass": "editorial",
+      "sourceClass": "new",
+      "slot": "home.feature-02",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-feature-02-v1.png",
+      "sourceSha256": "d5ee88167bf614409eaa750e546991c80185712dcea71be0630e4ada935d00f4",
+      "width": 1448,
+      "height": 1086,
+      "activeOutput": "public/images/honhyeol-template4/home/feature-02.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/receipts/generated/hym-t4-feature-02-v1.json",
+        "sha256": "909bff5e970dbdcd2bcc0ef5ca62868e9263abab00a58215bdf66c58cbd84598",
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/prompts/editorial/hym-t4-feature-02-v1.txt",
+          "sha256": "e889219c4df7d04bca3401e6b9f79fb7e3caae9b555c8b9735c94d141979e767"
+        }
+      },
+      "styling": "restrained-everyday-fashion"
+    },
+    {
+      "assetId": "hym-t4-feature-03-v1",
+      "jobClass": "editorial",
+      "sourceClass": "reused",
+      "slot": "home.feature-03",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-feature-03-v1.png",
+      "sourceSha256": "17fc95223bcb6077c0b3323b0540062e42caeeb8f5db59e77c4a477369acadf1",
+      "width": 1448,
+      "height": 1086,
+      "activeOutput": "public/images/honhyeol-template4/home/feature-03.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "artifacts/image-campaign/geonma-template4-mirror-selfie-v1/generated-originals/nonregional/gmb-t4-feature-03-v1.png",
+        "sourceSha256": "17fc95223bcb6077c0b3323b0540062e42caeeb8f5db59e77c4a477369acadf1"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-feature-04-v1",
+      "jobClass": "editorial",
+      "sourceClass": "new",
+      "slot": "home.feature-04",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-feature-04-v1.png",
+      "sourceSha256": "a425341608a2b482bf857706f9a534b78ae2bf87ce24006642b0cb6a9241b197",
+      "width": 1448,
+      "height": 1086,
+      "activeOutput": "public/images/honhyeol-template4/home/feature-04.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/receipts/generated/hym-t4-feature-04-v1.json",
+        "sha256": "f8fd061bed074d3c213f18bece25483f7496d9c8adf9a78f750d669c7fc8ade9",
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/prompts/editorial/hym-t4-feature-04-v1.txt",
+          "sha256": "4b12aa7e124364e4fa50a9f0bac096647f494f318205235c5fedfea797d5ea22"
+        }
+      },
+      "styling": "restrained-everyday-fashion"
+    },
+    {
+      "assetId": "hym-t4-feature-05-v1",
+      "jobClass": "editorial",
+      "sourceClass": "reused",
+      "slot": "home.feature-05",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-feature-05-v1.png",
+      "sourceSha256": "744f77b5106ed16064bcd7934bd79d999ce658e899c92c071793a7567f57b82a",
+      "width": 1448,
+      "height": 1086,
+      "activeOutput": "public/images/honhyeol-template4/home/feature-05.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "artifacts/image-campaign/geonma-template4-mirror-selfie-v1/generated-originals/nonregional/gmb-t4-feature-05-v1.png",
+        "sourceSha256": "744f77b5106ed16064bcd7934bd79d999ce658e899c92c071793a7567f57b82a"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-feature-06-v1",
+      "jobClass": "editorial",
+      "sourceClass": "new",
+      "slot": "home.feature-06",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-feature-06-v1.png",
+      "sourceSha256": "f15c67e47adaae704a887d64cf75decd0bc2fb5d68371c0e8570e20e4a6b46d9",
+      "width": 1448,
+      "height": 1086,
+      "activeOutput": "public/images/honhyeol-template4/home/feature-06.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/receipts/generated/hym-t4-feature-06-v1.json",
+        "sha256": "36cee36f7a8379b1406e6f3078a67aee7c0c7b1fb7c3edf630dde5fe254b08af",
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/prompts/editorial/hym-t4-feature-06-v1.txt",
+          "sha256": "b84622d61dcaffe8a7db77de838ae75004a2dad9dcd1fc33731f2a3773d62be9"
+        }
+      },
+      "styling": "restrained-everyday-fashion"
+    },
+    {
+      "assetId": "hym-t4-feature-07-v1",
+      "jobClass": "editorial",
+      "sourceClass": "new",
+      "slot": "home.feature-07",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-feature-07-v1.png",
+      "sourceSha256": "72958d1fc526daff9f6e305dfbd34a9c8a2d5099222212ee5a0be41948972d8a",
+      "width": 1448,
+      "height": 1086,
+      "activeOutput": "public/images/honhyeol-template4/home/feature-07.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/receipts/generated/hym-t4-feature-07-v1.json",
+        "sha256": "51034211a7dd9aa356c9a1c84a0166764f72437f1e5ced754cd4b386f63bc5a8",
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/prompts/editorial/hym-t4-feature-07-v1.txt",
+          "sha256": "9c8594d81a16d2bd3ae6a4211112f6a9a097ffef8e7d320efdd9ea99a36c964b"
+        }
+      },
+      "styling": "restrained-everyday-fashion"
+    },
+    {
+      "assetId": "hym-t4-feature-08-v1",
+      "jobClass": "editorial",
+      "sourceClass": "new",
+      "slot": "home.feature-08",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-feature-08-v1.png",
+      "sourceSha256": "19cbffbe819a1f695f906c3a752f4a13bacfb69e6615b386c508f8049fa4dd6b",
+      "width": 1448,
+      "height": 1086,
+      "activeOutput": "public/images/honhyeol-template4/home/feature-08.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/receipts/generated/hym-t4-feature-08-v1.json",
+        "sha256": "10bf974939276ed16eddaf46ffd47bdffd58b91bcd4f0c2ee8c9cc1d00ed6445",
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/prompts/editorial/hym-t4-feature-08-v1.txt",
+          "sha256": "66b9885ccfaf7015b61fd6731e5cbbe2efaafd9958dec1543c14d72e6ac1e95d"
+        }
+      },
+      "styling": "restrained-everyday-fashion"
+    },
+    {
+      "assetId": "hym-t4-category-01-v1",
+      "jobClass": "editorial",
+      "sourceClass": "reused",
+      "slot": "home.category-01",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-category-01-v1.png",
+      "sourceSha256": "7febf70a38b907ea5da2f888fe24e581796760dae864ae0e0fecaf61107a338f",
+      "width": 1003,
+      "height": 1568,
+      "activeOutput": "public/images/honhyeol-template4/home/category-01.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "artifacts/image-campaign/geonma-template4-mirror-selfie-v1/generated-originals/nonregional/gmb-t4-category-01-v1.png",
+        "sourceSha256": "7febf70a38b907ea5da2f888fe24e581796760dae864ae0e0fecaf61107a338f"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-category-02-v1",
+      "jobClass": "editorial",
+      "sourceClass": "new",
+      "slot": "home.category-02",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-category-02-v1.png",
+      "sourceSha256": "cc27c093e8e746bbc0fb23624ba8c246c5f0501ef663b74996b8659051fdcc90",
+      "width": 1402,
+      "height": 1122,
+      "activeOutput": "public/images/honhyeol-template4/home/category-02.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/receipts/generated/hym-t4-category-02-v1.json",
+        "sha256": "744f9803394e16907761a9d2a4921ff4fcc8aa11dc116554797074760e961c10",
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/prompts/editorial/hym-t4-category-02-v1.txt",
+          "sha256": "351b3ff98b0d7fcea18b6890c9295c9dbc380bf1569dfa95289e6cac4aa7f922"
+        }
+      },
+      "styling": "restrained-everyday-fashion"
+    },
+    {
+      "assetId": "hym-t4-category-03-v1",
+      "jobClass": "editorial",
+      "sourceClass": "reused",
+      "slot": "home.category-03",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-category-03-v1.png",
+      "sourceSha256": "cac1ded09e209a20a2cca9ca7f5d450d608278028ff27c020c556daa1b6f79cd",
+      "width": 1003,
+      "height": 1568,
+      "activeOutput": "public/images/honhyeol-template4/home/category-03.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "artifacts/image-campaign/geonma-template4-mirror-selfie-v1/generated-originals/nonregional/gmb-t4-category-03-v1.png",
+        "sourceSha256": "cac1ded09e209a20a2cca9ca7f5d450d608278028ff27c020c556daa1b6f79cd"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-category-04-v1",
+      "jobClass": "editorial",
+      "sourceClass": "new",
+      "slot": "home.category-04",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-category-04-v1.png",
+      "sourceSha256": "e35626017b0283ebab5b1b1f2f61f5d9f02f216cf1b2cbd06d0b704e31aa2590",
+      "width": 1402,
+      "height": 1122,
+      "activeOutput": "public/images/honhyeol-template4/home/category-04.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/receipts/generated/hym-t4-category-04-v1.json",
+        "sha256": "c3cb1481079e1b5dfa0480ae7910e16430137942fd1e59181d78dc5f2563c1f6",
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/prompts/editorial/hym-t4-category-04-v1.txt",
+          "sha256": "e8124cc5a60a8fb8b66da42c4b4e3c022fc886be8e551392744e6868cd2f75e0"
+        }
+      },
+      "styling": "restrained-everyday-fashion"
+    },
+    {
+      "assetId": "hym-t4-category-05-v1",
+      "jobClass": "editorial",
+      "sourceClass": "reused",
+      "slot": "home.category-05",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-category-05-v1.png",
+      "sourceSha256": "8c44b5c8f49dc8e21609b45be23829c1bbad71c48e5834f8ae4e13bf650a275a",
+      "width": 1122,
+      "height": 1402,
+      "activeOutput": "public/images/honhyeol-template4/home/category-05.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "geonmae-banhada",
+        "sourceRelative": "artifacts/image-campaign/geonma-template4-mirror-selfie-v1/generated-originals/nonregional/gmb-t4-category-05-v1.png",
+        "sourceSha256": "8c44b5c8f49dc8e21609b45be23829c1bbad71c48e5834f8ae4e13bf650a275a"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-home-contact-v1",
+      "jobClass": "editorial",
+      "sourceClass": "new",
+      "slot": "home.contact",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-home-contact-v1.png",
+      "sourceSha256": "7e38fe0ed864b9f2100f8aa69ee881d96d0fb61c954d910b34915a440550efc1",
+      "width": 1672,
+      "height": 941,
+      "activeOutput": "public/images/honhyeol-template4/home/contact.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/receipts/generated/hym-t4-home-contact-v1.json",
+        "sha256": "0a6571ac3f175d6435a7b325a2992c9e4c9e1f87953cf965a666a92a1462fcf9",
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/prompts/editorial/hym-t4-home-contact-v1.txt",
+          "sha256": "24afe5bac0812687c45fa66d2562532e2a788a53fd9d1353545021900c6ab224"
+        }
+      },
+      "styling": "restrained-everyday-fashion"
+    },
+    {
+      "assetId": "hym-t4-home-region-search-v1",
+      "jobClass": "editorial",
+      "sourceClass": "new",
+      "slot": "home.region-search",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/generated-originals/editorial/hym-t4-home-region-search-v1.png",
+      "sourceSha256": "1b15eb93846c3c5c13818b6b1f78f497a4cae779b195987acdfd168a7ba46dc5",
+      "width": 1672,
+      "height": 941,
+      "activeOutput": "public/images/honhyeol-template4/home/region-search.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/receipts/generated/hym-t4-home-region-search-v1.json",
+        "sha256": "4c8079216ddc313a71714c9ba2cc715bfa3f3c2bf2234d508c7dc8f4e84e4d15",
+        "prompt": {
+          "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/prompts/editorial/hym-t4-home-region-search-v1.txt",
+          "sha256": "8208d28578070997b55cfa693b37005c4cccec39bb10887a8749c846580a5c53"
+        }
+      },
+      "styling": "restrained-everyday-fashion"
+    },
+    {
+      "assetId": "hym-t4-blog-note-01-v1",
+      "jobClass": "editorial",
+      "sourceClass": "reused",
+      "slot": "blog.note-01",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-blog-note-01-v1.png",
+      "sourceSha256": "c76d5ef81345d7eed8a713daa92ef325b341227418952023875b7f301f192333",
+      "width": 1672,
+      "height": 941,
+      "activeOutput": "public/images/honhyeol-template4/blog/note-01.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-002-v1.png",
+        "sourceSha256": "c76d5ef81345d7eed8a713daa92ef325b341227418952023875b7f301f192333"
+      },
+      "styling": "source-approved-mirror-selfie"
+    },
+    {
+      "assetId": "hym-t4-blog-note-02-v1",
+      "jobClass": "editorial",
+      "sourceClass": "reused",
+      "slot": "blog.note-02",
+      "sourceRelative": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reused-originals/editorial/hym-t4-blog-note-02-v1.png",
+      "sourceSha256": "118bf755be081332b5cdd5cfffb828ff55c4fb97ca861f30af858fb615163eb7",
+      "width": 1672,
+      "height": 941,
+      "activeOutput": "public/images/honhyeol-template4/blog/note-02.webp",
+      "provenance": {
+        "relativePath": "artifacts/image-campaign/honhyeol-template4-mirror-selfie-v1/reuse-provenance.v2.json",
+        "sha256": "b4da3fe6474eab90b178acadba549b54712fad0879450013df4d07b478878479",
+        "sourcePlatform": "feeling-hometai",
+        "sourceRelative": "public/images/rang-template3/regional-originals/lane-a/rng-t3-rgn-003-v1.png",
+        "sourceSha256": "118bf755be081332b5cdd5cfffb828ff55c4fb97ca861f30af858fb615163eb7"
+      },
+      "styling": "source-approved-mirror-selfie"
+    }
+  ],
+  "replacementPolicy": {
+    "version": "korean-art-direction-v2",
+    "exactAssetIds": [
+      "hym-t4-rgn-044-v1",
+      "hym-t4-rgn-066-v1",
+      "hym-t4-rgn-067-v1",
+      "hym-t4-rgn-068-v1",
+      "hym-t4-rgn-069-v1",
+      "hym-t4-rgn-070-v1",
+      "hym-t4-rgn-071-v1",
+      "hym-t4-rgn-072-v1",
+      "hym-t4-rgn-073-v1",
+      "hym-t4-rgn-074-v1",
+      "hym-t4-rgn-075-v1",
+      "hym-t4-rgn-076-v1",
+      "hym-t4-rgn-077-v1",
+      "hym-t4-rgn-078-v1",
+      "hym-t4-rgn-079-v1",
+      "hym-t4-rgn-080-v1",
+      "hym-t4-rgn-081-v1",
+      "hym-t4-rgn-082-v1",
+      "hym-t4-rgn-083-v1",
+      "hym-t4-rgn-084-v1",
+      "hym-t4-rgn-085-v1",
+      "hym-t4-rgn-086-v1",
+      "hym-t4-rgn-087-v1",
+      "hym-t4-rgn-088-v1",
+      "hym-t4-rgn-089-v1",
+      "hym-t4-rgn-090-v1",
+      "hym-t4-rgn-091-v1",
+      "hym-t4-rgn-092-v1",
+      "hym-t4-rgn-093-v1",
+      "hym-t4-rgn-094-v1",
+      "hym-t4-rgn-095-v1",
+      "hym-t4-rgn-096-v1",
+      "hym-t4-rgn-097-v1",
+      "hym-t4-rgn-098-v1",
+      "hym-t4-rgn-099-v1",
+      "hym-t4-rgn-100-v1",
+      "hym-t4-rgn-101-v1",
+      "hym-t4-rgn-102-v1",
+      "hym-t4-rgn-103-v1",
+      "hym-t4-rgn-104-v1",
+      "hym-t4-rgn-105-v1",
+      "hym-t4-rgn-106-v1",
+      "hym-t4-rgn-107-v1",
+      "hym-t4-rgn-108-v1",
+      "hym-t4-rgn-109-v1",
+      "hym-t4-rgn-110-v1",
+      "hym-t4-rgn-111-v1",
+      "hym-t4-rgn-112-v1",
+      "hym-t4-rgn-113-v1",
+      "hym-t4-rgn-114-v1",
+      "hym-t4-rgn-115-v1",
+      "hym-t4-rgn-116-v1",
+      "hym-t4-rgn-117-v1",
+      "hym-t4-rgn-118-v1",
+      "hym-t4-rgn-119-v1",
+      "hym-t4-rgn-120-v1",
+      "hym-t4-rgn-121-v1",
+      "hym-t4-rgn-122-v1",
+      "hym-t4-rgn-123-v1",
+      "hym-t4-rgn-124-v1",
+      "hym-t4-rgn-125-v1",
+      "hym-t4-rgn-126-v1",
+      "hym-t4-rgn-127-v1",
+      "hym-t4-rgn-128-v1",
+      "hym-t4-rgn-129-v1",
+      "hym-t4-rgn-130-v1"
+    ],
+    "homeHeroFrozen": {
+      "relativePath": "public/images/honhyeol-template4/home/hero-mirror.webp",
+      "sha256": "a9b0f185a3d91925cb3ab8740e27c7f14f9a0dcac86e8638f98613c325915573"
+    },
+    "actualNationalityOrAncestryInference": false,
+    "direction": "clearly adult Korean woman in a contemporary Korean fashion editorial"
+  }
+}

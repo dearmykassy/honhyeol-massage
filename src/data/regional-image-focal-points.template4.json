@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "honhyeol-massage-template4-regional-focal-points/v1",
+  "status": "ROOT_REVIEW_BOUND_RELEASE_CONFIG",
+  "platformKey": "honhyeol-massage",
+  "profile": "mobile",
+  "derivative": {
+    "width": 768,
+    "height": 600,
+    "fit": "cover"
+  },
+  "coordinateScale": 1000,
+  "defaultFocalPoint": {
+    "xPermille": 500,
+    "yPermille": 500
+  },
+  "overrides": [
+    { "assetId": "hym-t4-rgn-040-v1", "xPermille": 640, "yPermille": 500 },
+    { "assetId": "hym-t4-rgn-042-v1", "xPermille": 640, "yPermille": 500 },
+    { "assetId": "hym-t4-rgn-048-v1", "xPermille": 640, "yPermille": 500 },
+    { "assetId": "hym-t4-rgn-052-v1", "xPermille": 640, "yPermille": 500 },
+    { "assetId": "hym-t4-rgn-054-v1", "xPermille": 640, "yPermille": 500 },
+    { "assetId": "hym-t4-rgn-064-v1", "xPermille": 590, "yPermille": 500 }
+  ]
+}

@@ -1,0 +1,399 @@
+.page {
+  --pink: #d52656;
+  --deep: #a8173f;
+  --soft: #fbe8ee;
+  --ink: #242024;
+  --muted: #71676b;
+  background: #fff;
+  color: var(--ink);
+}
+
+.hero {
+  background-color: #6d2036;
+  background-image:
+    linear-gradient(90deg, rgba(30, 8, 17, .88) 0%, rgba(55, 12, 27, .72) 42%, rgba(55, 12, 27, .18) 75%),
+    var(--regional-image-desktop),
+    linear-gradient(135deg, #8f2948, #28121b);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 610px;
+  overflow: hidden;
+  position: relative;
+}
+
+.heroShade {
+  background: linear-gradient(180deg, rgba(0, 0, 0, .16), transparent 30%, rgba(0, 0, 0, .38));
+  inset: 0;
+  position: absolute;
+}
+
+.heroInner {
+  margin: 0 auto;
+  max-width: 1280px;
+  min-height: 610px;
+  padding: 150px 44px 72px;
+  position: relative;
+  z-index: 1;
+}
+
+.breadcrumbs {
+  align-items: center;
+  color: rgba(255, 255, 255, .76);
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 14px;
+  gap: 8px;
+  margin-bottom: 58px;
+}
+
+.breadcrumbs span { display: inline-flex; gap: 8px; }
+.breadcrumbs a { color: inherit; text-decoration: none; }
+.breadcrumbs i { color: rgba(255, 255, 255, .38); font-style: normal; }
+
+.eyebrow {
+  color: #ffd8e3;
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: .18em;
+  margin: 0 0 14px;
+}
+
+.hero h1 {
+  color: #fff;
+  font-size: clamp(40px, 5vw, 68px);
+  letter-spacing: -.055em;
+  line-height: 1.08;
+  margin: 0;
+  max-width: 770px;
+  word-break: keep-all;
+}
+
+.hooks { margin-top: 24px; max-width: 720px; }
+.hooks p {
+  color: rgba(255, 255, 255, .82);
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 0;
+  word-break: keep-all;
+}
+.hooks p + p { margin-top: 4px; }
+
+.heroActions { display: flex; gap: 10px; margin-top: 34px; }
+.heroActions a {
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, .5);
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 15px;
+  font-weight: 800;
+  justify-content: center;
+  min-height: 50px;
+  padding: 0 28px;
+  text-decoration: none;
+}
+.heroActions a:first-child { background: var(--pink); border-color: var(--pink); }
+
+.statusStrip {
+  align-items: center;
+  background: var(--soft);
+  display: grid;
+  gap: 20px;
+  grid-template-columns: auto auto 1fr;
+  min-height: 72px;
+  padding: 14px max(24px, calc((100% - 1192px) / 2));
+}
+.statusStrip span { color: var(--deep); font-size: 12px; font-weight: 800; letter-spacing: .1em; }
+.statusStrip strong { font-size: 16px; }
+.statusStrip p { color: var(--muted); margin: 0; text-align: right; }
+
+.information,
+.directory,
+.contact {
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 104px 44px 0;
+}
+
+.sectionHeading p,
+.directoryHeading p {
+  color: var(--pink);
+  font-size: 12px;
+  font-weight: 900;
+  letter-spacing: .16em;
+  margin: 0 0 10px;
+}
+.sectionHeading h2,
+.directoryHeading h2 {
+  font-size: clamp(31px, 4vw, 48px);
+  letter-spacing: -.045em;
+  line-height: 1.18;
+  margin: 0;
+}
+.sectionHeadingRow { align-items: end; display: flex; justify-content: space-between; }
+.sectionHeadingRow > a { color: var(--deep); font-size: 14px; font-weight: 800; }
+
+.detailGrid {
+  display: grid;
+  gap: 18px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin-top: 42px;
+}
+.detailCard {
+  border: 1px solid #eadde1;
+  border-radius: 18px;
+  min-height: 300px;
+  padding: 34px;
+  position: relative;
+}
+.detailCard > span { color: #d7bdc5; font-size: 36px; font-weight: 900; }
+.detailCard > small { color: var(--pink); font-weight: 800; margin-left: 10px; }
+.detailCard h2 { font-size: 25px; letter-spacing: -.035em; margin: 42px 0 16px; }
+.detailCard p { color: var(--muted); line-height: 1.75; margin: 0; word-break: keep-all; }
+.detailCard p + p { margin-top: 8px; }
+
+.priceGrid {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  margin-top: 42px;
+  overflow: hidden;
+}
+.priceCard { background: #fbf8f9; border-top: 3px solid var(--pink); padding: 30px; }
+.priceCard > div { align-items: baseline; display: flex; gap: 12px; }
+.priceCard > div span { color: var(--pink); font-size: 12px; font-weight: 900; }
+.priceCard h3 { font-size: 23px; margin: 0; }
+.priceCard ul { list-style: none; margin: 24px 0 0; padding: 0; }
+.priceCard li { border-top: 1px solid #e7dce0; display: flex; justify-content: space-between; padding: 14px 0; }
+.priceCard li b { color: var(--muted); font-size: 14px; }
+.priceCard li strong { color: var(--deep); }
+
+.faqList { border-top: 1px solid #d9cdd1; margin-top: 42px; }
+.faqList details { border-bottom: 1px solid #d9cdd1; }
+.faqList summary {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  font-weight: 800;
+  justify-content: space-between;
+  list-style: none;
+  padding: 24px 4px;
+}
+.faqList summary::-webkit-details-marker { display: none; }
+.faqList summary span { color: var(--pink); font-size: 26px; }
+.faqList details[open] summary span { transform: rotate(45deg); }
+.faqList details p { color: var(--muted); line-height: 1.75; margin: 0; padding: 0 4px 24px; }
+
+.contact {
+  align-items: center;
+  background: var(--deep);
+  border-radius: 22px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 104px;
+  padding: 54px 58px;
+}
+.contact p { color: #ffd2df; font-size: 13px; font-weight: 900; letter-spacing: .12em; margin: 0 0 10px; }
+.contact h2 { font-size: clamp(28px, 3vw, 42px); letter-spacing: -.045em; margin: 0 0 12px; }
+.contact strong { font-size: 20px; }
+.contact > a { background: #fff; border-radius: 999px; color: var(--deep); font-weight: 900; padding: 18px 30px; text-decoration: none; }
+
+.directory { padding-bottom: 120px; }
+.directoryHeading { align-items: end; display: flex; justify-content: space-between; }
+.directoryHeading > span { color: var(--muted); }
+.directoryGuide {
+  background: var(--soft);
+  border-radius: 18px;
+  margin-top: 36px;
+  padding: 34px;
+}
+.directoryGuide small { color: var(--pink); font-weight: 900; letter-spacing: .12em; }
+.directoryGuide h2 { font-size: 25px; margin: 12px 0 16px; }
+.directoryGuide p { color: var(--muted); line-height: 1.7; margin: 0; }
+.directoryGuide p + p { margin-top: 6px; }
+.directoryGuide a { color: var(--deep); display: inline-block; font-weight: 900; margin-top: 20px; }
+.directoryGrid {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  margin-top: 18px;
+}
+.directoryCard {
+  border: 1px solid #eadde1;
+  border-radius: 14px;
+  color: var(--ink);
+  display: grid;
+  min-height: 164px;
+  padding: 22px;
+  position: relative;
+  text-decoration: none;
+}
+.directoryCard > span { color: var(--pink); font-size: 12px; font-weight: 900; }
+.directoryCard > strong { align-self: end; font-size: 24px; letter-spacing: -.035em; }
+.directoryCard > small { color: var(--muted); margin-top: 5px; }
+.directoryCard > b { position: absolute; right: 20px; top: 18px; }
+.directoryCard:hover { border-color: var(--pink); transform: translateY(-2px); }
+.terminal { background: var(--soft); border-radius: 14px; color: var(--muted); margin: 20px 0 0; padding: 28px; }
+
+@media (max-width: 991px) {
+  .hero {
+    background-image:
+      linear-gradient(90deg, rgba(30, 8, 17, .88) 0%, rgba(55, 12, 27, .72) 42%, rgba(55, 12, 27, .18) 75%),
+      var(--regional-image-tablet),
+      linear-gradient(135deg, #8f2948, #28121b);
+    min-height: 560px;
+  }
+  .heroInner { min-height: 560px; padding: 118px 28px 58px; }
+  .breadcrumbs { margin-bottom: 40px; }
+  .detailGrid { grid-template-columns: 1fr; }
+  .priceGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .directoryGrid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 680px) {
+  .hero {
+    background-image:
+      linear-gradient(180deg, rgba(30, 8, 17, .2) 0%, rgba(45, 8, 22, .72) 54%, rgba(30, 8, 17, .92) 100%),
+      var(--regional-image-mobile),
+      linear-gradient(135deg, #8f2948, #28121b);
+    background-position: center top;
+    min-height: 620px;
+  }
+  .heroInner { display: flex; flex-direction: column; justify-content: flex-end; min-height: 620px; padding: 92px 20px 42px; }
+  .breadcrumbs { font-size: 12px; margin: 0 0 auto; }
+  .hero h1 { font-size: clamp(34px, 11vw, 48px); }
+  .hooks p { font-size: 14px; line-height: 1.62; }
+  .hooks p + p { display: none; }
+  .heroActions { margin-top: 24px; }
+  .heroActions a { flex: 1; min-height: 46px; padding: 0 14px; }
+  .statusStrip { align-items: start; gap: 6px; grid-template-columns: 1fr 1fr; padding: 16px 20px; }
+  .statusStrip p { grid-column: 1 / -1; text-align: left; }
+  .information, .directory { padding: 74px 20px 0; }
+  .detailGrid, .priceGrid { grid-template-columns: 1fr; margin-top: 30px; }
+  .detailCard { min-height: 0; padding: 26px 22px; }
+  .detailCard h2 { margin-top: 28px; }
+  .sectionHeadingRow { align-items: start; gap: 18px; }
+  .sectionHeadingRow > a { white-space: nowrap; }
+  .contact { align-items: stretch; border-radius: 0; flex-direction: column; gap: 28px; margin-top: 74px; padding: 42px 20px; }
+  .contact > a { text-align: center; }
+  .directory { padding-bottom: 84px; }
+  .directoryHeading { align-items: start; flex-direction: column; gap: 12px; }
+  .directoryGrid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .directoryCard { min-height: 145px; padding: 18px; }
+  .directoryCard > strong { font-size: 20px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .directoryCard { transition: none; }
+}
+
+/* Template 05 regional skin; renderer copy IDs and image variables stay unchanged. */
+.page {
+  --pink: #8e2232;
+  --deep: #64141f;
+  --soft: #fff8f3;
+  --ink: #242021;
+  --muted: #81797b;
+  background: #fff;
+  padding-top: 20px;
+}
+.hero {
+  border: 5px solid #111;
+  margin: 0 auto;
+  max-width: 1200px;
+  min-height: 480px;
+  width: calc(100% - 32px);
+}
+.heroInner { max-width: 1200px; min-height: 480px; padding: 64px 48px 54px; }
+.breadcrumbs { font-size: 12px; margin-bottom: 42px; }
+.eyebrow { color: #ffc2ad; font-size: 11px; }
+.hero h1 { font-family: Georgia, "Times New Roman", serif; font-size: clamp(36px, 4.5vw, 58px); font-style: italic; }
+.hooks { margin-top: 18px; }
+.hooks p { font-size: 14px; }
+.heroActions { margin-top: 26px; }
+.heroActions a { border-radius: 7px; font-size: 13px; min-height: 44px; padding-inline: 20px; }
+.heroActions a:first-child { background: linear-gradient(135deg, #d45a3c, var(--pink)); }
+.statusStrip { margin: 0 auto; max-width: 1200px; min-height: 64px; padding: 12px 18px; width: calc(100% - 32px); }
+.information,
+.directory,
+.contact { max-width: 1200px; padding: 54px 16px 0; }
+.sectionHeading p,
+.directoryHeading p { color: var(--pink); font-size: 10px; }
+.sectionHeading h2,
+.directoryHeading h2 { font-size: clamp(23px, 3vw, 34px); }
+.sectionHeadingRow { border-bottom: 1px solid #cbc5c6; padding-bottom: 13px; }
+.sectionHeadingRow > a { color: var(--deep); font-size: 12px; }
+.detailGrid { gap: 15px; margin-top: 24px; }
+.detailCard { border-color: #e8e1e2; border-radius: 10px; min-height: 250px; padding: 26px; }
+.detailCard > span { color: #d8b9be; font-size: 28px; }
+.detailCard > small { color: var(--pink); font-size: 10px; }
+.detailCard h2 { font-size: 21px; margin: 28px 0 12px; }
+.detailCard p { font-size: 14px; }
+.priceGrid { gap: 15px; grid-template-columns: repeat(5, minmax(0, 1fr)); margin-top: 24px; overflow: visible; }
+.priceCard { border: 1px solid #e8e1e2; border-radius: 10px; border-top: 3px solid var(--pink); padding: 20px 16px; }
+.priceCard > div { gap: 7px; }
+.priceCard h3 { font-size: 16px; }
+.priceCard ul { margin-top: 15px; }
+.priceCard li { display: grid; font-size: 12px; gap: 2px; padding: 10px 0; }
+.priceCard li b { font-size: 11px; }
+.faqList { margin-top: 24px; }
+.faqList summary { font-size: 15px; padding: 18px 4px; }
+.faqList details p { font-size: 14px; }
+.contact { border-radius: 10px; margin-top: 54px; padding: 36px 42px; }
+.contact h2 { font-size: clamp(24px, 3vw, 34px); }
+.contact > a { border-radius: 7px; padding: 13px 20px; }
+.directory { padding-bottom: 84px; }
+.directoryGuide { background: var(--soft); border: 1px solid #efd8d5; border-radius: 10px; margin-top: 24px; padding: 26px; }
+.directoryGuide h2 { font-size: 21px; }
+.directoryGrid { gap: 15px; grid-template-columns: repeat(5, minmax(0, 1fr)); margin-top: 15px; }
+.directoryCard { border-color: #e8e1e2; border-radius: 10px; min-height: 140px; padding: 18px; }
+.directoryCard > strong { font-size: 20px; }
+.directoryCard > small { font-size: 11px; }
+.terminal { background: var(--soft); border-radius: 10px; }
+
+@media (max-width: 1199px) and (min-width: 992px) {
+  .priceGrid,
+  .directoryGrid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+@media (max-width: 991px) {
+  .page { padding-top: 10px; }
+  .hero { min-height: 450px; width: calc(100% - 20px); }
+  .heroInner { min-height: 450px; padding: 46px 28px; }
+  .statusStrip { width: calc(100% - 20px); }
+  .priceGrid,
+  .directoryGrid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    background-image:
+      linear-gradient(180deg, rgba(30, 8, 17, .18) 0%, rgba(45, 8, 22, .68) 52%, rgba(30, 8, 17, .94) 100%),
+      var(--regional-image-mobile),
+      linear-gradient(135deg, #8f2948, #28121b);
+    background-position: center top;
+    border-width: 4px;
+    min-height: 560px;
+  }
+  .heroInner { min-height: 560px; padding: 28px 18px 34px; }
+  .breadcrumbs { margin-bottom: auto; }
+  .hero h1 { font-size: clamp(32px, 10vw, 44px); }
+  .hooks p { font-size: 13px; }
+  .heroActions a { padding-inline: 10px; }
+  .statusStrip { padding-inline: 14px; }
+  .information,
+  .directory { padding: 44px 10px 0; }
+  .detailGrid { grid-template-columns: 1fr; }
+  .detailCard { padding: 22px 18px; }
+  .priceGrid,
+  .directoryGrid { gap: 10px; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .priceCard { padding: 16px 12px; }
+  .contact { border-radius: 0; margin-top: 44px; padding: 34px 20px; }
+  .directory { padding-bottom: 66px; }
+  .directoryGuide { padding: 22px 18px; }
+  .directoryCard { min-height: 130px; padding: 15px; }
+  .directoryCard > strong { font-size: 18px; }
+}
