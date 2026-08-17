@@ -1,6 +1,6 @@
 # 혼혈마사지
 
-Template5 화면 구조를 사용한 Next.js 16 정적 출장마사지 안내 사이트입니다. 실제 도메인이 정해지지 않았으므로 현재 산출물은 검색엔진 제출용이 아닙니다.
+Template5 화면 구조를 사용한 Next.js 16 정적 출장마사지 안내 사이트입니다. 운영 도메인은 `https://honhyul.kr`입니다.
 
 ## 페이지 구성
 
@@ -8,9 +8,10 @@ Template5 화면 구조를 사용한 Next.js 16 정적 출장마사지 안내 �
 - 고정 페이지: 홈, 지역 찾기, 가격, 이용 안내, 공지, 블로그 목록 6개
 - 블로그 글: 2개
 - sitemap 합계: 1,299개 URL
+- RSS 2.0: 실제 블로그 글 2개의 canonical URL, 실제 발행일과 전체 본문을 `/rss.xml`로 제공
 - 지역 검색: 시·군·구, 동·읍·면, 지역 별칭을 상세 경로에 연결
 - 메타데이터: 모든 1,299개 URL에 title, keywords, description, canonical, Open Graph, Twitter 적용
-- 검색 차단: `https://preview.honhyeol-massage.invalid`, `noindex,nofollow`, robots 전체 차단
+- 공개 상태: `https://honhyul.kr`, production canonical + `index,follow`, robots 전체 허용
 
 ## 광역 상세 페이지 기준
 
@@ -61,12 +62,13 @@ pnpm audit:build
 - 지역 파생본: `public/assets/honhyeol-massage/template4-regional/{assetId}/{desktop,tablet,mobile}.webp`
 - 지역 배정: 사진 130개를 1,291개 경로에 최대 10회 사용하며 부모·자식과 같은 부모 아래 형제끼리 같은 사진을 쓰지 않음
 - 홈·블로그: `public/images/honhyeol-template4/home/`, `public/images/honhyeol-template4/blog/`
-- 브랜드 마크: 승인된 이미지 파일이 없어 현재 헤더·푸터는 CSS 기반 마크 fallback을 사용한다. 추후 승인본이 생기면 `public/images/honhyeol-template4/brand/mark.png` 경로를 사용한다.
+- 브랜드 마크: 건마에반하다의 하트와 구분되는 투명 배경 원형 궤도형 마크를 `public/images/honhyeol-template5/brand/`에 보관한다. 헤더·푸터와 32·192·512 아이콘은 같은 승인 원본을 사용한다.
+- 홈 첫 8개 권역 카드는 사용자 승인에 따라 마사지러브의 도시·랜드마크 WebP를 바이트 그대로 재사용하며, 공개 provenance에서 저자와 라이선스를 제공한다. 지역 상세페이지 배너의 1,291개 배정은 변경하지 않는다.
 
 이미지 승인·파생본 생성이 끝나기 전에는 배포 완료로 기록하지 않습니다.
 
 지역 배너 v2는 실제 국적이나 혈통을 외모로 판정하는 자료가 아닙니다. 생성 프롬프트를 성인 한국 여성의 현대 한국 패션 화보 방향으로 명시하고, 완전 착의·비노골적 포즈·충분한 얼굴 노출·실제 거울과 반사·모바일 중앙 크롭을 검수합니다. 기존 원본과 1차 승인 문서는 로컬 감사 이력으로 보존하며, 메인 홈 배너 `public/images/honhyeol-template4/home/hero-mirror.webp`는 변경하지 않습니다.
 
-## 공개 전환
+## 공개 배포 체크
 
-실제 도메인이 확정되면 metadata origin, canonical, OG URL, sitemap, robots를 같은 도메인으로 바꾸고 `index,follow` 전환을 별도 승인받아야 합니다. 그 뒤 전체 검증을 다시 실행합니다.
+metadata origin, canonical, Open Graph URL, sitemap, RSS와 robots는 `https://honhyul.kr`로 통일합니다. 도메인이나 배포 설정을 바꿀 때는 전체 검증을 다시 실행하고 운영 HTTPS, canonical, robots, sitemap·RSS 호스트를 함께 확인합니다. 네이버 서치어드바이저 온보딩에서는 RSS를 제출하고 수집 주기를 `빠르게`로 설정합니다.

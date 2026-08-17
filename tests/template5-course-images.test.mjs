@@ -6,6 +6,7 @@ import { describe, expect, it } from "vitest";
 
 const ROOT = process.cwd();
 const IMAGE_DIRECTORY = path.join(ROOT, "public/images/honhyeol-template5/courses/v1");
+const V2_IMAGE_DIRECTORY = path.join(ROOT, "public/images/honhyeol-template5/courses/v2");
 const RECEIPT_PATH = path.join(
   ROOT,
   "artifacts/image-campaign/honhyeol-template5-course-cards-v1/release-receipt.v1.json",
@@ -77,9 +78,11 @@ describe("Template5 course-card image release", () => {
   it("maps the five COURSE_GROUPS slots to the reviewed course images only", () => {
     const source = readFileSync(path.join(ROOT, "src/app/page.tsx"), "utf8");
 
-    for (const asset of EXPECTED) {
+    for (const asset of EXPECTED.slice(0, 4)) {
       expect(source).toContain(`/images/honhyeol-template5/courses/v1/course-${asset.slug}-v1.webp`);
     }
+    expect(source).toContain("/images/honhyeol-template5/courses/v2/course-men-v2.webp");
+    expect(source).not.toContain("/images/honhyeol-template5/courses/v1/course-men-v1.webp");
     expect(source).not.toContain("/images/honhyeol-template4/home/category-");
   });
 
@@ -95,5 +98,27 @@ describe("Template5 course-card image release", () => {
     expect(receipt.outputs.every((output) => output.visualQa === "PASS")).toBe(true);
     expect(receipt.constraints.noMirrorSelfies).toBe(true);
     expect(receipt.inventory.sha256).toBe(createHash("sha256").update(manifest).digest("hex"));
+  });
+
+  it("keeps the active men's course customer male and practitioner female", () => {
+    const provenance = JSON.parse(
+      readFileSync(path.join(V2_IMAGE_DIRECTORY, "provenance.v2.json"), "utf8"),
+    );
+
+    expect(provenance.status).toBe("VISUALLY_REVIEWED_RELEASED");
+    expect(provenance.course).toBe("남성전용");
+    expect(provenance.visualQa).toMatchObject({
+      result: "PASS",
+      femalePractitioner: true,
+      maleCustomer: true,
+      horizontalMassageTable: true,
+      noMachineOrMedicalDevice: true,
+    });
+    expect(sha256(path.join(V2_IMAGE_DIRECTORY, "course-men-v2.png"))).toBe(
+      provenance.original.sha256,
+    );
+    expect(sha256(path.join(V2_IMAGE_DIRECTORY, "course-men-v2.webp"))).toBe(
+      provenance.output.sha256,
+    );
   });
 });

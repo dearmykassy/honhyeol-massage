@@ -3,11 +3,12 @@ import path from "node:path";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const OUT = path.join(ROOT, "out");
-const PREVIEW_ORIGIN = "https://preview.honhyeol-massage.invalid";
+const PRODUCTION_ORIGIN = "https://honhyul.kr";
 const EXPECTED_PUBLIC_PAGES = 1299;
 const EXPECTED_REGION_PAGES = 1291;
 const EXPECTED_REGIONAL_ASSETS = 130;
 const EXPECTED_REGIONAL_WEBPS = 390;
+const EXPECTED_RSS_ITEMS = 2;
 
 function fail(code) {
   throw new Error(`HONHYEOL_BUILT_OUTPUT_${code}`);
@@ -36,13 +37,13 @@ const metadataChecks = {
   title: /<title>[^<]+<\/title>/u,
   description: /<meta name="description" content="[^"]+"\/>/u,
   keywords: /<meta name="keywords" content="[^"]+"\/>/u,
-  canonical: new RegExp(`<link rel="canonical" href="${PREVIEW_ORIGIN.replaceAll(".", "\\.")}\/[^"]*"\\/>`, "u"),
+  canonical: new RegExp(`<link rel="canonical" href="${PRODUCTION_ORIGIN.replaceAll(".", "\\.")}\/[^"]*"\\/>`, "u"),
   openGraphTitle: /<meta property="og:title" content="[^"]+"\/>/u,
   openGraphDescription: /<meta property="og:description" content="[^"]+"\/>/u,
   openGraphUrl: /<meta property="og:url" content="[^"]+"\/>/u,
   twitterTitle: /<meta name="twitter:title" content="[^"]+"\/>/u,
   twitterDescription: /<meta name="twitter:description" content="[^"]+"\/>/u,
-  robots: /<meta name="robots" content="noindex, nofollow[^"]*"\/>/u,
+  robots: /<meta name="robots" content="index, follow"\/>/u,
 };
 const forbiddenBrands = /필링홈타이|랑테라피|마사지봄|마사지러브|콜미토닥이|건마에반하다|GEONMAE BANHADA|geonmae-banhada|gmb-t4/u;
 const unsupportedLocalClaims = /위치 지도|세부 매장 권역|이용이 많은 장소|주요 서비스 권역|지역별 이용량|인기|후기|리뷰|평점|도착\s*시간|도착 예정|(?:^|[^\p{L}])이동\s*시간/u;
@@ -61,10 +62,35 @@ const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/gu)].map((match) =
 if (sitemapUrls.length !== EXPECTED_PUBLIC_PAGES || new Set(sitemapUrls).size !== EXPECTED_PUBLIC_PAGES) {
   fail(`SITEMAP_COUNT:${sitemapUrls.length}:${new Set(sitemapUrls).size}`);
 }
-if (sitemapUrls.some((url) => !url.startsWith(`${PREVIEW_ORIGIN}/`))) fail("SITEMAP_HOST");
+if (sitemapUrls.some((url) => !url.startsWith(`${PRODUCTION_ORIGIN}/`))) fail("SITEMAP_HOST");
 
 const robots = await readFile(path.join(OUT, "robots.txt"), "utf8");
-if (!robots.includes("Disallow: /") || !robots.includes(`${PREVIEW_ORIGIN}/sitemap.xml`)) fail("ROBOTS");
+if (
+  !robots.includes("Allow: /") ||
+  robots.includes("Disallow: /") ||
+  !robots.includes(`Host: ${PRODUCTION_ORIGIN}`) ||
+  !robots.includes(`${PRODUCTION_ORIGIN}/sitemap.xml`)
+) fail("ROBOTS");
+
+const rss = await readFile(path.join(OUT, "rss.xml"), "utf8");
+if (Buffer.byteLength(rss, "utf8") >= 10 * 1024 * 1024) fail("RSS_SIZE");
+const rssItems = [...rss.matchAll(/<item>[\s\S]*?<\/item>/gu)].map((match) => match[0]);
+const rssLinks = rssItems.map((item) => item.match(/<link>([^<]+)<\/link>/u)?.[1]);
+const rssGuids = rssItems.map((item) => item.match(/<guid isPermaLink="true">([^<]+)<\/guid>/u)?.[1]);
+const expectedRssLinks = [
+  `${PRODUCTION_ORIGIN}/blog/jibeseo-masaji-badeul-su-issnayo/`,
+  `${PRODUCTION_ORIGIN}/blog/masaji-shop-gagi-himdeul-ttae/`,
+].sort();
+if (
+  rssItems.length !== EXPECTED_RSS_ITEMS ||
+  new Set(rssLinks).size !== EXPECTED_RSS_ITEMS ||
+  rssLinks.some((url) => !url?.startsWith(`${PRODUCTION_ORIGIN}/blog/`)) ||
+  JSON.stringify([...rssLinks].sort()) !== JSON.stringify(expectedRssLinks) ||
+  JSON.stringify(rssGuids) !== JSON.stringify(rssLinks) ||
+  rssItems.some((item) => !/<description>[^<]{200,}<\/description>/u.test(item)) ||
+  rssItems.some((item) => !/<pubDate>[^<]+ GMT<\/pubDate>/u.test(item)) ||
+  !rss.includes(`atom:link href="${PRODUCTION_ORIGIN}/rss.xml"`)
+) fail("RSS");
 
 const manifest = JSON.parse(await readFile(
   path.join(ROOT, "src/data/regional-image-assignments.template4.generated.json"),
@@ -90,6 +116,7 @@ console.log(JSON.stringify({
   publicPages: publicHtml.length,
   regionPages: regionHtml.length,
   sitemapUrls: sitemapUrls.length,
+  rssItems: rssItems.length,
   regionalAssets: manifest.distribution.assets,
   regionalWebps: webps.length,
 }));

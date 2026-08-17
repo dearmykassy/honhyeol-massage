@@ -28,10 +28,15 @@ export const metadata: Metadata = {
     "남성전용마사지",
     "여성전용마사지",
   ],
-  robots: { index: false, follow: false },
+  robots: { index: true, follow: true },
   icons: {
-    icon: [{ url: "/images/honhyeol-template4/brand/mark.png", type: "image/png" }],
-    shortcut: "/images/honhyeol-template4/brand/mark.png",
+    icon: [
+      { url: "/images/honhyeol-template5/brand/orbit-mark-v1-32.png", sizes: "32x32", type: "image/png" },
+      { url: "/images/honhyeol-template5/brand/orbit-mark-v1-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/images/honhyeol-template5/brand/orbit-mark-v1-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    shortcut: "/images/honhyeol-template5/brand/orbit-mark-v1-32.png",
+    apple: [{ url: "/images/honhyeol-template5/brand/orbit-mark-v1-192.png", sizes: "192x192", type: "image/png" }],
   },
 };
 

@@ -5,13 +5,17 @@ import { metadataContract as guideMetadata } from "@/app/guide/page";
 import { metadataContract as noticeMetadata } from "@/app/notice/page";
 import { metadataContract as homeMetadata } from "@/app/page";
 import { metadataContract as pricingMetadata } from "@/app/pricing/page";
+import robots from "@/app/robots";
 import sitemap, { FIXED_SITEMAP_PATHS } from "@/app/sitemap";
 import { BLOG_POSTS, createBlogMetadata, getBlogPostPath } from "@/data/blog-posts";
 import { createRegionContent } from "@/lib/content";
 import {
   createRouteMetadataContract,
+  DEPLOYMENT_CONTRACT,
+  RSS_PATH,
   SITE_NAME,
   SITE_ORIGIN,
+  SITEMAP_PATH,
   toNextMetadata,
 } from "@/lib/metadata";
 import { ACTIVE_REGION_NODES } from "@/lib/regions";
@@ -26,6 +30,23 @@ const FIXED_CONTRACTS = [
 ];
 
 describe("metadata fields", () => {
+  it("uses the approved production origin and allows indexing", () => {
+    expect(SITE_ORIGIN).toBe("https://honhyul.kr");
+    expect(DEPLOYMENT_CONTRACT).toEqual({
+      deploymentAllowed: true,
+      deploymentBlockers: [],
+      origin: SITE_ORIGIN,
+      sitemapUrl: new URL(SITEMAP_PATH, SITE_ORIGIN).href,
+      rssUrl: new URL(RSS_PATH, SITE_ORIGIN).href,
+      robots: "index,follow",
+    });
+    expect(robots()).toEqual({
+      rules: { userAgent: "*", allow: "/" },
+      sitemap: "https://honhyul.kr/sitemap.xml",
+      host: "https://honhyul.kr",
+    });
+  });
+
   it("emits title, keywords and description on every fixed page", () => {
     expect(FIXED_CONTRACTS).toHaveLength(FIXED_SITEMAP_PATHS.length);
     for (const contract of FIXED_CONTRACTS) {
@@ -48,7 +69,7 @@ describe("metadata fields", () => {
         title: contract.title,
         description: contract.description,
       });
-      expect(emitted.robots).toMatchObject({ index: false, follow: false });
+      expect(emitted.robots).toMatchObject({ index: true, follow: true });
     }
   });
 
@@ -70,7 +91,7 @@ describe("metadata fields", () => {
         title: expect.stringContaining(SITE_NAME),
         description: post.description,
       });
-      expect(emitted.robots).toMatchObject({ index: false, follow: false });
+      expect(emitted.robots).toMatchObject({ index: true, follow: true });
     }
   });
 

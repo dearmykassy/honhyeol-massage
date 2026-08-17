@@ -35,7 +35,18 @@ const COURSE_CARD_IMAGES = [
   "/images/honhyeol-template5/courses/v1/course-aroma-v1.webp",
   "/images/honhyeol-template5/courses/v1/course-healing-v1.webp",
   "/images/honhyeol-template5/courses/v1/course-special-v1.webp",
-  "/images/honhyeol-template5/courses/v1/course-men-v1.webp",
+  "/images/honhyeol-template5/courses/v2/course-men-v2.webp",
+] as const;
+
+const HOME_REGION_CARD_IMAGES = [
+  "/images/honhyeol-template5/home-regions/v1/seoul.webp",
+  "/images/honhyeol-template5/home-regions/v1/incheon.webp",
+  "/images/honhyeol-template5/home-regions/v1/gyeonggi.webp",
+  "/images/honhyeol-template5/home-regions/v1/cheonan.webp",
+  "/images/honhyeol-template5/home-regions/v1/asan.webp",
+  "/images/honhyeol-template5/home-regions/v1/daejeon.webp",
+  "/images/honhyeol-template5/home-regions/v1/daegu.webp",
+  "/images/honhyeol-template5/home-regions/v1/gumi.webp",
 ] as const;
 
 export default function Home() {
@@ -88,7 +99,7 @@ export default function Home() {
                   aria-label={`${root.fullName} 지역 페이지 열기`}
                   className="shop-photo"
                   href={root.path}
-                  style={imageStyle(`/images/honhyeol-template4/home/feature-${String(index + 1).padStart(2, "0")}.webp`)}
+                  style={imageStyle(HOME_REGION_CARD_IMAGES[index])}
                 >
                   <span>{String(index + 1).padStart(2, "0")}</span>
                   <b>지역 보기</b>
@@ -101,6 +112,9 @@ export default function Home() {
               </article>
             ))}
           </Template4Carousel>
+          <p className="asset-attribution">
+            <a href="/images/honhyeol-template5/home-regions/v1/provenance.json">지역 사진 출처·라이선스</a>
+          </p>
         </section>
 
         <section className="section-space" aria-labelledby="course-title">

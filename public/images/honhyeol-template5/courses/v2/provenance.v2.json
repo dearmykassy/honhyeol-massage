@@ -1,0 +1,51 @@
+{
+  "schemaVersion": "honhyeol-massage-template5-course-card-provenance/v2",
+  "status": "VISUALLY_REVIEWED_RELEASED",
+  "platformKey": "honhyeol-massage",
+  "assetId": "hym-t5-course-men-v2",
+  "course": "남성전용",
+  "generatedAt": "2026-08-17T17:40:00+09:00",
+  "generator": {
+    "mode": "default-built-in",
+    "tool": "image_gen",
+    "callCount": 1
+  },
+  "artDirection": {
+    "practitioner": "adult Korean woman in a modest professional spa uniform",
+    "customer": "adult Korean man, fully clothed",
+    "scene": "conventional upper-back and shoulder massage on a horizontal padded table",
+    "forbidden": [
+      "male practitioner",
+      "massage chair",
+      "machine or medical device",
+      "face-cradle hole",
+      "nudity or suggestive touch",
+      "text, logo or watermark"
+    ]
+  },
+  "original": {
+    "relativePath": "public/images/honhyeol-template5/courses/v2/course-men-v2.png",
+    "sha256": "01716d3ca6b44d7b5ee5392cf1e1b45b138ad743d6d7c60abe9dc49f9fcaec86",
+    "width": 1003,
+    "height": 1568
+  },
+  "output": {
+    "relativePath": "public/images/honhyeol-template5/courses/v2/course-men-v2.webp",
+    "publicPath": "/images/honhyeol-template5/courses/v2/course-men-v2.webp",
+    "sha256": "c8eab2c7f3edb6363a6b38e6aa7c44857a8b32ca4a0f7c51f3d8a3e7fbd9ad42",
+    "width": 960,
+    "height": 1200,
+    "quality": 88
+  },
+  "visualQa": {
+    "result": "PASS",
+    "exactlyTwoAdults": true,
+    "femalePractitioner": true,
+    "maleCustomer": true,
+    "horizontalMassageTable": true,
+    "fullyClothed": true,
+    "noMachineOrMedicalDevice": true,
+    "noTextLogoWatermark": true,
+    "cardOverlaySafeArea": true
+  }
+}

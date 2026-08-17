@@ -1,7 +1,18 @@
 import type { Metadata } from "next";
 
-export const SITE_ORIGIN = "https://preview.honhyeol-massage.invalid";
+export const SITE_ORIGIN = "https://honhyul.kr";
 export const SITE_NAME = "혼혈마사지";
+export const SITEMAP_PATH = "/sitemap.xml";
+export const RSS_PATH = "/rss.xml";
+
+export const DEPLOYMENT_CONTRACT = {
+  deploymentAllowed: true,
+  deploymentBlockers: [] as readonly string[],
+  origin: SITE_ORIGIN,
+  sitemapUrl: new URL(SITEMAP_PATH, SITE_ORIGIN).href,
+  rssUrl: new URL(RSS_PATH, SITE_ORIGIN).href,
+  robots: "index,follow",
+} as const;
 
 export type RouteMetadataContract = {
   route: string;
@@ -67,6 +78,6 @@ export function toNextMetadata(contract: RouteMetadataContract): Metadata {
     alternates: { canonical: contract.canonical },
     openGraph: contract.openGraph,
     twitter: contract.twitter,
-    robots: { index: false, follow: false, nocache: true },
+    robots: { index: true, follow: true },
   };
 }

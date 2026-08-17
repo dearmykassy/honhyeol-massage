@@ -1,0 +1,20 @@
+{
+  "schemaVersion": "honhyeol-massage-brand-asset/v1",
+  "status": "VISUALLY_REVIEWED_RELEASED",
+  "platformKey": "honhyeol-massage",
+  "createdAt": "2026-08-17T17:00:00+09:00",
+  "generator": "OpenAI built-in image_gen",
+  "artDirection": "Two broad orbital crescent arcs interlock around a central negative-space diamond. Circular silhouette, transparent background, no heart shape, no letters, no text.",
+  "visualQa": {
+    "transparentBackground": true,
+    "notHeartShape": true,
+    "distinctFromGeonmaeBanhada": true,
+    "noTextOrWatermark": true
+  },
+  "assets": [
+    { "path": "/images/honhyeol-template5/brand/orbit-mark-v1.png", "width": 1254, "height": 1254, "sha256": "3e662711ed94b03a064f68802fd27c38fea5a7cb76bfbb7006392db2f3989564" },
+    { "path": "/images/honhyeol-template5/brand/orbit-mark-v1-32.png", "width": 32, "height": 32, "sha256": "22f169ba6208d8eeaddc8eedbad4d191306ff57aa6b09d9b1079aee7dea829e4" },
+    { "path": "/images/honhyeol-template5/brand/orbit-mark-v1-192.png", "width": 192, "height": 192, "sha256": "dad3fa94ac286c657cca27ec4cee691282849e8a8b86a8f1ef33d82d21b13553" },
+    { "path": "/images/honhyeol-template5/brand/orbit-mark-v1-512.png", "width": 512, "height": 512, "sha256": "b3335c8943bd77d545bde0746376fddb65eeec4f86280881a746d23ebd04e347" }
+  ]
+}

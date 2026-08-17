@@ -107,7 +107,7 @@ img { max-width: 100%; }
   width: 46px;
 }
 .brand-mark::before, .footer-brand-mark::before {
-  background: url("/images/honhyeol-template4/brand/mark.png") center / contain no-repeat;
+  background: url("/images/honhyeol-template5/brand/orbit-mark-v1.png") center / contain no-repeat;
   content: "";
   inset: 0;
   position: absolute;
@@ -587,18 +587,18 @@ body { background: var(--canvas); color: var(--ink); line-height: 1.55; }
 .header-inner > .brand { left: 50%; position: absolute; transform: translateX(-50%); }
 .brand { flex: 0 0 auto; gap: 10px; justify-self: auto; }
 .brand-mark, .footer-brand-mark {
-  background: linear-gradient(135deg, #0d0d0e 0 50%, #8e2232 50%);
-  border-radius: 10px;
-  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.22);
+  background: transparent;
+  border-radius: 0;
+  box-shadow: none;
   height: 55px;
   width: 55px;
 }
 .brand-mark::before, .footer-brand-mark::before {
-  background: none;
-  border: 2px solid rgba(255, 255, 255, 0.9);
-  border-radius: 3px;
-  inset: 15px;
-  transform: rotate(45deg);
+  background: url("/images/honhyeol-template5/brand/orbit-mark-v1.png") center / contain no-repeat;
+  border: 0;
+  border-radius: 0;
+  inset: 0;
+  transform: none;
 }
 .brand-name { color: var(--black); font-size: 30px; font-weight: 900; letter-spacing: -0.06em; }
 .search-form--header {
@@ -610,6 +610,8 @@ body { background: var(--canvas); color: var(--ink); line-height: 1.55; }
 }
 .search-form--header:focus-within { border-color: var(--wine); box-shadow: 0 0 0 3px rgba(142, 34, 50, 0.12); }
 .search-form--header .region-search-input { font-size: 12px; padding: 0 12px; }
+.asset-attribution { margin: 12px 0 0; text-align: right; }
+.asset-attribution a { color: #71696a; font-size: 11px; text-decoration: underline; text-underline-offset: 3px; }
 .search-form--header .region-search-submit { background: linear-gradient(135deg, var(--coral), var(--wine)); width: 44px; }
 .search-form--header .region-search-suggestions { top: calc(100% + 7px); }
 .icon-button { background: transparent; border: 0; cursor: pointer; display: none; font-size: 24px; height: 44px; width: 44px; }

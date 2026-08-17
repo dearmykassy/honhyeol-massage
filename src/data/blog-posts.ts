@@ -169,6 +169,6 @@ export function createBlogMetadata(post: BlogPost): Metadata {
       title,
       description: post.description,
     },
-    robots: { index: false, follow: false, nocache: true },
+    robots: { index: true, follow: true },
   };
 }
