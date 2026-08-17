@@ -19,6 +19,7 @@
 - 운영 origin을 `https://honhyul.kr`로 확정해 전체 공개 페이지의 canonical·Open Graph·sitemap·robots host를 한 도메인으로 통일했다. root·블로그·지역 메타는 `index,follow`, robots는 전체 허용으로 전환했고, 배포 허용 계약과 차단 사유 0건을 테스트로 고정했다.
 - 네이버 검색어드바이저의 피드 기준에 맞춰 실제 블로그 글 2편만 `rss.xml`에 포함했다. 각 item은 같은 운영 host의 canonical URL을 영구 GUID로 사용하고, 실제 발행일을 RFC 822 `pubDate`로 기록하며, 요약이 아닌 글 도입·모든 섹션·체크리스트 전체를 XML 이스케이프해 제공한다. 1,299개 전체 공개 URL은 `sitemap.xml`이 담당한다.
 - 정적 export의 `/rss.xml` 응답은 `application/rss+xml; charset=utf-8`, 1시간 캐시, `nosniff` 헤더를 갖는다. 빌드 감사에서 RSS item 2개, canonical link/GUID 일치, 충분한 본문 길이, 날짜 형식, 10MB 미만 크기를 확인한다.
+- 전 페이지 `<head>`에는 같은 운영 origin의 `/rss.xml`을 가리키는 `rel="alternate"` RSS 자동발견 링크를 1개 둔다.
 - 영구 작업 규칙에 모든 신규 플랫폼의 sitemap+RSS 동시 제공과 네이버 온보딩 시 `설정 → 수집 주기 설정 → 빠르게` 선택을 추가했다. 네이버 UI에서 소유확인·sitemap/RSS 제출·수집 주기 선택은 배포 후 별도 온보딩 단계로 남긴다.
 - 최종 검증은 Vitest 34/34, `pnpm audit:copy`, `pnpm typecheck`, `pnpm lint`, `pnpm build`, `pnpm audit:build`를 모두 통과했다. 카피 감사 충돌은 0건이고, 정적 산출물은 공개 페이지·sitemap URL 각 1,299개, 지역 페이지 1,291개, RSS item 2개이며 `out/rss.xml`은 5,416바이트다.
 

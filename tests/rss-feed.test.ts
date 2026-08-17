@@ -55,7 +55,11 @@ describe("RSS 2.0 feed", () => {
     expect(new TextEncoder().encode(xml).byteLength).toBeLessThan(10 * 1024 * 1024);
     expect(xml).toContain(`<atom:link href="${new URL(RSS_PATH, SITE_ORIGIN).href}" rel="self" type="application/rss+xml" />`);
     const netlify = readFileSync("netlify.toml", "utf8");
+    const layout = readFileSync("src/app/layout.tsx", "utf8");
     expect(netlify).toContain('for = "/rss.xml"');
     expect(netlify).toContain('Content-Type = "application/rss+xml; charset=utf-8"');
+    expect(layout).toContain('rel="alternate"');
+    expect(layout).toContain('type="application/rss+xml"');
+    expect(layout).toContain('href={`${SITE_ORIGIN}/rss.xml`}');
   });
 });
