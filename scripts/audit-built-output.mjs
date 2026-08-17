@@ -9,6 +9,7 @@ const EXPECTED_REGION_PAGES = 1291;
 const EXPECTED_REGIONAL_ASSETS = 130;
 const EXPECTED_REGIONAL_WEBPS = 390;
 const EXPECTED_RSS_ITEMS = 2;
+const NAVER_SITE_VERIFICATION = "d72239124913cb7002b533039f7bed04ab1345d2";
 
 function fail(code) {
   throw new Error(`HONHYEOL_BUILT_OUTPUT_${code}`);
@@ -52,6 +53,12 @@ for (const file of publicHtml) {
   const html = await readFile(file, "utf8");
   for (const [field, pattern] of Object.entries(metadataChecks)) {
     if (!pattern.test(html)) fail(`META_${field.toUpperCase()}:${path.relative(OUT, file)}`);
+  }
+  const naverVerificationTags = html.match(
+    new RegExp(`<meta name="naver-site-verification" content="${NAVER_SITE_VERIFICATION}"\\/>`, "gu"),
+  ) ?? [];
+  if (naverVerificationTags.length !== 1) {
+    fail(`NAVER_SITE_VERIFICATION:${naverVerificationTags.length}:${path.relative(OUT, file)}`);
   }
   if (forbiddenBrands.test(html)) fail(`OLD_BRAND:${path.relative(OUT, file)}`);
   if (unsupportedLocalClaims.test(html)) fail(`UNSUPPORTED_LOCAL_CLAIM:${path.relative(OUT, file)}`);

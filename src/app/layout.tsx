@@ -29,6 +29,11 @@ export const metadata: Metadata = {
     "여성전용마사지",
   ],
   robots: { index: true, follow: true },
+  verification: {
+    other: {
+      "naver-site-verification": "d72239124913cb7002b533039f7bed04ab1345d2",
+    },
+  },
   icons: {
     icon: [
       { url: "/images/honhyeol-template5/brand/orbit-mark-v1-32.png", sizes: "32x32", type: "image/png" },

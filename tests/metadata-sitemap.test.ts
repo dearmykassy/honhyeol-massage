@@ -4,6 +4,7 @@ import { metadataContract as blogMetadata } from "@/app/blog/page";
 import { metadataContract as guideMetadata } from "@/app/guide/page";
 import { metadataContract as noticeMetadata } from "@/app/notice/page";
 import { metadataContract as homeMetadata } from "@/app/page";
+import { metadata as rootMetadata } from "@/app/layout";
 import { metadataContract as pricingMetadata } from "@/app/pricing/page";
 import robots from "@/app/robots";
 import sitemap, { FIXED_SITEMAP_PATHS } from "@/app/sitemap";
@@ -30,6 +31,14 @@ const FIXED_CONTRACTS = [
 ];
 
 describe("metadata fields", () => {
+  it("emits the exact Naver ownership verification value from the root layout", () => {
+    expect(rootMetadata.verification).toEqual({
+      other: {
+        "naver-site-verification": "d72239124913cb7002b533039f7bed04ab1345d2",
+      },
+    });
+  });
+
   it("uses the approved production origin and allows indexing", () => {
     expect(SITE_ORIGIN).toBe("https://honhyul.kr");
     expect(DEPLOYMENT_CONTRACT).toEqual({
