@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import { RegionSearch } from "@/components/RegionSearch";
 import { Template4Carousel } from "@/components/Template4Carousel";
 import { BLOG_POSTS, getBlogPostPath } from "@/data/blog-posts";

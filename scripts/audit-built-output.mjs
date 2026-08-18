@@ -68,10 +68,16 @@ for (const file of publicHtml) {
 
 const sitemap = await readFile(path.join(OUT, "sitemap.xml"), "utf8");
 const sitemapUrls = [...sitemap.matchAll(/<loc>([^<]+)<\/loc>/gu)].map((match) => match[1]);
+const sitemapLastModified = [...sitemap.matchAll(/<lastmod>([^<]+)<\/lastmod>/gu)].map((match) => match[1]);
 if (sitemapUrls.length !== EXPECTED_PUBLIC_PAGES || new Set(sitemapUrls).size !== EXPECTED_PUBLIC_PAGES) {
   fail(`SITEMAP_COUNT:${sitemapUrls.length}:${new Set(sitemapUrls).size}`);
 }
 if (sitemapUrls.some((url) => !url.startsWith(`${PRODUCTION_ORIGIN}/`))) fail("SITEMAP_HOST");
+if (
+  sitemapLastModified.length !== EXPECTED_PUBLIC_PAGES ||
+  sitemapLastModified.some((value) => Number.isNaN(Date.parse(value)))
+) fail(`SITEMAP_LASTMOD:${sitemapLastModified.length}`);
+if (/<(?:changefreq|priority)>/u.test(sitemap)) fail("SITEMAP_IGNORED_HINTS");
 
 const robots = await readFile(path.join(OUT, "robots.txt"), "utf8");
 if (

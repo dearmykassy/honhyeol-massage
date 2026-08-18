@@ -2,6 +2,12 @@
 
 > 새 활동과 검증 결과를 최신순으로 기록한다. 비밀값·로그인 정보는 기록하지 않는다.
 
+## 2026-08-19 KST — 운영 링크 prefetch 차단·sitemap revision 정교화
+
+- 내부 `next/link` 사용 12곳을 단일 `SiteLink`로 모으고 운영 환경에서는 전달값과 관계없이 `prefetch=false`를 강제했다. 링크는 계속 Next Link의 실제 `<a href>`와 이동·핸들러·ARIA 속성을 유지하며, wrapper 밖 직접 import를 회귀 테스트로 차단한다.
+- sitemap 1,299개 URL을 홈·고정 6개(운영 공개 커밋), 블로그 2개(각 실제 `modifiedAt`), 지역 1,291개(검색형 메타 변경 커밋)로 나눠 실제 Git author 시각을 `lastmod`로 기록했다. 빌드 시각과 Google이 사용하지 않는 `changefreq`·`priority`는 제거했고 Template5 보존 hash도 승인된 sitemap 계약 변경분만 갱신했다.
+- 전체 Vitest 43개, copy audit, TypeScript, ESLint, production build 1,304개 route와 built-output 감사를 통과했다. 산출물 sitemap은 URL·`lastmod` 각 1,299개, `changefreq`·`priority` 0개이며 홈 HTML은 실제 anchor 89개와 `_rsc` query literal 0개다.
+
 ## 2026-08-19 KST — 지역 메타 고객 검색형 행정명 적용
 
 - 지역 meta title·meta keywords·meta description의 대상 지역명에서 행정 토큰 끝의 `특별자치도`, `특별자치시`, `특별시`, `광역시`, `도`, `시`만 제거한다. 서울특별시→서울, 인천광역시→인천, 경기도→경기, 제주특별자치도→제주, 수원시→수원, 천안시→천안으로 맞춘다.

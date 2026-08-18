@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import type { CSSProperties } from "react";
-import Link from "next/link";
+import Link from "@/components/SiteLink";
 import { BLOG_POSTS, getBlogPostPath } from "@/data/blog-posts";
 import { PHONE_DISPLAY, PHONE_HREF } from "@/lib/business";
 import { createRouteMetadataContract, toNextMetadata } from "@/lib/metadata";

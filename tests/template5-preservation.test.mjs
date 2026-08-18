@@ -20,7 +20,7 @@ const FROZEN_FILES = {
   "src/data/service-city-regions.generated.json": "72a318974585509632ba229307a954d01c40adcb8d98ff4ba6fbd1f1655f0d3d",
   "src/data/service-city-region-redirects.generated.json": "53249fbc2541f96c4ef725797436a56b64cb4bdb6a94ea58c3d32974f0ed8125",
   "src/data/regional-image-focal-points.template4.json": "9a51cd75887030a151a7882fe6dfef1f402d0093745beddc045fb22d0ea71cf1",
-  "src/app/sitemap.ts": "bd87ca244daa93726352460080c74ac1c1ab233c8e8cdd073d158c976c6a29d2",
+  "src/app/sitemap.ts": "2f4bed86232c167510288a4117c8b193951d21a1c3bfe717c53fc9714b510435",
   "src/app/robots.ts": "c753bb2a278c44e141663d6a84411141c7f959933d1e231d99097fe19ff457a6",
 };
 

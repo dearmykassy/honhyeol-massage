@@ -20,6 +20,11 @@ import {
   toNextMetadata,
 } from "@/lib/metadata";
 import { ACTIVE_REGION_NODES } from "@/lib/regions";
+import {
+  HOME_CONTENT_MODIFIED_AT,
+  PUBLIC_LAUNCH_MODIFIED_AT,
+  REGIONAL_CONTENT_MODIFIED_AT,
+} from "@/lib/site-revisions";
 
 const FIXED_CONTRACTS = [
   homeMetadata,
@@ -172,5 +177,34 @@ describe("sitemap", () => {
     expect(new Set(urls)).toEqual(
       new Set(expectedPaths.map((path) => new URL(path, SITE_ORIGIN).href)),
     );
+
+    const byUrl = new Map(output.map((entry) => [entry.url, entry]));
+    expect(byUrl.get(`${SITE_ORIGIN}/`)?.lastModified).toEqual(
+      new Date(HOME_CONTENT_MODIFIED_AT),
+    );
+    for (const path of FIXED_SITEMAP_PATHS.filter((path) => path !== "/")) {
+      expect(byUrl.get(new URL(path, SITE_ORIGIN).href)?.lastModified).toEqual(
+        new Date(PUBLIC_LAUNCH_MODIFIED_AT),
+      );
+    }
+    for (const post of BLOG_POSTS) {
+      expect(
+        byUrl.get(new URL(getBlogPostPath(post), SITE_ORIGIN).href)?.lastModified,
+      ).toEqual(new Date(post.modifiedAt));
+    }
+    for (const node of ACTIVE_REGION_NODES) {
+      expect(
+        byUrl.get(new URL(`${node.path}/`, SITE_ORIGIN).href)?.lastModified,
+      ).toEqual(new Date(REGIONAL_CONTENT_MODIFIED_AT));
+    }
+    expect(
+      output.every(
+        (entry) =>
+          entry.lastModified instanceof Date &&
+          !Number.isNaN(entry.lastModified.getTime()) &&
+          !("changeFrequency" in entry) &&
+          !("priority" in entry),
+      ),
+    ).toBe(true);
   });
 });
