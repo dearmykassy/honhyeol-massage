@@ -3,6 +3,8 @@ import {
   getKeywordRegionLabel,
   getParentNode,
   getRegionOrdinal,
+  getSearchRegionLabel,
+  shortenRegionSearchName,
   type RegionNode,
 } from "@/lib/regions";
 
@@ -346,18 +348,21 @@ function regionSentenceOffset(
 function metadataScope(node: RegionNode): string {
   const children = getDirectChildren(node);
   if (children.length > 0) {
-    const examples = children.slice(0, 2).map((child) => child.name).join("·");
+    const examples = children
+      .slice(0, 2)
+      .map((child) => shortenRegionSearchName(child.name))
+      .join("·");
     return children.length > 2
       ? `하위 안내 ${children.length}개가 연결되며 ${examples} 등을 찾을 수 있습니다.`
       : `하위 안내 ${children.length}개가 연결되며 ${examples} 경로로 이어집니다.`;
   }
   const sourceNames = node.representative?.sourceNames ?? [];
   if (sourceNames.length > 1) {
-    return `${sourceNames.slice(0, 3).join("·")} 명칭도 같은 지역 안내에서 찾을 수 있습니다.`;
+    return `${sourceNames.slice(0, 3).map(shortenRegionSearchName).join("·")} 명칭도 같은 지역 안내에서 찾을 수 있습니다.`;
   }
   const parent = getParentNode(node);
   return parent
-    ? `${parent.qualifiedName}에서 이어지는 세부 지역입니다.`
+    ? `${shortenRegionSearchName(parent.qualifiedName)}에서 이어지는 세부 지역입니다.`
     : "가능 여부는 실제 주소와 희망 시각을 전화로 전달한 뒤 확인합니다.";
 }
 
@@ -518,10 +523,11 @@ function broadSections(node: RegionNode): ContentSection[] {
 export function createRegionContent(node: RegionNode): RegionContent {
   const ordinal = getRegionOrdinal(node);
   const keywordLabel = getKeywordRegionLabel(node);
+  const searchName = getSearchRegionLabel(node);
   const fullName = node.qualifiedName;
   const broad = isBroadDetailRegion(node);
   const description = DESCRIPTION_PATTERNS[stableNodeIndex(node, 101, DESCRIPTION_PATTERNS.length)](
-    fullName,
+    searchName,
     metadataScope(node),
   );
   const secondHook = SECOND_HOOK_PATTERNS[stableNodeIndex(node, 211, SECOND_HOOK_PATTERNS.length)](
@@ -530,7 +536,7 @@ export function createRegionContent(node: RegionNode): RegionContent {
   );
 
   return {
-    title: pick(TITLE_PATTERNS, ordinal)(fullName, keywordLabel),
+    title: pick(TITLE_PATTERNS, ordinal)(searchName, keywordLabel),
     description,
     keywords: REGION_KEYWORD_SUFFIXES.map((suffix) => `${keywordLabel}${suffix}`),
     h1: pick(H1_PATTERNS, ordinal, 1)(fullName),

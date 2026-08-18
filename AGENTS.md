@@ -7,6 +7,7 @@
 - 브랜드는 `혼혈마사지`, 플랫폼 ID는 `honhyeol-massage`로 고정한다. 고객 화면과 메타에 다른 플랫폼 브랜드를 남기지 않는다.
 - 브랜드 마크는 투명 배경의 원형 궤도형 마크로 고정한다. 건마에반하다의 하트형 마크와 겹치는 하트 실루엣은 사용하지 않는다. 큰 형태와 내부 선 구조가 다른 독립 마크를 사용하며 favicon·앱 아이콘도 같은 원본에서 파생한다.
 - 모든 공개 페이지는 meta title, meta keywords, meta description과 self canonical, Open Graph, Twitter 계약을 가진다. 지역 페이지는 8개 키워드 계열을 유지한다.
+- 지역 meta title·meta keywords·meta description에는 고객 검색형 지역명을 쓴다. 각 행정 토큰 끝의 `특별자치도`, `특별자치시`, `특별시`, `광역시`, `도`, `시`만 제거해 서울특별시→서울, 인천광역시→인천, 경기도→경기, 제주특별자치도→제주, 수원시→수원처럼 표기한다. `구·군·읍·면·동·리`는 임의로 제거하지 않으며, 중복 지명은 같은 방식으로 줄인 상위 지역을 붙여 구분한다. 공식 행정명은 H1·본문·breadcrumb·schema에 유지하고 URL·canonical은 변경하지 않는다.
 - 상단 검색은 1,291개 지역명·상위 지역·별칭을 검색해 상세 페이지로 직접 이동한다.
 - 광역 상세 페이지는 `node.kind === "root" || /시$/u.test(node.displayName)`인 정확히 41개 경로다. 광역 상세에는 실제 지역 그래프와 확인된 운영 사실만 사용한다. 지도, 매장, 인기 장소, 이동 시간, 지역별 이용량을 만들지 않는다.
 - 운영 도메인은 `https://honhyul.kr`이다. 모든 공개 페이지의 canonical·Open Graph·sitemap·RSS는 이 origin을 사용하고 `index,follow`, robots 전체 허용 상태를 유지한다.

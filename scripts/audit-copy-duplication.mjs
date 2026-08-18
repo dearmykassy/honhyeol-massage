@@ -10,6 +10,7 @@ import {
 import {
   ACTIVE_REGION_NODES,
   getKeywordRegionLabel,
+  getSearchRegionLabel,
 } from "../src/lib/regions.ts";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
@@ -72,7 +73,12 @@ function extractCustomerLiterals(root) {
 }
 
 function normalizeRegional(value, node) {
-  const labels = [node.qualifiedName, node.displayName, getKeywordRegionLabel(node)]
+  const labels = [
+    node.qualifiedName,
+    node.displayName,
+    getSearchRegionLabel(node),
+    getKeywordRegionLabel(node),
+  ]
     .filter((label, index, all) => label.length > 0 && all.indexOf(label) === index)
     .sort((left, right) => right.length - left.length);
   return labels
@@ -97,10 +103,13 @@ function runtimeRegionalHashes(projectName) {
   const code = `
     import { createHash } from "node:crypto";
     import { createRegionContent } from "./src/lib/content.ts";
-    import { ACTIVE_REGION_NODES, getKeywordRegionLabel } from "./src/lib/regions.ts";
+    import * as regionLibrary from "./src/lib/regions.ts";
+    const { ACTIVE_REGION_NODES } = regionLibrary;
     const brands = /혼혈마사지|건마에반하다|필링홈타이|랑테라피|마사지봄|마사지러브|콜미토닥이/gu;
     function normalize(value, node) {
-      const labels = [node.qualifiedName, node.displayName, getKeywordRegionLabel(node)]
+      const labels = [node.qualifiedName, node.displayName,
+        typeof regionLibrary.getSearchRegionLabel === "function" ? regionLibrary.getSearchRegionLabel(node) : "",
+        typeof regionLibrary.getKeywordRegionLabel === "function" ? regionLibrary.getKeywordRegionLabel(node) : ""]
         .filter((label, index, all) => label.length > 0 && all.indexOf(label) === index)
         .sort((left, right) => right.length - left.length);
       return labels.reduce((copy, label) => copy.replaceAll(label, "{지역}"), value)

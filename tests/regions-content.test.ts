@@ -15,6 +15,8 @@ import {
   getDirectChildren,
   getKeywordRegionLabel,
   getParentNode,
+  getSearchRegionLabel,
+  shortenRegionSearchName,
 } from "@/lib/regions";
 import {
   getRegionalImageAssetId,
@@ -85,7 +87,12 @@ function normalizeRegionalCopy(
   value: string,
   node: (typeof ACTIVE_REGION_NODES)[number],
 ): string {
-  const regionLabels = [node.qualifiedName, node.displayName, getKeywordRegionLabel(node)]
+  const regionLabels = [
+    node.qualifiedName,
+    node.displayName,
+    getSearchRegionLabel(node),
+    getKeywordRegionLabel(node),
+  ]
     .filter((label, index, labels) => label.length > 0 && labels.indexOf(label) === index)
     .sort((left, right) => right.length - left.length);
 
@@ -222,6 +229,34 @@ describe("Honhyeol Massage regional copy and metadata", () => {
       const label = getKeywordRegionLabel(node);
       expect(content.keywords).toEqual(REGION_KEYWORD_SUFFIXES.map((suffix) => `${label}${suffix}`));
       expect(new Set(content.keywords).size).toBe(8);
+    }
+  });
+
+  it("uses concise customer search names in all three regional meta fields", () => {
+    const examples = new Map([
+      ["서울특별시", "서울"],
+      ["인천광역시", "인천"],
+      ["경기도", "경기"],
+      ["제주특별자치도", "제주"],
+      ["수원시", "수원"],
+      ["천안시", "천안"],
+    ]);
+    for (const [official, concise] of examples) {
+      expect(shortenRegionSearchName(official)).toBe(concise);
+    }
+
+    const forbiddenBeforeService =
+      /(?:특별자치도|특별자치시|특별시|광역시|도|시)\s*(?=출장마사지|출장안마|출장타이마사지|출장스웨디시|출장홈타이)/u;
+    for (const { node, content } of records) {
+      const searchLabel = getSearchRegionLabel(node);
+      const keywordLabel = getKeywordRegionLabel(node);
+      const metaSurface = [content.title, content.description, ...content.keywords].join("\n");
+
+      expect(content.title).toContain(keywordLabel);
+      expect(content.description).toContain(searchLabel);
+      expect(content.keywords.every((keyword) => keyword.startsWith(keywordLabel))).toBe(true);
+      expect(metaSurface).not.toMatch(forbiddenBeforeService);
+      expect(content.h1).toContain(node.qualifiedName);
     }
   });
 

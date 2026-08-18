@@ -6,11 +6,11 @@ import { describe, expect, it } from "vitest";
 const ROOT = process.cwd();
 
 const FROZEN_FILES = {
-  "src/lib/content.ts": "6604c7224392ac3ea7a3ce21b7bc887ce5319fae4e3f2095119c4dc879437186",
+  "src/lib/content.ts": "a5c7d26a6ceb3dc6010d7eea0167f62ba136be3b1047f63d06f31d43fd528646",
   "src/lib/metadata.ts": "b2faa996ff3c7814758d2adff878e9dc7335b5f2f058ea35e7599558c6de7bd6",
   "src/lib/site-content.ts": "b603357d97a341e6c51758807c3848ee498df4c5185680d3636c1f1d5d1d2d5b",
   "src/lib/business.ts": "e7aee4fa46ff37d76c50b004c9beb34c7234a61dd94968d4e5eac7272ebbe041",
-  "src/lib/regions.ts": "37c7341def3c73b28fecd94f47cf63f164bee0362411a06b83a156c472b6b508",
+  "src/lib/regions.ts": "cffe86ea1961bcb268ed4c8d575c982ae64fba5f60bfdd768d0b647553422e4b",
   "src/lib/region-page-model.ts": "babfbe97e672851041e88ae57fa363096fb2e00fcfd0149f784516d86404afaf",
   "src/lib/regional-image-assignment.ts": "a5d86800df7d329e95000cc444cda079944ab31614e65a2c3335152386378ce2",
   "src/lib/region-search.ts": "cdf20b5775edcf70dfc9a3a52a571eb37713e590c4d1aba285b4d02aaf7b1662",
