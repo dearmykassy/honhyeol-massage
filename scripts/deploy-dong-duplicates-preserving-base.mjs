@@ -187,15 +187,29 @@ if (!publish) {
 const created = await api(`/sites/${SITE_ID}/deploys?title=${encodeURIComponent("Add five duplicate pages per operated dong")}`, {
   method: "POST",
   body: {
-    files: manifestObject,
     draft: false,
+  },
+});
+
+await mkdir(path.dirname(RECEIPT_FILE), { recursive: true });
+await writeFile(RECEIPT_FILE, `${JSON.stringify({
+  ...plan,
+  schemaVersion: "honhyul-netlify-preserving-base-deploy-in-progress/v1",
+  deploymentStatus: "CREATED",
+  deployId: created.id,
+  checkedAt: new Date().toISOString(),
+}, null, 2)}\n`, "utf8");
+
+let deploy = await api(`/sites/${SITE_ID}/deploys/${created.id}`, {
+  method: "PUT",
+  body: {
+    files: manifestObject,
     async: true,
+    draft: false,
     framework: "next.js",
     framework_version: "16.3.0",
   },
 });
-
-let deploy = created;
 const diffDeadline = Date.now() + 10 * 60_000;
 while (["new", "preparing", "prepared"].includes(deploy.state) && Date.now() < diffDeadline) {
   await new Promise((resolve) => setTimeout(resolve, 1_500));
@@ -251,6 +265,5 @@ const receipt = {
   publishedAt: deploy.published_at,
   checkedAt: new Date().toISOString(),
 };
-await mkdir(path.dirname(RECEIPT_FILE), { recursive: true });
 await writeFile(RECEIPT_FILE, `${JSON.stringify(receipt, null, 2)}\n`, "utf8");
 process.stdout.write(`${JSON.stringify(receipt, null, 2)}\n`);
