@@ -2,11 +2,10 @@
 
 import { createHash } from "node:crypto";
 import { execFile } from "node:child_process";
-import { existsSync } from "node:fs";
+import { createReadStream, existsSync } from "node:fs";
 import { mkdir, readFile, stat, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
-import { Readable } from "node:stream";
 import { fileURLToPath, pathToFileURL } from "node:url";
 import { promisify } from "node:util";
 
@@ -149,7 +148,7 @@ for (const record of ledger.records) {
   const bytes = await readFile(localPath);
   const digest = sha1(bytes);
   manifest.set(deployPath, digest);
-  localBySha.set(digest, { deployPath, bytes });
+  localBySha.set(digest, { deployPath, localPath });
   addedPagePaths.push(deployPath);
 
   const html = bytes.toString("utf8");
@@ -178,7 +177,7 @@ for (const publicPath of [...referencedAssets].sort()) {
   }
   if (!baseDigest) {
     manifest.set(deployPath, digest);
-    localBySha.set(digest, { deployPath, bytes });
+    localBySha.set(digest, { deployPath, localPath });
     addedAssetPaths.push(deployPath);
   }
 }
@@ -188,10 +187,11 @@ if (assetCollisions.length > 0) {
 
 const replacedPaths = [];
 for (const deployPath of ["sitemap.xml", "rss.xml"]) {
-  const bytes = await readFile(path.join(OUT, deployPath));
+  const localPath = path.join(OUT, deployPath);
+  const bytes = await readFile(localPath);
   const digest = sha1(bytes);
   manifest.set(deployPath, digest);
-  localBySha.set(digest, { deployPath, bytes });
+  localBySha.set(digest, { deployPath, localPath });
   replacedPaths.push(deployPath);
 }
 
@@ -263,7 +263,8 @@ while (["new", "preparing", "prepared"].includes(deploy.state) && Date.now() < d
 }
 if (deploy.state === "error") throw new Error(`NETLIFY_DEPLOY_ERROR:${deploy.error_message || "unknown"}`);
 
-const required = Array.isArray(deploy.required) ? deploy.required : [];
+const providerRequired = Array.isArray(deploy.required) ? deploy.required : [];
+const required = providerRequired.length > 0 ? providerRequired : [...localBySha.keys()];
 const unresolved = required.filter((digest) => !localBySha.has(digest));
 if (unresolved.length > 0) {
   throw new Error(`NETLIFY_REQUIRED_BASE_BLOB_MISSING:${unresolved.length}`);
@@ -276,7 +277,7 @@ await pool(required, 10, async (digest) => {
   for (let attempt = 0; attempt < 5; attempt += 1) {
     try {
       await netlifyApi.uploadDeployFile({
-        body: () => Readable.from(file.bytes),
+        body: () => createReadStream(file.localPath),
         deployId: created.id,
         path: encodeURI(file.deployPath),
       });
@@ -309,6 +310,7 @@ const receipt = {
   deployId: deploy.id,
   deployUrl: deploy.deploy_ssl_url || deploy.deploy_url,
   stableUrl: deploy.ssl_url || deploy.url,
+  providerRequiredBlobs: providerRequired.length,
   requiredBlobs: required.length,
   uploadedBlobs: uploaded,
   publishedAt: deploy.published_at,
