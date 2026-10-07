@@ -4,11 +4,17 @@ import path from "node:path";
 const ROOT = path.resolve(import.meta.dirname, "..");
 const OUT = path.join(ROOT, "out");
 const PRODUCTION_ORIGIN = "https://honhyul.kr";
-const EXPECTED_PUBLIC_PAGES = 1299;
-const EXPECTED_REGION_PAGES = 1291;
+const duplicateLedger = JSON.parse(await readFile(
+  path.join(ROOT, "src/data/dong-duplicate-pages.generated.json"),
+  "utf8",
+));
+const EXPECTED_DUPLICATE_PAGES = 4565;
+const EXPECTED_PUBLIC_PAGES = 1299 + EXPECTED_DUPLICATE_PAGES;
+const EXPECTED_REGION_PAGES = 1291 + EXPECTED_DUPLICATE_PAGES;
+const EXPECTED_BASE_REGION_PAGES = 1291;
 const EXPECTED_REGIONAL_ASSETS = 130;
 const EXPECTED_REGIONAL_WEBPS = 390;
-const EXPECTED_RSS_ITEMS = 2;
+const EXPECTED_RSS_ITEMS = 2 + EXPECTED_DUPLICATE_PAGES;
 const NAVER_SITE_VERIFICATION = "d72239124913cb7002b533039f7bed04ab1345d2";
 const NAVER_VERIFICATION_FILE = "naverb0a214252ba37de1f892ee8845be0250.html";
 const NAVER_VERIFICATION_BODY = `naver-site-verification: ${NAVER_VERIFICATION_FILE}\n`;
@@ -95,14 +101,20 @@ const rssGuids = rssItems.map((item) => item.match(/<guid isPermaLink="true">([^
 const expectedRssLinks = [
   `${PRODUCTION_ORIGIN}/blog/jibeseo-masaji-badeul-su-issnayo/`,
   `${PRODUCTION_ORIGIN}/blog/masaji-shop-gagi-himdeul-ttae/`,
+  ...duplicateLedger.records.map((record) => record.canonical),
 ].sort();
 if (
   rssItems.length !== EXPECTED_RSS_ITEMS ||
   new Set(rssLinks).size !== EXPECTED_RSS_ITEMS ||
-  rssLinks.some((url) => !url?.startsWith(`${PRODUCTION_ORIGIN}/blog/`)) ||
+  rssLinks.some((url) => !url?.startsWith(`${PRODUCTION_ORIGIN}/blog/`) && !url?.includes("/areas/")) ||
   JSON.stringify([...rssLinks].sort()) !== JSON.stringify(expectedRssLinks) ||
   JSON.stringify(rssGuids) !== JSON.stringify(rssLinks) ||
-  rssItems.some((item) => !/<description>[^<]{200,}<\/description>/u.test(item)) ||
+  rssItems.some((item) => {
+    const link = item.match(/<link>([^<]+)<\/link>/u)?.[1] ?? "";
+    const minimum = link.includes("/blog/") ? 200 : 30;
+    const description = item.match(/<description>([^<]+)<\/description>/u)?.[1] ?? "";
+    return description.length < minimum;
+  }) ||
   rssItems.some((item) => !/<pubDate>[^<]+ GMT<\/pubDate>/u.test(item)) ||
   !rss.includes(`atom:link href="${PRODUCTION_ORIGIN}/rss.xml"`)
 ) fail("RSS");
@@ -116,9 +128,9 @@ const manifest = JSON.parse(await readFile(
 ));
 if (
   manifest.status !== "ROOT_APPROVED_RELEASED" ||
-  manifest.distribution?.routes !== EXPECTED_REGION_PAGES ||
+  manifest.distribution?.routes !== EXPECTED_BASE_REGION_PAGES ||
   manifest.distribution?.assets !== EXPECTED_REGIONAL_ASSETS ||
-  Object.keys(manifest.routes ?? {}).length !== EXPECTED_REGION_PAGES
+  Object.keys(manifest.routes ?? {}).length !== EXPECTED_BASE_REGION_PAGES
 ) {
   fail("REGIONAL_IMAGE_MANIFEST");
 }
