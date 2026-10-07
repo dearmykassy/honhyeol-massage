@@ -1,11 +1,13 @@
 #!/usr/bin/env node
 
 import { createHash } from "node:crypto";
+import { execFile } from "node:child_process";
 import { existsSync } from "node:fs";
 import { mkdir, readFile, stat, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { promisify } from "node:util";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const OUT = path.join(ROOT, "out");
@@ -22,6 +24,7 @@ const publish = process.argv.includes("--publish");
 const resumeArgument = process.argv.find((argument) => argument.startsWith("--resume-deploy="));
 const resumeDeployId = resumeArgument?.slice("--resume-deploy=".length) || null;
 if (resumeDeployId && !/^[a-f\d]{24}$/u.test(resumeDeployId)) throw new Error("RESUME_DEPLOY_ID_INVALID");
+const execFileAsync = promisify(execFile);
 
 function sha1(bytes) {
   return createHash("sha1").update(bytes).digest("hex");
@@ -46,6 +49,16 @@ async function readNetlifyToken() {
 }
 
 const token = await readNetlifyToken();
+
+async function readBaseFilesThroughCli() {
+  const { stdout } = await execFileAsync("netlify", [
+    "api",
+    "listSiteFiles",
+    "--data",
+    JSON.stringify({ site_id: SITE_ID }),
+  ], { maxBuffer: 32 * 1024 * 1024 });
+  return JSON.parse(stdout);
+}
 
 async function api(apiPath, options = {}) {
   const method = options.method || "GET";
@@ -95,7 +108,7 @@ async function pool(items, concurrency, worker) {
 
 const [site, baseFiles, ledgerBytes] = await Promise.all([
   api(`/sites/${SITE_ID}`),
-  api(`/sites/${SITE_ID}/files`),
+  readBaseFilesThroughCli(),
   readFile(LEDGER_FILE),
 ]);
 const ledger = JSON.parse(ledgerBytes);
