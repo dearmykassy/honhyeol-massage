@@ -6,7 +6,8 @@ import { existsSync } from "node:fs";
 import { mkdir, readFile, stat, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
+import { Readable } from "node:stream";
+import { fileURLToPath, pathToFileURL } from "node:url";
 import { promisify } from "node:util";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -49,6 +50,13 @@ async function readNetlifyToken() {
 }
 
 const token = await readNetlifyToken();
+const { stdout: globalNodeModules } = await execFileAsync("npm", ["root", "-g"]);
+const netlifyApiModule = path.join(
+  globalNodeModules.trim(),
+  "netlify-cli/node_modules/@netlify/api/lib/index.js",
+);
+const { NetlifyAPI } = await import(pathToFileURL(netlifyApiModule).href);
+const netlifyApi = new NetlifyAPI(token, { userAgent: "honhyul-preserving-base-deploy/1" });
 
 async function readBaseFilesThroughCli() {
   const { stdout } = await execFileAsync("netlify", [
@@ -267,11 +275,15 @@ await pool(required, 10, async (digest) => {
   let lastError;
   for (let attempt = 0; attempt < 5; attempt += 1) {
     try {
-      await api(`/deploys/${created.id}/files/${encodeURI(file.deployPath)}?size=${file.bytes.length}`, {
-        method: "PUT",
-        body: new Uint8Array(file.bytes),
+      await netlifyApi.uploadDeployFile({
+        body: () => Readable.from(file.bytes),
+        deployId: created.id,
+        path: encodeURI(file.deployPath),
       });
       uploaded += 1;
+      if (uploaded % 250 === 0 || uploaded === required.length) {
+        process.stderr.write(`Uploaded ${uploaded}/${required.length} required blobs\n`);
+      }
       return;
     } catch (error) {
       lastError = error;
