@@ -48,26 +48,37 @@ async function readNetlifyToken() {
 const token = await readNetlifyToken();
 
 async function api(apiPath, options = {}) {
-  const response = await fetch(`https://api.netlify.com/api/v1${apiPath}`, {
-    ...options,
-    headers: {
-      Authorization: `Bearer ${token}`,
-      Accept: "application/json",
-      ...(options.body && !(options.body instanceof Uint8Array)
-        ? { "Content-Type": "application/json" }
-        : { "Content-Type": "application/octet-stream" }),
-      ...(options.headers || {}),
-    },
-    body: options.body && !(options.body instanceof Uint8Array)
-      ? JSON.stringify(options.body)
-      : options.body,
-  });
-  if (!response.ok) {
-    const message = (await response.text()).slice(0, 1_000);
-    throw new Error(`NETLIFY_API_${response.status}:${message}`);
+  const method = options.method || "GET";
+  const attempts = method === "GET" ? 5 : 1;
+  let lastError;
+  for (let attempt = 0; attempt < attempts; attempt += 1) {
+    try {
+      const response = await fetch(`https://api.netlify.com/api/v1${apiPath}`, {
+        ...options,
+        headers: {
+          Authorization: `Bearer ${token}`,
+          Accept: "application/json",
+          ...(options.body && !(options.body instanceof Uint8Array)
+            ? { "Content-Type": "application/json" }
+            : { "Content-Type": "application/octet-stream" }),
+          ...(options.headers || {}),
+        },
+        body: options.body && !(options.body instanceof Uint8Array)
+          ? JSON.stringify(options.body)
+          : options.body,
+      });
+      if (!response.ok) {
+        const message = (await response.text()).slice(0, 1_000);
+        throw new Error(`NETLIFY_API_${response.status}:${message}`);
+      }
+      if (response.status === 204) return null;
+      return response.json();
+    } catch (error) {
+      lastError = error;
+      if (attempt + 1 < attempts) await new Promise((resolve) => setTimeout(resolve, 1_000 * (attempt + 1)));
+    }
   }
-  if (response.status === 204) return null;
-  return response.json();
+  throw lastError;
 }
 
 async function pool(items, concurrency, worker) {
