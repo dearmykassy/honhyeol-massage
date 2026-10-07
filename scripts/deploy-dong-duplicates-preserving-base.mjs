@@ -19,6 +19,9 @@ const BASE_DEPLOY_ID = "6a84a13d8ec0be000836b3bd";
 const EXPECTED_BASE_FILE_COUNT = 7_087;
 const EXPECTED_DUPLICATE_COUNT = 4_565;
 const publish = process.argv.includes("--publish");
+const resumeArgument = process.argv.find((argument) => argument.startsWith("--resume-deploy="));
+const resumeDeployId = resumeArgument?.slice("--resume-deploy=".length) || null;
+if (resumeDeployId && !/^[a-f\d]{24}$/u.test(resumeDeployId)) throw new Error("RESUME_DEPLOY_ID_INVALID");
 
 function sha1(bytes) {
   return createHash("sha1").update(bytes).digest("hex");
@@ -184,32 +187,42 @@ if (!publish) {
   process.exit(0);
 }
 
-const created = await api(`/sites/${SITE_ID}/deploys?title=${encodeURIComponent("Add five duplicate pages per operated dong")}`, {
-  method: "POST",
-  body: {
-    draft: false,
-  },
-});
+const created = resumeDeployId
+  ? await api(`/sites/${SITE_ID}/deploys/${resumeDeployId}`)
+  : await api(`/sites/${SITE_ID}/deploys?title=${encodeURIComponent("Add five duplicate pages per operated dong")}`, {
+    method: "POST",
+    body: {
+      draft: false,
+    },
+  });
 
-await mkdir(path.dirname(RECEIPT_FILE), { recursive: true });
-await writeFile(RECEIPT_FILE, `${JSON.stringify({
-  ...plan,
-  schemaVersion: "honhyul-netlify-preserving-base-deploy-in-progress/v1",
-  deploymentStatus: "CREATED",
-  deployId: created.id,
-  checkedAt: new Date().toISOString(),
-}, null, 2)}\n`, "utf8");
+let deploy;
+if (resumeDeployId) {
+  if (!["prepared", "uploading", "uploaded", "processing"].includes(created.state)) {
+    throw new Error(`RESUME_DEPLOY_STATE_INVALID:${created.state}`);
+  }
+  deploy = created;
+} else {
+  await mkdir(path.dirname(RECEIPT_FILE), { recursive: true });
+  await writeFile(RECEIPT_FILE, `${JSON.stringify({
+    ...plan,
+    schemaVersion: "honhyul-netlify-preserving-base-deploy-in-progress/v1",
+    deploymentStatus: "CREATED",
+    deployId: created.id,
+    checkedAt: new Date().toISOString(),
+  }, null, 2)}\n`, "utf8");
 
-let deploy = await api(`/sites/${SITE_ID}/deploys/${created.id}`, {
-  method: "PUT",
-  body: {
-    files: manifestObject,
-    async: true,
-    draft: false,
-    framework: "next.js",
-    framework_version: "16.3.0",
-  },
-});
+  deploy = await api(`/sites/${SITE_ID}/deploys/${created.id}`, {
+    method: "PUT",
+    body: {
+      files: manifestObject,
+      async: true,
+      draft: false,
+      framework: "next.js",
+      framework_version: "16.3.0",
+    },
+  });
+}
 const diffDeadline = Date.now() + 10 * 60_000;
 while (["new", "preparing", "prepared"].includes(deploy.state) && Date.now() < diffDeadline) {
   await new Promise((resolve) => setTimeout(resolve, 1_500));
