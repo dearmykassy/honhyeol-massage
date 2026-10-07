@@ -21,6 +21,7 @@
     "build": "next build && node --import tsx scripts/build-dong-duplicate-overlay.mjs",
     "deploy:duplicates:preserve": "node scripts/deploy-dong-duplicates-preserving-base.mjs",
     "duplicates:ledger": "node --import tsx scripts/generate-dong-duplicate-ledger.mjs",
+    "verify:duplicates:live": "node scripts/verify-live-dong-duplicate-release.mjs",
     "verify": "pnpm test && pnpm audit:copy && pnpm typecheck && pnpm lint && pnpm build && pnpm audit:build && pnpm audit:duplicates"
   },
   "dependencies": {
